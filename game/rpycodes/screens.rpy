@@ -373,7 +373,8 @@ screen main_menu():
             # 不扩展
             padding (0, 0, 0, 0)
             imagebutton:
-                idle "gui/button/main_menu_button.png"
+                idle "gui/button/按钮输出/START.png"
+                hover "gui/button/按钮输出/START02.png"
                 foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
@@ -384,7 +385,8 @@ screen main_menu():
             background None
             padding (0, 0, 0, 0)
             imagebutton:
-                idle "gui/button/main_menu_button.png"
+                idle "gui/button/按钮输出/LOAD.png"
+                hover "gui/button/按钮输出/LOAD02.png"
                 foreground "load_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
@@ -395,8 +397,9 @@ screen main_menu():
             background None
             padding (0, 0, 0, 0)
             imagebutton:
-                idle "gui/button/main_menu_button.png"
-                foreground "preference_button_text"
+                idle "gui/button/按钮输出/CONFIG.png"
+                hover "gui/button/按钮输出/CONFIG 02.png"
+                foreground "load_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 action ShowMenu("preferences")
@@ -406,7 +409,8 @@ screen main_menu():
             background None
             padding (0, 0, 0, 0)
             imagebutton:
-                idle "gui/button/main_menu_button.png"
+                idle "gui/button/按钮输出/EXTRA.png"
+                hover "gui/button/按钮输出/EXTRA02.png"
                 foreground "about_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
@@ -417,7 +421,8 @@ screen main_menu():
             background None
             padding (0, 0, 0, 0)
             imagebutton:
-                idle "gui/button/main_menu_button.png"
+                idle "gui/button/按钮输出/CONTINUE.png"
+                hover "gui/button/按钮输出/CONTINUE02.png"
                 foreground "help_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
@@ -430,7 +435,8 @@ screen main_menu():
                 background None
                 padding (0, 0, 0, 0)
                 imagebutton:
-                    idle "gui/button/main_menu_button.png"
+                    idle "gui/button/按钮输出/EXIT.png"
+                    hover "gui/button/按钮输出/EXIT02.png"
                     foreground "quit_button_text"
                     at main_menu_button_hover
                     hover_sound"audio/bs.mp3"
@@ -454,42 +460,42 @@ style main_menu_button_text_shadow:
     # font ""
     color "#c0c0c0"
     outlines [(2, "#c0c0c0", 3, 3)]
-
+#
 image new_game_button_text:
     contains:
-        Text("开始演出", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("开始演出", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 
 image load_game_button_text:
     contains:
-        Text("半场演出", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("半场演出", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 
 image preference_button_text:
     contains:
-        Text("设置", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("设置", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 
 image about_button_text:
     contains:
-        Text("演出概况", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("演出概况", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 
 image help_button_text:
     contains:
-        Text("帮助", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("帮助", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 
 image quit_button_text:
     contains:
-        Text("退出演出", style = "main_menu_button_text_shadow")
+        Text("", style = "main_menu_button_text_shadow")
     contains:
-        Text("退出演出", style = "main_menu_button_text_fill")
+        Text("", style = "main_menu_button_text_fill")
 # 入参delay用作不同按钮的动画间隔时间，缓动函数选用了结尾平滑的quint
 transform main_menu_button_in(delay):
     # 图片宽度273，所以默认偏移量稍微多两个像素
