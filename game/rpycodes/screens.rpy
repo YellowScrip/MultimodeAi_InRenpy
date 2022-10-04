@@ -348,6 +348,342 @@ style navigation_button_text:
     properties gui.button_text_properties("navigation_button")
 
 
+
+## Gallery & Music Room screen (extra screen)(画廊和音乐室/鉴赏)   #############################
+
+default StartPause = True
+screen extra_musicroom():
+    zorder 999
+    modal True
+    add gui.main_menu_background
+    add "gui/musicroom_logo.png" xalign 0.0351 yalign 0.02
+    add "gui/分割条纹.png" xalign 0.33 yalign 0.18
+    add "cd" xalign 1.0 yalign 1.0
+    fixed:
+        if StartPause:
+        #暂停按钮
+            imagebutton:
+                idle "gui/button/musicbutton/music_button_04.png"
+                hover "gui/button/musicbutton/music_button_04.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xalign 0.23
+                yalign 0.3
+                action [PauseAudio("music"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
+        #第一首歌曲
+            textbutton "我们之间的爱恋化作少女来谋杀我":
+                xalign 0.2 yalign 0.50
+                action [PauseAudio("music"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
+        else:
+        #开始按钮
+            imagebutton:
+                idle "gui/button/musicbutton/music_button_07.png"
+                hover "gui/button/musicbutton/music_button_07.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xalign 0.23
+                yalign 0.3
+                action [mr.Play(),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
+        #第一首歌曲
+            textbutton "我们之间的爱恋化作少女来谋杀我":
+                xalign 0.2 yalign 0.50
+                action [mr.Play("bgm/pv/Renai_PV.ogg"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
+
+    #切换到下一首音乐的按钮
+
+    imagebutton:
+        idle "gui/button/musicbutton/music_button_02.png"
+        hover "gui/button/musicbutton/music_button_02.png"
+        foreground "new_game_button_text"
+        at main_menu_button_hover
+        hover_sound"audio/bs.mp3"
+        xalign 0.2
+        yalign 0.3
+        action mr.Next()
+    #at main_menu_button_in(0.1)
+
+
+    textbutton "紧张十分" action mr.Play("bgm/Nervous/omde.ogg") xalign 0.2 yalign 0.55
+    textbutton "Curious EveryDay" action mr.Play("bgm/Curious-everyday.ogg") xalign 0.2 yalign 0.60
+    vbox:
+        #返回按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/backbutton2.png"
+                hover "gui/backbutton2.png"
+                foreground "new_game_button_text"
+                #at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1700
+                yoffset +100
+                action [Hide("extra_musicroom"),Play("music", "audio/main_menu_bgm_cir_version.mp3")]
+            at main_menu_button_in(0.2)
+
+        #切换gallery按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/gallery.png"
+                hover "gui/gallery.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1150
+                yoffset -30
+                action [ShowMenu("extra_gallery"),Hide("extra_musicroom")]
+            at main_menu_button_in(0.0)
+
+        #停留musicroom按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/musicroom.png"
+                hover "gui/musicroom.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +500
+                yoffset -182
+                action [Hide("extra_musicroom"),ShowMenu("extra_musicroom")]
+            at main_menu_button_in(0.0)
+
+
+
+
+screen extra_gallery():
+    zorder 999
+    modal True
+    add gui.main_menu_background
+    add "gui/gallery_logo.png" xalign 0.04 yalign 0.02
+    add "gui/分割条纹.png" xalign 0.72 yalign 0.18
+    vbox:
+         #返回按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/backbutton2.png"
+                hover "gui/backbutton2.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1700
+                yoffset +100
+                action [Hide(),Play("music", "audio/main_menu_bgm_cir_version.mp3")]
+            at main_menu_button_in(0.2)
+
+        #停留gallery按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/gallery.png"
+                hover "gui/gallery.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1150
+                yoffset -30
+                action [Hide("extra_gallery"),ShowMenu("extra_gallery")]
+            at main_menu_button_in(0.0)
+
+        #切换musicroom按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/musicroom.png"
+                hover "gui/musicroom.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +500
+                yoffset -182
+                action [ShowMenu("extra_musicroom"),Hide("extra_gallery")]
+            at main_menu_button_in(0.0)
+
+## Notice screen(公告屏幕 1.0)     ###########################################################
+
+screen notice1():
+    zorder 999
+    modal True
+    add gui.main_menu_background
+    add "gui/Notice.png" xalign 0.02 yalign 0.02
+    add "gui/投票1.png" xalign 0.5 yalign 0.5
+    vbox:
+         #返回按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/backbutton2.png"
+                hover "gui/backbutton2.png"
+                foreground "new_game_button_text"
+                #at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1700
+                yoffset +100
+                action Hide()
+            at main_menu_button_in(0.2)
+
+        #左箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 0.0
+                yalign 0.5
+                idle "gui/leftarrow1.png"
+                hover "gui/leftarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +20
+                yoffset +480
+                action [ShowMenu("notice2"),Hide("notice1")]
+            at main_menu_button_in(0.0)
+
+        #右箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 1.0
+                yalign 0.5
+                idle "gui/rightarrow1.png"
+                hover "gui/rightarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1800
+                yoffset +380
+                action [ShowMenu("notice3"),Hide("notice1")]
+            at main_menu_button_in(0.0)
+
+
+screen notice2():
+    zorder 999
+    modal True
+    #main_menu True
+    add gui.main_menu_background
+    add "gui/Notice.png" xalign 0.02 yalign 0.02
+    add "gui/mouse.png" xalign 0.5 yalign 0.5
+    vbox:
+         #返回按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/backbutton2.png"
+                hover "gui/backbutton2.png"
+                foreground "new_game_button_text"
+                #at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1700
+                yoffset +100
+                action Hide()
+            at main_menu_button_in(1.0)
+
+        #左箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 0.0
+                yalign 0.5
+                idle "gui/leftarrow1.png"
+                hover "gui/leftarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +20
+                yoffset +480
+                action [ShowMenu("notice3"),Hide("notice2")]
+            at main_menu_button_in(0.0)
+
+        #右箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 1.0
+                yalign 0.5
+                idle "gui/rightarrow1.png"
+                hover "gui/rightarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1800
+                yoffset +380
+                action [ShowMenu("notice1"),Hide("notice2")]
+            at main_menu_button_in(0.0)
+
+
+screen notice3():
+    zorder 999
+    modal True
+    #main_menu True
+    add gui.main_menu_background
+    add "gui/Notice.png" xalign 0.02 yalign 0.02
+    add "gui/window_icon.png" xalign 0.5 yalign 0.5
+    vbox:
+         #返回按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                idle "gui/backbutton2.png"
+                hover "gui/backbutton2.png"
+                foreground "new_game_button_text"
+                #at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1700
+                yoffset +100
+                action Hide()
+            at main_menu_button_in(1.0)
+
+        #左箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 0.0
+                yalign 0.5
+                idle "gui/leftarrow1.png"
+                hover "gui/leftarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +20
+                yoffset +480
+                action [ShowMenu("notice1"),Hide("notice3")]
+            at main_menu_button_in(0.0)
+
+        #右箭头显示
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            imagebutton :
+                xalign 1.0
+                yalign 0.5
+                idle "gui/rightarrow1.png"
+                hover "gui/rightarrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset +1800
+                yoffset +380
+                action [ShowMenu("notice2"),Hide("notice3")]
+            at main_menu_button_in(0.0)
+
+
+
 ## Main Menu screen ############################################################
 ##
 ## Used to display the main menu when Ren'Py starts.
@@ -356,17 +692,111 @@ style navigation_button_text:
 
 transform main_menu_button_hover:
         on hover:
-            ease 0.5 xoffset -35
+            ease 0.5 yoffset -35
         on idle:
-            ease 0.5 xoffset 0
+            ease 0.5 yoffset 0
+
 screen main_menu():
 
     ## This ensures that any other menu screen is replaced.
     tag menu
     add gui.main_menu_background
+    add "gui/logo2.png" xalign 1.0 yalign 0.75
+    add "gui/copyright1.png" xalign 0.0 yalign 0.0
+
+    #拉动弹出框按钮
     vbox:
         xalign 1.0
-        yalign 0.5
+        yalign 0.3
+        #公告跳转按钮
+        frame:
+            background None
+            padding (0, 0, 0, 0)
+            #$ choose_box = 1
+            imagebutton:
+                idle "gui/arrow1.png"
+                hover "gui/arrow1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                #action ShowMenu("notice1")
+                action Show("notice1")
+            at main_menu_button_in(0.0)
+
+
+
+    vbox:
+        xalign 0.5
+        yalign 1.0
+
+        #github url跳转按钮
+        frame:
+            # 无背景
+            background None
+            # 不扩展
+            padding (0, 0, 0, 0)
+            imagebutton:
+                idle "gui/github1.png"
+                hover "gui/github1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset 1000
+                yoffset -300
+                action OpenURL("https://github.com/YellowScrip")
+            at main_menu_button_in(0.0)
+
+        #b站url跳转按钮
+        frame:
+            # 无背景
+            background None
+            # 不扩展
+            padding (0, 0, 0, 0)
+            imagebutton:
+                idle "gui/bilibili1.png"
+                hover "gui/bilibili1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset 920
+                yoffset -355
+                action OpenURL("https://space.bilibili.com/318948275")
+            at main_menu_button_in(0.0)
+
+        #微博url跳转按钮
+        frame:
+            # 无背景
+            background None
+            # 不扩展
+            padding (0, 0, 0, 0)
+            imagebutton:
+                idle "gui/weibo1.png"
+                hover "gui/weibo1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset 840
+                yoffset -425
+                action OpenURL("")
+            at main_menu_button_in(0.0)
+
+        #制作组官网url跳转按钮
+        frame:
+            # 无背景
+            background None
+            # 不扩展
+            padding (0, 0, 0, 0)
+            imagebutton:
+                idle "gui/ptfod1.png"
+                hover "gui/ptfod1.png"
+                foreground "new_game_button_text"
+                at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xoffset 775
+                yoffset -490
+                action OpenURL("www.ptfod.com")
+            at main_menu_button_in(0.0)
+
         frame:
             # 无背景
             background None
@@ -378,6 +808,8 @@ screen main_menu():
                 foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
+                xoffset -750
+                yoffset 400
                 action Start()
             at main_menu_button_in(1.8)
 
@@ -390,6 +822,8 @@ screen main_menu():
                 foreground "load_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
+                xoffset -450
+                yoffset 327
                 action ShowMenu("load")
             at main_menu_button_in(1.5)
 
@@ -402,6 +836,8 @@ screen main_menu():
                 foreground "load_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
+                xoffset -150
+                yoffset 254
                 action ShowMenu("preferences")
             at main_menu_button_in(1.2)
 
@@ -414,7 +850,9 @@ screen main_menu():
                 foreground "about_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
-                action ShowMenu("about")
+                xoffset 150
+                yoffset 181
+                action ShowMenu("extra_musicroom")
             at main_menu_button_in(0.9)
 
         frame:
@@ -426,6 +864,8 @@ screen main_menu():
                 foreground "help_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
+                xoffset 450
+                yoffset 108
                 action ShowMenu("help")
             at main_menu_button_in(0.6)
         if renpy.variant("pc"):
@@ -440,6 +880,8 @@ screen main_menu():
                     foreground "quit_button_text"
                     at main_menu_button_hover
                     hover_sound"audio/bs.mp3"
+                    xoffset 750
+                    yoffset 35
                     action Quit(confirm=not main_menu)
                 at main_menu_button_in(0.3)
 
@@ -500,6 +942,7 @@ image quit_button_text:
 transform main_menu_button_in(delay):
     # 图片宽度273，所以默认偏移量稍微多两个像素
     xoffset 275
+    yoffset -50
     on start:
         time delay
         easein_quint 2.0 xoffset 0
@@ -1219,7 +1662,6 @@ style help_label_text:
     size gui.text_size
     xalign 1.0
     text_align 1.0
-
 
 
 ################################################################################

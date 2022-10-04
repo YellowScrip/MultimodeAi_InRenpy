@@ -52,11 +52,16 @@ define gui.text_color = u'#ffffff'
 define gui.interface_text_color = u'#ffffff'
 
 
+##  Mouse Settings   ###########################################################
+define config.mouse_displayable = MouseDisplayable("gui/mouse3.png", 0, 0)
+
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
-define gui.text_font = "STKAITI.TTF"
+#define gui.text_font = "DejaVuSans.ttf"
+#define gui.text_font = "STKAITI.TTF"
+define gui.text_font = "new.ttf"
+define gui.text_font = "new.ttf"
 
 ## The font used for character names.
 define gui.name_text_font = "DejaVuSans.ttf"

@@ -1,12 +1,66 @@
 ﻿#初始化函数：设置字体及其他信息
 init:
-    $ style.default.font = "STKAITI.TTF"
-    $ style.default.language = "STKAITI"
+    $ style.default.font = "new.ttf"
+    $ style.default.language = "new.ttf"
+    #$ style.default.language = "STKAITI"
 
 
 init python:
     import pygame
+    import webbrowser
     style.default.layout = "greedy"
+
+    #创建一个音乐空间实例
+    mr = MusicRoom(fadeout=1.0)
+    mr.add("bgm/pv/Renai_PV.ogg",always_unlocked=True)
+    mr.add("bgm/Nervous/omde.ogg",always_unlocked=True)
+    mr.add("bgm/Curious-everyday.ogg",always_unlocked=True)
+
+
+#     def get_audio_duration():
+#         duration = renpy.music.get_duration()
+#         return convert_format(int(duration))
+#
+#     def get_audio_position():
+#         music_pos = renpy.music.get_pos()
+#         # music_pos can be None
+#         if music_pos:
+#             return convert_format(int(music_pos))
+#         return "0"
+#
+#     def convert_format(second):
+#         minute = second // 60
+#         second = second % 60
+#         result = ""
+#         if minute:
+#             result = str(minute) + ":"
+#             if second < 10:
+#                 result += '0'
+#         result += str(second)
+#         return result
+
+    class PlayerButton:
+        def __init__(self, channel='music', icon_path='gui/button/musicbutton/', mr=mr):
+            self.channel = channel
+            self.icon_path = icon_path
+            self.mr = mr
+
+        def get_icon(self):
+            if not renpy.music.is_playing() and not renpy.music.get_pause():
+                return self.icon_path + "music_button_07.png"
+            if renpy.music.get_pause(self.channel):
+                return self.icon_path + "music_button_07.png"
+            return self.icon_path + "music_button_04.png"
+
+        def click(self):
+            if not renpy.music.is_playing() and not renpy.music.get_pause():
+                self.mr.play()
+                return
+            renpy.music.set_pause(not renpy.music.get_pause(self.channel),
+                channel=self.channel)
+
+    play_button = PlayerButton(mr=mr)
+
 
 #设置游戏开场的动画及其他
 label splashscreen:
@@ -20,7 +74,8 @@ label splashscreen:
     return
 
 
-# 定义ctc：采用序列帧动画的方式
+
+# 定义ctc和CD：采用序列帧动画的方式
 image ctc:
     "images/ctc/knife/刀00.png"
     pause 0.04
@@ -71,6 +126,85 @@ image ctc:
     "images/ctc/knife/刀23.png"
     pause 0.04
     "images/ctc/knife/刀24.png"
+    pause 0.04
+    repeat
+
+image cd:
+    "gui/CD/1.png"
+    pause 0.04
+    "gui/CD/2.png"
+    pause 0.04
+    "gui/CD/3.png"
+    pause 0.04
+    "gui/CD/4.png"
+    pause 0.04
+    "gui/CD/5.png"
+    pause 0.04
+    "gui/CD/6.png"
+    pause 0.04
+    "gui/CD/7.png"
+    pause 0.04
+    "gui/CD/8.png"
+    pause 0.04
+    "gui/CD/9.png"
+    pause 0.04
+    "gui/CD/10.png"
+    pause 0.04
+    "gui/CD/11.png"
+    pause 0.04
+    "gui/CD/12.png"
+    pause 0.04
+    "gui/CD/13.png"
+    pause 0.04
+    "gui/CD/14.png"
+    pause 0.04
+    "gui/CD/15.png"
+    pause 0.04
+    "gui/CD/16.png"
+    pause 0.04
+    "gui/CD/17.png"
+    pause 0.04
+    "gui/CD/18.png"
+    pause 0.04
+    "gui/CD/19.png"
+    pause 0.04
+    "gui/CD/20.png"
+    pause 0.04
+    "gui/CD/21.png"
+    pause 0.04
+    "gui/CD/22.png"
+    pause 0.04
+    "gui/CD/23.png"
+    pause 0.04
+    "gui/CD/24.png"
+    pause 0.04
+    "gui/CD/25.png"
+    pause 0.04
+    "gui/CD/26.png"
+    pause 0.04
+    "gui/CD/27.png"
+    pause 0.04
+    "gui/CD/28.png"
+    pause 0.04
+    "gui/CD/29.png"
+    pause 0.04
+    "gui/CD/30.png"
+    pause 0.04
+    "gui/CD/31.png"
+    pause 0.04
+    "gui/CD/32.png"
+    pause 0.04
+    "gui/CD/33.png"
+    pause 0.04
+    "gui/CD/34.png"
+    pause 0.04
+    "gui/CD/35.png"
+    pause 0.04
+    "gui/CD/36.png"
+    pause 0.04
+    "gui/CD/37.png"
+    pause 0.04
+    "gui/CD/38.png"
     pause 0.04
     repeat
 
