@@ -351,62 +351,130 @@ style navigation_button_text:
 
 ## Gallery & Music Room screen (extra screen)(画廊和音乐室/鉴赏)   #############################
 
-default StartPause = True
+default StartPause0 = True
+default StartPause1 = True
+default StartPause2 = False
+default StartPause3 = False
+default StartPause4 = False
+default StartPause5 = False
+default t = 1
 screen extra_musicroom():
     zorder 999
     modal True
     add gui.main_menu_background
+    add "gui/musicroom_menu(1).png" xalign 0.4 yalign 0.95
     add "gui/musicroom_logo.png" xalign 0.0351 yalign 0.02
     add "gui/分割条纹.png" xalign 0.33 yalign 0.18
     add "cd" xalign 1.0 yalign 1.0
-    fixed:
-        if StartPause:
-        #暂停按钮
-            imagebutton:
-                idle "gui/button/musicbutton/music_button_04.png"
-                hover "gui/button/musicbutton/music_button_04.png"
-                foreground "new_game_button_text"
-                at main_menu_button_hover
-                hover_sound"audio/bs.mp3"
-                xalign 0.23
-                yalign 0.3
-                action [PauseAudio("music"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
-        #第一首歌曲
-            textbutton "我们之间的爱恋化作少女来谋杀我":
-                xalign 0.2 yalign 0.50
-                action [PauseAudio("music"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
-        else:
-        #开始按钮
-            imagebutton:
-                idle "gui/button/musicbutton/music_button_07.png"
-                hover "gui/button/musicbutton/music_button_07.png"
-                foreground "new_game_button_text"
-                at main_menu_button_hover
-                hover_sound"audio/bs.mp3"
-                xalign 0.23
-                yalign 0.3
-                action [mr.Play(),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
-        #第一首歌曲
-            textbutton "我们之间的爱恋化作少女来谋杀我":
-                xalign 0.2 yalign 0.50
-                action [mr.Play("bgm/pv/Renai_PV.ogg"),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
+
+#     textbutton "REnai 致此刻的你" action mr.Play("audio/main_menu_bgm_cir_version.mp3") xalign 0.3 yalign 0.45
+#     textbutton "我们之间的爱恋化作少女来谋杀我" action mr.Play("bgm/pv/Renai_PV.mp3") xalign 0.3 yalign 0.50
+#    textbutton "紧张十分" action mr.Play("bgm/Nervous/omde.mp3") xalign 0.3 yalign 0.55
+    textbutton "Curious EveryDay" action mr.Play("bgm/Curious everyday.mp3") xalign 0.3 yalign 0.60
+    #播放暂停按钮
 
     #切换到下一首音乐的按钮
-
     imagebutton:
         idle "gui/button/musicbutton/music_button_02.png"
         hover "gui/button/musicbutton/music_button_02.png"
-        foreground "new_game_button_text"
         at main_menu_button_hover
         hover_sound"audio/bs.mp3"
         xalign 0.2
         yalign 0.3
         action mr.Next()
-    #at main_menu_button_in(0.1)
+
+#         #第二首bgm
+#             textbutton "紧张十分":
+#                 xalign 0.3 yalign 0.55
+#                 action [PauseAudio("music"),ToggleVariable("StartPause1",True,False),SelectedIf(1==0)]
+#
+#         #第二首歌曲
+#             textbutton "紧张十分":
+#                 xalign 0.3 yalign 0.55
+#                 action [mr.Play("bgm/Nervous/omde.mp3"),ToggleVariable("StartPause1",True,False),SelectedIf(1==0)]
+#         #第三首歌曲
+#             textbutton "Curious EveryDay":
+#                 xalign 0.3 yalign 0.60
+#                 action [mr.Play("bgm/Curious everyday.mp3"),ToggleVariable("StartPause1",True,False),SelectedIf(1==0)]
+
+###   第一首歌曲   #################################
+    fixed:
+        if StartPause1:
+            imagebutton:
+                idle "gui/musicroom_button2.png"
+                foreground "Renai致此刻的你"
+                xalign 0.3 yalign 0.45
+                if StartPause0 :
+                    action[PauseAudio("music"),SetScreenVariable("StartPause0",False),ToggleVariable("StartPause1",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[PauseAudio("music"),ToggleVariable("StartPause1",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+        else:
+            textbutton "Renai致此刻的你":
+                xalign 0.3 yalign 0.45
+                if StartPause0 :
+                    action[mr.Play("audio/main_menu_bgm_cir_version.mp3"),ToggleVariable("StartPause1",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[mr.Play("audio/main_menu_bgm_cir_version.mp3"),SetScreenVariable("StartPause0",True),ToggleVariable("StartPause1",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+###   第二首歌曲   #################################
+    fixed:
+        if StartPause2:
+            imagebutton :
+                idle "gui/musicroom_button2.png"
+                foreground "我们之间的爱恋化作少女来谋杀我"
+                xalign 0.3 yalign 0.50
+                if StartPause0 :
+                    action[PauseAudio("music"),SetScreenVariable("StartPause0",False),ToggleVariable("StartPause2",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[PauseAudio("music"),ToggleVariable("StartPause2",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+        else:
+            textbutton "我们之间的爱恋化作少女来谋杀我":
+                xalign 0.3 yalign 0.50
+                if StartPause0 :
+                    action[mr.Play("bgm/pv/Renai_PV.mp3"),ToggleVariable("StartPause2",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[mr.Play("bgm/pv/Renai_PV.mp3"),SetScreenVariable("StartPause0",True),ToggleVariable("StartPause2",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+
+###   第三首歌曲   #################################
+    fixed:
+        if StartPause3:
+            imagebutton :
+                idle "gui/musicroom_button2.png"
+                foreground "窒息时分"
+                xalign 0.3 yalign 0.55
+                if StartPause0 :
+                    action[PauseAudio("music"),SetScreenVariable("StartPause0",False),ToggleVariable("StartPause3",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[PauseAudio("music"),ToggleVariable("StartPause3",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+        else:
+            textbutton "窒息时分":
+                xalign 0.3 yalign 0.55
+                if StartPause0 :
+                    action[mr.Play("bgm/Nervous/omde.mp3"),ToggleVariable("StartPause3",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+                else:
+                    action[mr.Play("bgm/Nervous/omde.mp3"),SetScreenVariable("StartPause0",True),ToggleVariable("StartPause3",True,False),SelectedIf(1==0),ToggleVariable("StartPause0",True,False),SelectedIf(1==0)]
+
+#    暂停按钮,在暂停时的按钮分类   ######################
+        if StartPause0:
+            imagebutton:
+                idle "gui/button/musicbutton/music_button_04.png"
+                hover "gui/button/musicbutton/music_button_04.png"
+                hover_sound"audio/bs.mp3"
+                xalign 0.25
+                yalign 1.0
+                action [PauseAudio("music"),SetScreenVariable("StartPause0",False)]
+        ###   开始按钮，在开始时的按钮分类   ########
+        else:
+            imagebutton:
+                idle "gui/button/musicbutton/music_button_07.png"
+                hover "gui/button/musicbutton/music_button_07.png"
+                #foreground "new_game_button_text"
+                #at main_menu_button_hover
+                hover_sound"audio/bs.mp3"
+                xalign 0.25
+                yalign 1.0
+                action [mr.Play(),SetScreenVariable("StartPause0",True)]
 
 
-    textbutton "紧张十分" action mr.Play("bgm/Nervous/omde.ogg") xalign 0.2 yalign 0.55
-    textbutton "Curious EveryDay" action mr.Play("bgm/Curious-everyday.ogg") xalign 0.2 yalign 0.60
     vbox:
         #返回按钮
         frame:
@@ -415,7 +483,7 @@ screen extra_musicroom():
             imagebutton :
                 idle "gui/backbutton2.png"
                 hover "gui/backbutton2.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 #at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1700
@@ -430,7 +498,7 @@ screen extra_musicroom():
             imagebutton :
                 idle "gui/gallery.png"
                 hover "gui/gallery.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1150
@@ -445,7 +513,7 @@ screen extra_musicroom():
             imagebutton :
                 idle "gui/musicroom.png"
                 hover "gui/musicroom.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +500
@@ -470,7 +538,7 @@ screen extra_gallery():
             imagebutton :
                 idle "gui/backbutton2.png"
                 hover "gui/backbutton2.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1700
@@ -485,7 +553,7 @@ screen extra_gallery():
             imagebutton :
                 idle "gui/gallery.png"
                 hover "gui/gallery.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1150
@@ -500,7 +568,7 @@ screen extra_gallery():
             imagebutton :
                 idle "gui/musicroom.png"
                 hover "gui/musicroom.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +500
@@ -524,7 +592,7 @@ screen notice1():
             imagebutton :
                 idle "gui/backbutton2.png"
                 hover "gui/backbutton2.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 #at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1700
@@ -541,7 +609,7 @@ screen notice1():
                 yalign 0.5
                 idle "gui/leftarrow1.png"
                 hover "gui/leftarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +20
@@ -558,7 +626,7 @@ screen notice1():
                 yalign 0.5
                 idle "gui/rightarrow1.png"
                 hover "gui/rightarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1800
@@ -582,7 +650,7 @@ screen notice2():
             imagebutton :
                 idle "gui/backbutton2.png"
                 hover "gui/backbutton2.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 #at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1700
@@ -599,7 +667,7 @@ screen notice2():
                 yalign 0.5
                 idle "gui/leftarrow1.png"
                 hover "gui/leftarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +20
@@ -616,7 +684,7 @@ screen notice2():
                 yalign 0.5
                 idle "gui/rightarrow1.png"
                 hover "gui/rightarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1800
@@ -640,7 +708,7 @@ screen notice3():
             imagebutton :
                 idle "gui/backbutton2.png"
                 hover "gui/backbutton2.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 #at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1700
@@ -657,7 +725,7 @@ screen notice3():
                 yalign 0.5
                 idle "gui/leftarrow1.png"
                 hover "gui/leftarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +20
@@ -674,7 +742,7 @@ screen notice3():
                 yalign 0.5
                 idle "gui/rightarrow1.png"
                 hover "gui/rightarrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset +1800
@@ -716,7 +784,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/arrow1.png"
                 hover "gui/arrow1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 #action ShowMenu("notice1")
@@ -738,7 +806,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/github1.png"
                 hover "gui/github1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset 1000
@@ -755,7 +823,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/bilibili1.png"
                 hover "gui/bilibili1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset 920
@@ -772,7 +840,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/weibo1.png"
                 hover "gui/weibo1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset 840
@@ -789,7 +857,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/ptfod1.png"
                 hover "gui/ptfod1.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset 775
@@ -805,7 +873,7 @@ screen main_menu():
             imagebutton:
                 idle "gui/button/按钮输出/START.png"
                 hover "gui/button/按钮输出/START02.png"
-                foreground "new_game_button_text"
+                #foreground "new_game_button_text"
                 at main_menu_button_hover
                 hover_sound"audio/bs.mp3"
                 xoffset -750
@@ -891,7 +959,7 @@ screen main_menu():
 style main_menu_button_text_fill:
     align (0.5, 0.5)
     size 30
-    # font ""
+    font "new.ttf"
     color "#fedaaa"
     outlines [(1, "#fab5a4", 0, 0)]
 
@@ -899,15 +967,27 @@ style main_menu_button_text_fill:
 style main_menu_button_text_shadow:
     align (0.5, 0.5)
     size 30
-    # font ""
+    font "new.ttf"
     color "#c0c0c0"
     outlines [(2, "#c0c0c0", 3, 3)]
 #
-image new_game_button_text:
+image Renai致此刻的你:
     contains:
-        Text("", style = "main_menu_button_text_shadow")
+        Text("REnai致此刻的你", style = "main_menu_button_text_shadow")
     contains:
-        Text("", style = "main_menu_button_text_fill")
+        Text("REnai致此刻的你", style = "main_menu_button_text_fill")
+
+image 我们之间的爱恋化作少女来谋杀我:
+    contains:
+        Text("我们之间的爱恋化作少女来谋杀我", style = "main_menu_button_text_shadow")
+    contains:
+        Text("我们之间的爱恋化作少女来谋杀我", style = "main_menu_button_text_fill")
+
+image 窒息时分:
+    contains:
+        Text("窒息时分", style = "main_menu_button_text_shadow")
+    contains:
+        Text("窒息时分", style = "main_menu_button_text_fill")
 
 image load_game_button_text:
     contains:

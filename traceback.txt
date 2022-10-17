@@ -1,91 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/rpycodes/script.rpy", line 251, in script
-    call screen main_menu()
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/rpycodes/screens.rpy", line 355, in execute
-    screen extra_musicroom():
-  File "game/rpycodes/screens.rpy", line 355, in execute
-    screen extra_musicroom():
-  File "game/rpycodes/screens.rpy", line 362, in execute
-    fixed:
-  File "game/rpycodes/screens.rpy", line 363, in execute
-    if StartPause:
-  File "game/rpycodes/screens.rpy", line 376, in execute
-    imagebutton:
-  File "game/rpycodes/screens.rpy", line 376, in keywords
-    imagebutton:
-  File "game/rpycodes/screens.rpy", line 384, in <module>
-    action [Play(mr,None),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
-  File "renpy/common/00action_audio.rpy", line 58, in __init__
-    selected = renpy.music.is_music(channel)
-TypeError: argument of type 'MusicRoom' is not iterable
+  File "game/rpycodes/script.rpy", line 192, in script
+    play sound "voice/stovvoice/ov.wav"
+  File "renpy/common/000statements.rpy", line 298, in execute_play_sound
+    loop = config.default_sound_loop
+Exception: config.default_sound_loop is not a known configuration variable.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 314, in script call
-    call expression "before_main_menu"
-  File "game/rpycodes/script.rpy", line 251, in script
-    call screen main_menu()
+  File "game/rpycodes/script.rpy", line 192, in script
+    play sound "voice/stovvoice/ov.wav"
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
     self.call("execute")
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
     return renpy.statements.call(method, parsed, *args, **kwargs)
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
     return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 3181, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in interact_core
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 582, in visit_all
-    d.visit_all(callback, seen)
-  [Previous line repeated 1 more time]
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 451, in visit_all
-    callback(self)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3810, in <lambda>
-    root_widget.visit_all(lambda i : i.per_interact())
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 462, in per_interact
-    self.update()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 653, in update
-    self.screen.function(**self.scope)
-  File "game/rpycodes/screens.rpy", line 355, in execute
-    screen extra_musicroom():
-  File "game/rpycodes/screens.rpy", line 355, in execute
-    screen extra_musicroom():
-  File "game/rpycodes/screens.rpy", line 362, in execute
-    fixed:
-  File "game/rpycodes/screens.rpy", line 363, in execute
-    if StartPause:
-  File "game/rpycodes/screens.rpy", line 376, in execute
-    imagebutton:
-  File "game/rpycodes/screens.rpy", line 376, in keywords
-    imagebutton:
-  File "game/rpycodes/screens.rpy", line 384, in <module>
-    action [Play(mr,None),ToggleVariable("StartPause",True,False),SelectedIf(1==0)]
-  File "renpy/common/00action_audio.rpy", line 58, in __init__
-    selected = renpy.music.is_music(channel)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\music.py", line 337, in is_music
-    c = get_channel(channel)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 899, in get_channel
-    elif " " in name:
-TypeError: argument of type 'MusicRoom' is not iterable
+  File "renpy/common/000statements.rpy", line 298, in execute_play_sound
+    loop = config.default_sound_loop
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\defaultstore.py", line 97, in __getattr__
+    raise Exception('config.%s is not a known configuration variable.' % (name))
+Exception: config.default_sound_loop is not a known configuration variable.
 
 Windows-10-10.0.22000 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Tue Oct  4 21:04:20 2022
+Sun Oct  9 13:59:53 2022

@@ -12,32 +12,15 @@ init python:
 
     #创建一个音乐空间实例
     mr = MusicRoom(fadeout=1.0)
-    mr.add("bgm/pv/Renai_PV.ogg",always_unlocked=True)
-    mr.add("bgm/Nervous/omde.ogg",always_unlocked=True)
-    mr.add("bgm/Curious-everyday.ogg",always_unlocked=True)
+    mr.add("audio/main_menu_bgm_cir_version.mp3",always_unlocked=True)
+    mr.add("bgm/pv/Renai_PV.mp3",always_unlocked=True)
+    mr.add("bgm/Nervous/omde.mp3",always_unlocked=True)
+    mr.add("bgm/Curious everyday.mp3",always_unlocked=True)
+    mr.add("bgm/九衢长街/九衢长街新版.mp3",always_unlocked=True)
+    mr.add("bgm/烟火大会插曲/Pyrotechnic_convention_and_enthusiasm.mp3",always_unlocked=True)
+    mr.add("bgm/饰演与舞台表演/afternoon.mp3",always_unlocked=True)
+    mr.add("bgm/和初咲的学习时间/到学习时间勒！.mp3",always_unlocked=True)
 
-
-#     def get_audio_duration():
-#         duration = renpy.music.get_duration()
-#         return convert_format(int(duration))
-#
-#     def get_audio_position():
-#         music_pos = renpy.music.get_pos()
-#         # music_pos can be None
-#         if music_pos:
-#             return convert_format(int(music_pos))
-#         return "0"
-#
-#     def convert_format(second):
-#         minute = second // 60
-#         second = second % 60
-#         result = ""
-#         if minute:
-#             result = str(minute) + ":"
-#             if second < 10:
-#                 result += '0'
-#         result += str(second)
-#         return result
 
     class PlayerButton:
         def __init__(self, channel='music', icon_path='gui/button/musicbutton/', mr=mr):
@@ -74,139 +57,6 @@ label splashscreen:
     return
 
 
-
-# 定义ctc和CD：采用序列帧动画的方式
-image ctc:
-    "images/ctc/knife/刀00.png"
-    pause 0.04
-    "images/ctc/knife/刀01.png"
-    pause 0.04
-    "images/ctc/knife/刀02.png"
-    pause 0.04
-    "images/ctc/knife/刀03.png"
-    pause 0.04
-    "images/ctc/knife/刀04.png"
-    pause 0.04
-    "images/ctc/knife/刀05.png"
-    pause 0.04
-    "images/ctc/knife/刀06.png"
-    pause 0.04
-    "images/ctc/knife/刀07.png"
-    pause 0.04
-    "images/ctc/knife/刀08.png"
-    pause 0.04
-    "images/ctc/knife/刀09.png"
-    pause 0.04
-    "images/ctc/knife/刀10.png"
-    pause 0.04
-    "images/ctc/knife/刀11.png"
-    pause 0.04
-    "images/ctc/knife/刀12.png"
-    pause 0.04
-    "images/ctc/knife/刀13.png"
-    pause 0.04
-    "images/ctc/knife/刀14.png"
-    pause 0.04
-    "images/ctc/knife/刀15.png"
-    pause 0.04
-    "images/ctc/knife/刀16.png"
-    pause 0.04
-    "images/ctc/knife/刀17.png"
-    pause 0.04
-    "images/ctc/knife/刀18.png"
-    pause 0.04
-    "images/ctc/knife/刀19.png"
-    pause 0.04
-    "images/ctc/knife/刀20.png"
-    pause 0.04
-    "images/ctc/knife/刀21.png"
-    pause 0.04
-    "images/ctc/knife/刀22.png"
-    pause 0.04
-    "images/ctc/knife/刀23.png"
-    pause 0.04
-    "images/ctc/knife/刀24.png"
-    pause 0.04
-    repeat
-
-image cd:
-    "gui/CD/1.png"
-    pause 0.04
-    "gui/CD/2.png"
-    pause 0.04
-    "gui/CD/3.png"
-    pause 0.04
-    "gui/CD/4.png"
-    pause 0.04
-    "gui/CD/5.png"
-    pause 0.04
-    "gui/CD/6.png"
-    pause 0.04
-    "gui/CD/7.png"
-    pause 0.04
-    "gui/CD/8.png"
-    pause 0.04
-    "gui/CD/9.png"
-    pause 0.04
-    "gui/CD/10.png"
-    pause 0.04
-    "gui/CD/11.png"
-    pause 0.04
-    "gui/CD/12.png"
-    pause 0.04
-    "gui/CD/13.png"
-    pause 0.04
-    "gui/CD/14.png"
-    pause 0.04
-    "gui/CD/15.png"
-    pause 0.04
-    "gui/CD/16.png"
-    pause 0.04
-    "gui/CD/17.png"
-    pause 0.04
-    "gui/CD/18.png"
-    pause 0.04
-    "gui/CD/19.png"
-    pause 0.04
-    "gui/CD/20.png"
-    pause 0.04
-    "gui/CD/21.png"
-    pause 0.04
-    "gui/CD/22.png"
-    pause 0.04
-    "gui/CD/23.png"
-    pause 0.04
-    "gui/CD/24.png"
-    pause 0.04
-    "gui/CD/25.png"
-    pause 0.04
-    "gui/CD/26.png"
-    pause 0.04
-    "gui/CD/27.png"
-    pause 0.04
-    "gui/CD/28.png"
-    pause 0.04
-    "gui/CD/29.png"
-    pause 0.04
-    "gui/CD/30.png"
-    pause 0.04
-    "gui/CD/31.png"
-    pause 0.04
-    "gui/CD/32.png"
-    pause 0.04
-    "gui/CD/33.png"
-    pause 0.04
-    "gui/CD/34.png"
-    pause 0.04
-    "gui/CD/35.png"
-    pause 0.04
-    "gui/CD/36.png"
-    pause 0.04
-    "gui/CD/37.png"
-    pause 0.04
-    "gui/CD/38.png"
-    pause 0.04
-    repeat
 
 
 #定义角色的名称和各类信息

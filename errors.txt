@@ -2,9 +2,15 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/screens.rpy", line 430: textbutton statement expects 1 positional arguments, got 0.
-    textbutton:
-               ^
+File "game/rpycodes/screens.rpy", line 493: invalid syntax
+    default StartPause0 = True
+             ^
+    
+
+File "game/rpycodes/screens.rpy", line 495: invalid syntax
+    default StartPause0 = False
+             ^
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Oct  4 22:49:35 2022
+Sun Oct  9 01:30:47 2022
