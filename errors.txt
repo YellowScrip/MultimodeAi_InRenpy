@@ -2,15 +2,47 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/screens.rpy", line 493: invalid syntax
-    default StartPause0 = True
-             ^
-    
+The label splashscreen is defined twice, at File "game/rpycodes/initgame.rpy", line 49:
+label splashscreen:
+and File "game/rpycodes/script.rpyc", line 49:
 
-File "game/rpycodes/screens.rpy", line 495: invalid syntax
-    default StartPause0 = False
-             ^
-    
+
+
+The label before_main_menu is defined twice, at File "game/rpycodes/initgame.rpy", line 61:
+label before_main_menu:
+and File "game/rpycodes/script.rpyc", line 99:
+
+
+
+The label start is defined twice, at File "game/rpycodes/script.rpyc", line 120:
+
+and File "game/rpycodes/script_primers.rpy", line 3:
+label start:
+
+
+The label choose1_1 is defined twice, at File "game/rpycodes/script.rpyc", line 184:
+
+and File "game/rpycodes/script_primers.rpy", line 67:
+label choose1_1:
+
+
+The label choose1_2 is defined twice, at File "game/rpycodes/script.rpyc", line 187:
+
+and File "game/rpycodes/script_primers.rpy", line 70:
+label choose1_2:
+
+
+The label choose1_3 is defined twice, at File "game/rpycodes/script.rpyc", line 189:
+
+and File "game/rpycodes/script_primers.rpy", line 72:
+label choose1_3:
+
+
+The label quit is defined twice, at File "game/rpycodes/script.rpyc", line 191:
+
+and File "game/rpycodes/script_primers.rpy", line 74:
+label quit:
+
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct  9 01:30:47 2022
+Sun Oct 23 00:44:58 2022
