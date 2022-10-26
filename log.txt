@@ -1,62 +1,41 @@
-Sun Oct 23 00:44:57 2022
+Wed Oct 26 13:08:44 2022
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.04s
+Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.05s
-Loading script took 0.23s
-Loading save slot metadata. took 0.12s
+Loader init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.40s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-
-The label splashscreen is defined twice, at File "game/rpycodes/initgame.rpy", line 49:
-label splashscreen:
-and File "game/rpycodes/script.rpyc", line 49:
-
-
-
-The label before_main_menu is defined twice, at File "game/rpycodes/initgame.rpy", line 61:
-label before_main_menu:
-and File "game/rpycodes/script.rpyc", line 99:
-
-
-
-The label start is defined twice, at File "game/rpycodes/script.rpyc", line 120:
-
-and File "game/rpycodes/script_primers.rpy", line 3:
-label start:
-
-
-The label choose1_1 is defined twice, at File "game/rpycodes/script.rpyc", line 184:
-
-and File "game/rpycodes/script_primers.rpy", line 67:
-label choose1_1:
-
-
-The label choose1_2 is defined twice, at File "game/rpycodes/script.rpyc", line 187:
-
-and File "game/rpycodes/script_primers.rpy", line 70:
-label choose1_2:
-
-
-The label choose1_3 is defined twice, at File "game/rpycodes/script.rpyc", line 189:
-
-and File "game/rpycodes/script_primers.rpy", line 72:
-label choose1_3:
-
-
-The label quit is defined twice, at File "game/rpycodes/script.rpyc", line 191:
-
-and File "game/rpycodes/script_primers.rpy", line 74:
-label quit:
-
+Running init code took 0.25s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 0.47s
+Creating interface object took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2160, 1440)
@@ -68,23 +47,235 @@ Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpycodes/script_1_1.rpy", line 873, in script
+    "根据国家的"三十二条禁令"，在中国的国土上就根本就不可能出现日本产的机器人. . ."
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 956, in resolve_say_attributes
+    raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
+Exception: Say has image attributes ('三十二条禁令',), but there's no image tag associated with the speaking character.
+
+While running game code:
+  File "game/rpycodes/script_1_1.rpy", line 873, in script
+    "根据国家的"三十二条禁令"，在中国的国土上就根本就不可能出现日本产的机器人. . ."
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+Exception: Say has image attributes ('三十二条禁令',), but there's no image tag associated with the speaking character.
 Resetting cache.
-Bootstrap to the start of init.init took 45.16s
+Bootstrap to the start of init.init took 191.91s
 Early init took 0.00s
-Loader init took 0.02s
-Loading error handling took 0.03s
-Loading script took 0.10s
-Loading save slot metadata. took 0.01s
+Loader init took 0.05s
+Loading error handling took 0.04s
+Loading script took 0.36s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
+Running init code took 0.04s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.04s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpycodes/script_1_1.rpy", line 1106, in script
+    "总之，能列在"三十二条禁令"上，想必也是和上述几条一样，会对国际社会带来不小的影响吧. . ."
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1371, in say
+    renpy.store.say(who, what, *args, **kwargs)
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1206, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1030, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 956, in resolve_say_attributes
+    raise Exception("Say has image attributes %r, but there's no image tag associated with the speaking character." % (attrs,))
+Exception: Say has image attributes ('三十二条禁令',), but there's no image tag associated with the speaking character.
+
+While running game code:
+  File "game/rpycodes/script_1_1.rpy", line 1106, in script
+    "总之，能列在"三十二条禁令"上，想必也是和上述几条一样，会对国际社会带来不小的影响吧. . ."
+  File "renpy/common/00library.rpy", line 303, in say
+    who(what, interact=interact, *args, **kwargs)
+Exception: Say has image attributes ('三十二条禁令',), but there's no image tag associated with the speaking character.
+Resetting cache.
+Bootstrap to the start of init.init took 219.17s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.03s
+Loading script took 0.34s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpycodes/script_1_1.rpy", line 1148, in script
+    jqgb "欢迎来到九衢之声，快来听听今天有什么新闻"
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'jqgb' is not defined.
+
+While running game code:
+  File "game/rpycodes/script_1_1.rpy", line 1148, in script
+    jqgb "欢迎来到九衢之声，快来听听今天有什么新闻"
+Exception: Sayer 'jqgb' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 272.89s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.03s
+Loading script took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.04s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpycodes/script_1_1.rpy", line 1179, in script
+    ym "喵？"
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ym' is not defined.
+
+While running game code:
+  File "game/rpycodes/script_1_1.rpy", line 1179, in script
+    ym "喵？"
+Exception: Sayer 'ym' is not defined.
+Resetting cache.
+Bootstrap to the start of init.init took 313.32s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.14s
+Loading save slot metadata. took 0.02s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -92,15 +283,15 @@ Creating interface object took 0.28s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.01s
+Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.11s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2160, 1440)
@@ -112,3 +303,10 @@ Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

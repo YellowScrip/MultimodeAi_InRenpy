@@ -1,77 +1,85 @@
 ﻿
-#游戏内容
 label start:
-    show screen stop_screen(0.5) with dissolve #开始时黑幕转场
-    play music m1
-    scene b1
-    show cqly_aa1 with fade
-    play sound "voice/cqvoice/v1.wav"
-    cq a "2025年的3月21日......"
-    play sound "voice/cqvoice/v2.wav"
-    cq b "我返回了这个从来没见过的，"
-    play sound "voice/cqvoice/v3.wav"
-    cq "名为故土的地方。"
-    play sound "voice/cqvoice/v4.wav"
-    cq "无论是从现在开始亦或者是曾经与我有关的一切一切，"
-    play sound "voice/cqvoice/v5.wav"
-    cq "突然在这一刻闪过。"
-    play sound "voice/cqvoice/v6.wav"
-    cq "转瞬即逝间，什么都溜走了。"
-    hide cqly_aa1 with dissolve
-    ch """
-    就如同天空上漂浮的这一片片樱花花瓣一样
+    #play sound ""
+    "叮叮. . .咚咚. . . . . ."#（声音为风铃的效果音，绵长）
+    #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
+    #voice "voice/cxly_voice/episode1/初咲001.mp3"
+    "这个世界，是凝聚了科技和经济，无比伟大而光明的黄金时代"
+    #voice ""
+    "100年前的人们曾对这种‘幻想’般的世界抱有无比期待"
+    #play voice ""
+    "他们幻想着在这样的世界中"
+    #play voice ""
+    "机器人能够凭空出世"
+    #play voice ""
+    "解放所有人类. . ."
+    #play voice ""
+    "但同时，他们也并没有意识到，"
+    "这个世界也只不过是个高速发展的残次品"
+    "在除科学之外的领域暴露着各种各样的问题. . ."
+    "内耗的世界. . .重构的制度. . ."
+    "无法回暖的生育率. . .不断下滑的就业率. . .以及，"
+    "失去了梦想的青年人"
+    "我们似乎正逐渐被裹挟在这个机器人大规模替代人力的时代"
+    "社会发展规律的更迭正逐渐快到让人窒息"
+    "完全超越自我能力的责任；"
+    "愈来愈狭小的物质与精神空间"
+    "‘幸福’，"
+    "‘未来’，"
+    "‘爱’。"
+    "这三个常被人类挂在嘴边的辞藻也逐渐离我们越来越远. . ."
+    "甚至. . .我完全没有感受到它们的存在"
+    #（转场，切换到书房）
+    voice "voice/cxly_voice/episode1/初咲001.mp3"
+    who "不对哦！完全不对！"
+    "一个熟悉声音从我的耳边飘过"
+    "几乎是下意识之间，我向四周望过去"
+    "除了散落在地板上的各种物件之外，整个房间都空荡荡的，没有其他人的踪迹"
+    "我在凌乱的地板上拿起了这本日记本，然后打开了它"
+    "窗外的夕阳为日记的卷首镀上了一层烫金的纹路，带给了我不少暖意"
+    "突然间，些许的违和感充斥了我的双眼"
+    "那是一个歪歪扭扭地写着的，我不知道重温了多少遍的词语——"
+    "这是由日语中简单的罗马音组成的词"
+    "renai"
+    "译为‘恋爱’"
+    "可是她却习惯性地把它读成‘re’‘nai’"
+    voice "voice/cxly_voice/episode1/初咲002.mp3"
+    who "应该读‘re nai’噢！"
+    "她告诉我说"
+    voice "voice/cxly_voice/episode1/初咲003.mp3"
+    who "‘re’是一个英文中的词根，有着‘重新’，‘再次’的意思"
+    voice "voice/cxly_voice/episode1/初咲004.mp3"
+    who "‘nai’也是取自英文，有着‘出生’，‘生来的’的意思"
+    voice "voice/cxly_voice/episode1/初咲005.mp3"
+    who "字面意思就是‘复生’"
+    "当时的我并没有听懂她在说什么"
+    "只是稍微感觉到有点奇怪"
+    "我还是执意告诉她："
+    ch "renai就是日语中‘恋爱’的意思"
+    "她惊讶地看着我，然后摇了摇头，并没有听懂我在说什么"
+    voice "voice/cxly_voice/episode1/初咲006.mp3"
+    who "肯定是主人搞错了！"
+    "直到今天"
+    "日记上面赫然出现的‘renai’，让我再次想起了她"
+    #（镜头转到码头，露出初咲恋柚鼻子以下的部分，平滑右移）
+    "晶莹的泪滴从她的脸上滚落"
+    "她站在我的面前，这样说道："
+    voice "voice/cxly_voice/episode1/初咲007.mp3"
+    who "我懂了！"
+    voice "voice/cxly_voice/episode1/初咲008.mp3"
+    who "‘renai’就是‘恋爱’的意思. . ."#（两者日语读音相同）"
+    voice "voice/cxly_voice/episode1/初咲009.mp3"
+    who "‘幸福’，"
+    voice "voice/cxly_voice/episode1/初咲010.mp3"
+    who "‘未来’，"
+    voice "voice/cxly_voice/episode1/初咲011.mp3"
+    who "‘爱’。"
+    #voice "voice/cxly_voice/episode1/初咲012.mp3"
+    who "谢谢你，海川君！"
+    "我看着她的微笑，也释然地对她笑了起来 "
+    "我想我在那一刻，也明白了. . .因为， "
+    "这是我们故事的开端. . ."
+    "也是我们故事的终局. . ."
+    jump episode1_1
 
-    终会在路人的眼里，仅仅留下几秒钟飘落的印象
-
-    然后便被碾成了尘土......
-
-    我试图使自己忘掉来到这里之前的所有记忆，
-
-    但我始终忘不掉，
-
-    还是像眼前团簇的樱花一样，
-
-    稍纵即逝，
-
-    但. . .
-
-    无比美丽. . .
-    """
-
-    #show b2(这里是转场——海川渡的家里)
-    who "欢迎回家，海川君。"
-    menu:
-        "我到底应该怎么做？"
-        "好好反思一下自己在干些什么":
-            $x=1
-            $mood=5
-        "开始展望新的生活":
-            $x=2
-            $mood=20
-        "回忆":
-            $x=3
-            $mood=0
-    "所以最后的结果是..."
-    if(x==1):
-        "你选择1"
-        jump choose1_1
-    elif(x==2):
-        "你选择2"
-        jump choose1_2
-    elif(x==3):
-        "你选择3"
-        show cq11 at left with fade
-        ch "我试图使自己忘掉来到这里之前的所有记忆"
-        jump choose1_3
-
-label choose1_1:
-    ch "是这样的阿"
-    return
-label choose1_2:
-    return
-label choose1_3:
-    return
-label quit:
-    play sound "voice/stovvoice/ov.wav"
-    pause 2.1
-    return
+    #（黑幕淡出，播放Episode 01界面画面"被遗弃的冬日旋律"）

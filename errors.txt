@@ -2,47 +2,9 @@
 errors listed below, and try again.
 
 
-The label splashscreen is defined twice, at File "game/rpycodes/initgame.rpy", line 49:
-label splashscreen:
-and File "game/rpycodes/script.rpyc", line 49:
-
-
-
-The label before_main_menu is defined twice, at File "game/rpycodes/initgame.rpy", line 61:
-label before_main_menu:
-and File "game/rpycodes/script.rpyc", line 99:
-
-
-
-The label start is defined twice, at File "game/rpycodes/script.rpyc", line 120:
-
-and File "game/rpycodes/script_primers.rpy", line 3:
-label start:
-
-
-The label choose1_1 is defined twice, at File "game/rpycodes/script.rpyc", line 184:
-
-and File "game/rpycodes/script_primers.rpy", line 67:
-label choose1_1:
-
-
-The label choose1_2 is defined twice, at File "game/rpycodes/script.rpyc", line 187:
-
-and File "game/rpycodes/script_primers.rpy", line 70:
-label choose1_2:
-
-
-The label choose1_3 is defined twice, at File "game/rpycodes/script.rpyc", line 189:
-
-and File "game/rpycodes/script_primers.rpy", line 72:
-label choose1_3:
-
-
-The label quit is defined twice, at File "game/rpycodes/script.rpyc", line 191:
-
-and File "game/rpycodes/script_primers.rpy", line 74:
-label quit:
-
+File "game/rpycodes/script_1_1.rpy", line 1307: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        "不管怎么样，先把初咲带回家才是当务之急。
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sun Oct 23 00:44:58 2022
+Wed Oct 26 13:08:29 2022

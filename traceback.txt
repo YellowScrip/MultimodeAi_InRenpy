@@ -1,30 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/rpycodes/script.rpy", line 192, in script
-    play sound "voice/stovvoice/ov.wav"
-  File "renpy/common/000statements.rpy", line 298, in execute_play_sound
-    loop = config.default_sound_loop
-Exception: config.default_sound_loop is not a known configuration variable.
+  File "game/rpycodes/script_1_1.rpy", line 1179, in script
+    ym "喵？"
+Exception: Sayer 'ym' is not defined.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/rpycodes/script.rpy", line 192, in script
-    play sound "voice/stovvoice/ov.wav"
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
-    self.call("execute")
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 298, in execute_play_sound
-    loop = config.default_sound_loop
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\defaultstore.py", line 97, in __getattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.default_sound_loop is not a known configuration variable.
+  File "game/rpycodes/script_1_1.rpy", line 1179, in script
+    ym "喵？"
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ym' is not defined.
 
-Windows-10-10.0.22000 AMD64
+Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Sun Oct  9 13:59:53 2022
+Wed Oct 26 13:13:20 2022
