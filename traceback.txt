@@ -1,22 +1,47 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/rpycodes/script_1_1.rpy", line 1179, in script
-    ym "喵？"
-Exception: Sayer 'ym' is not defined.
+  File "game/rpycodes/script_1_1.rpy", line 1503, in script
+    who "喂喂，这边是来自深渊的接应员"#（本句及以下岩崎天桐的话采用半日半中的方式）
+OSError: Couldn't find file 'voice/l_voice/episode1/岩崎020.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/rpycodes/script_1_1.rpy", line 1179, in script
-    ym "喵？"
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'ym' is not defined.
+  File "game/rpycodes/script_1_1.rpy", line 1503, in script
+    who "喂喂，这边是来自深渊的接应员"#（本句及以下岩崎天桐的话采用半日半中的方式）
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'voice/l_voice/episode1/岩崎020.mp3'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Wed Oct 26 13:13:20 2022
+Thu Oct 27 00:36:49 2022

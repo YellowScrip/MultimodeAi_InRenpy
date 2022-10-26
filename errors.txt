@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/script_1_1.rpy", line 1307: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a " at the end of the first line.)
-        "不管怎么样，先把初咲带回家才是当务之急。
+File "game/rpycodes/set_characters.rpy", line 19: expected 'image_name_component' not found.
+    image 
+          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Oct 26 13:08:29 2022
+Thu Oct 27 00:52:27 2022

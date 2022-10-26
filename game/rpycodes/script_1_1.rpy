@@ -1,6 +1,12 @@
 ﻿
     ###  episode1上半部分 ################
 label episode1_1:
+    window hide
+    image episode1_video = Movie(play="videos/episode_video/episode1.mpg",loops=0,stop_music=True)
+    show episode1_video
+    $ renpy.pause(4.5,hard = True)#时长是你视频的长度，播完自动退出
+    hide episode1_video
+    $ renpy.pause(2.0,hard = True)#时长是你视频的长度，播完自动退出
     #（黑幕淡出，播放episode1 01界面画面"被遗弃的冬日旋律"）
 
     #背景：多云天气，街道
@@ -290,19 +296,19 @@ label episode1_1:
     "小时候的我一直以为岩崎只是蘭的一个哥哥，直到上了高中之后，才发现他的外貌根本没有变过。"
     ch "早上好呀，岩崎！"
     #show
-    voice "voice/l_voice/episode1/岩崎001.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎001.mp3"
     yq  "你好啊，海川！"
     #show
     voice "voice/l_voice/episode1/蘭048.mp3"
     l "在学校里就给我好好说中文啊，这样真的很尴尬！"
     #show
-    voice "voice/l_voice/episode1/岩崎002.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎002.mp3"
     yq  "咳咳，我明白了"
     #show
     voice "voice/l_voice/episode1/蘭049.mp3"
     l ". . .你怎么来了？"
     #show
-    voice "voice/l_voice/episode1/岩崎003.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎003.mp3"
     yq  "我为什么不能来？"
     #show
     voice "voice/l_voice/episode1/蘭050.mp3"
@@ -313,32 +319,32 @@ label episode1_1:
     "一个没忍住，我还是笑出声了"
     "蘭狠狠地盯了我一眼，在轻轻地“哼”了一声之后，就继续开始自己的工作了"
     #show
-    voice "voice/l_voice/episode1/岩崎004.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎004.mp3"
     yq  "好了好了，不耽误小蘭的时间"
     #show
-    voice "voice/l_voice/episode1/岩崎005.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎005.mp3"
     yq  "还不是因为其他人的魔法结社传唤申请被你落在家里"
     ch "是留学申请档案"
     #show
-    voice "voice/l_voice/episode1/岩崎006.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎006.mp3"
     yq  "我才会专门调用能够快速跨越长江的异界载具. . ."
     ch "是九衢市50型地铁二号线转五号线"
     #show
-    voice "voice/l_voice/episode1/岩崎007.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎007.mp3"
     yq  "总之，这一路过来可真是辛苦. . ."
     ch "明明从汉江路到昙华林公园这一带只用不到十分钟的时间. . ."
     #show
-    voice "voice/l_voice/episode1/岩崎008.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎008.mp3"
     yq  "哎呀，海川啊海川"
     #show
-    voice "voice/l_voice/episode1/岩崎009.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎009.mp3"
     yq  "你说这么直接就没意思了. . ."
     ch "就在我们谈话间，蘭悄悄地把这一沓档案袋放到了自己的书包里，不过还是被岩崎天桐看到了"
     #show
-    voice "voice/l_voice/episode1/岩崎010.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎010.mp3"
     yq  "喂喂，你还没有感谢我呢！"
     #show
-    voice "voice/l_voice/episode1/岩崎011.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎011.mp3"
     yq  "就这样把我辛辛苦苦护送过来的魔法结社传唤申请给拿走了. . .明明是你自己把东西落下了"
     #show
     voice "voice/l_voice/episode1/蘭051.mp3"
@@ -347,10 +353,10 @@ label episode1_1:
     #（这里让蘭立绘表情的脸变得通红）
 
     #show
-    voice "voice/l_voice/episode1/岩崎012.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎012.mp3"
     yq  "然后呢？"
     #show
-    voice "voice/l_voice/episode1/岩崎013.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎013.mp3"
     yq  "我们的大小姐不会一点表示都没有吧？"
     #show
     l ". . ."
@@ -363,7 +369,7 @@ label episode1_1:
     "蘭用几乎是我们能听到的最低声音喃喃地向岩崎道谢"
     "满脸通红的她就像是一个认错的小孩，完全就没有刚刚的那种咄咄逼人的锐气"
     #show
-    voice "voice/l_voice/episode1/岩崎014.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎014.mp3"
     yq  "这就对了嘛"
     "顺势，岩崎天桐把手放在了蘭的头上，轻轻地来回抚摸着"
     "岩崎天桐对着他的主人轻轻地笑着，那种宠溺的眼神看上去和“蘭的大哥哥”这个标签完全吻合。"
@@ -373,63 +379,63 @@ label episode1_1:
     "蘭猛地向后又退了一步"
     "慌张地向四周看了看，然后装作若无其事地清理咨询台上的各种资料"
     #show
-    voice "voice/l_voice/episode1/岩崎015.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎015.mp3"
     yq  "小蘭，你躲我干什么啊. . ."
     #show
-    voice "voice/l_voice/episode1/蘭054.mp3"
+    voice "voice/l_voice/episode1/蘭055.mp3"
     l "别. . .别一口一个‘小蘭’，真让人讨厌！"
     #show
-    voice "voice/l_voice/episode1/岩崎016.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎016.mp3"
     yq  "明明之前出游的时候还让我偷偷喊你‘妹妹’的. . ."
     #show
-    voice "voice/l_voice/episode1/蘭055.mp3"
+    voice "voice/l_voice/episode1/蘭056.mp3"
     l "你！你. . .我不许你再说了！"
     #show
-    voice "voice/l_voice/episode1/蘭056.mp3"
+    voice "voice/l_voice/episode1/蘭057.mp3"
     l "快给我. . .走开！"
     ch "蘭用力地将岩崎天桐朝向我这边推过来，摆出一副很不耐烦的样子"
     #show
-    voice "voice/l_voice/episode1/蘭057.mp3"
+    voice "voice/l_voice/episode1/蘭058.mp3"
     l "我这边还有很多资料要整理，不要再打扰我了！"
     #show
-    voice "voice/l_voice/episode1/岩崎017.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎017.mp3"
     yq  "嘿嘿，我明白了"
     ch "岩崎天桐朝向我不自然地咧嘴笑了笑"
     #show
-    voice "voice/l_voice/episode1/岩崎018.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎018.mp3"
     yq  "那我就先行告辞了"
     #show
-    voice "voice/l_voice/episode1/岩崎019.mp3"
+    voice "voice/yqtt_voice/episode1/岩崎019.mp3"
     yq  "还请主上大人期待今天我精心准备的‘晚宴’吧"
     "说完，岩崎天桐还不忘把手架在脸上，颇有一番中二且极为自信的气势"
     #show
-    voice "voice/l_voice/episode1/蘭058.mp3"
+    voice "voice/l_voice/episode1/蘭059.mp3"
     l "中. . .中二病！"
     "在和蘭的推推搡搡中，岩崎天桐很快就消失在我的视线中"
     #show
-    voice "voice/l_voice/episode1/蘭059.mp3"
+    voice "voice/l_voice/episode1/蘭060.mp3"
     l "呼. . ."
     #show
-    voice "voice/l_voice/episode1/蘭060.mp3"
+    voice "voice/l_voice/episode1/蘭061.mp3"
     l "真是的. . .还非要摆出这一副傲慢的态度. . ."
     "到底是谁更傲慢一点啊喂. . ."
     ch "看来岩崎中二的个性还是没有改变啊"
     ch "不过感觉你和岩崎的感情还真的是非常好呢。"
     #show
-    voice "voice/l_voice/episode1/蘭061.mp3"
+    voice "voice/l_voice/episode1/蘭062.mp3"
     l "才. . .才不是这样！"
     #show
-    voice "voice/l_voice/episode1/蘭062.mp3"
+    voice "voice/l_voice/episode1/蘭063.mp3"
     l "最近感觉岩崎他好烦人. . .不想靠近这种自以为是的大傻瓜"
     "无论怎样，蘭在面对岩崎时露出的奇怪神情总是让我感觉到异样"
     "甚至给我一种胡乱的大胆猜测. . . . . ."
     #show
-    voice "voice/l_voice/episode1/蘭063.mp3"
+    voice "voice/l_voice/episode1/蘭064.mp3"
     l "喂喂，刚才的表你填完了吗？"
     ch "嗯，填完了"
     "蘭打断了我的胡乱臆想. . .可能也只是错觉吧？"
     #show
-    voice "voice/l_voice/episode1/蘭064.mp3"
+    voice "voice/l_voice/episode1/蘭065.mp3"
     l "好的，给我来检查一下"
     #show
     l ". . . . . ."
@@ -438,28 +444,28 @@ label episode1_1:
     #show
     l ". . . . . ."
     #show
-    voice "voice/l_voice/episode1/蘭065.mp3"
+    voice "voice/l_voice/episode1/蘭066.mp3"
     l "表格是没什么问题了"
     ch "好"
     "我拿起了放在一旁的挎包，拍了拍落上面的灰"
     "正当我准备转身离开的时候，突然被蘭叫住了"
     #show
-    voice "voice/l_voice/episode1/蘭066.mp3"
+    voice "voice/l_voice/episode1/蘭067.mp3"
     l "等等！忘记和你说要拿校服了"
     "蘭俯身从摆放在咨询台旁边的众多的袋子中挑出了看上去最高贵的那个，上面赫然印着“东番国立高大”的名称"
     #show
-    voice "voice/l_voice/episode1/蘭067.mp3"
+    voice "voice/l_voice/episode1/蘭068.mp3"
     l "呐！这是校服"
     #show
-    voice "voice/l_voice/episode1/蘭068.mp3"
+    voice "voice/l_voice/episode1/蘭069.mp3"
     l "还有这些是入学必备的资料"
     ch "没想到这么快就发到我们学生手上了啊"
     #show
-    voice "voice/l_voice/episode1/蘭069.mp3"
+    voice "voice/l_voice/episode1/蘭070.mp3"
     l "哼哼，毕竟是高大嘛"
     "我接过蘭递给我的各种资料，然后把这些东西塞回了我的书包中"
     #show
-    voice "voice/l_voice/episode1/蘭070.mp3"
+    #voice "voice/l_voice/episode1/蘭071.mp3"(配音配掉了)
     l "还有一个私人的问题"
     ch "嗯，你说"
     #show
@@ -477,22 +483,22 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭074.mp3"
     l "emmm倒不如说是，校方鼓励携带机器人"
     #show
-    voice "voice/l_voice/episode1/蘭075.mp3"
+    voice "voice/l_voice/episode1/蘭076.mp3"
     l "海川没听说过吗？无论是校服还是出入学校内各种场所，你的仿生机器人都是拥有同等权益的。"
     #show
-    voice "voice/l_voice/episode1/蘭076.mp3"
+    voice "voice/l_voice/episode1/蘭077.mp3"
     l "看来海川真是不问世事，被消息隔离也是理所当然的吧. . ."
     ch "不要随便毒舌啊，这种事情我还是知道的。"
     ch "总的来说，东番国立高大在这方面也想得非常周到，充分考虑到之前仿生机器人和人权问题. . ."
     #show
-    voice "voice/l_voice/episode1/蘭077.mp3"
+    voice "voice/l_voice/episode1/蘭078.mp3"
     l "嗯嗯。"
     ch "我是因为家里的缘故才没有买那种东西. . ."
     #show
-    voice "voice/l_voice/episode1/蘭078.mp3"
+    voice "voice/l_voice/episode1/蘭079.mp3"
     l "原来如此. . ."
     #show
-    voice "voice/l_voice/episode1/蘭079.mp3"
+    #voice "voice/l_voice/episode1/蘭080.mp3"
     l "看来生在贫穷的家庭中，也算是恶有恶报了"
     ch ". . . . . ."
     ch "不要把家庭背景和个人道德挂钩啊喂！"
@@ -563,7 +569,7 @@ label episode1_1:
     #（此处切入线稿1，并进行变换，第一张为单纯的黄色背景）
 
     #show
-    voice "voice/l_voice/episode1/蘭092.mp3"
+    voice "voice/l_voice/episode1/蘭093.mp3"
     l "因为爸爸妈妈一直都在‘高塔’里工作，平常也完全没有时间照顾我. . ."
     "所以就顺理成章地按照蘭的想法给她找了一个能够照顾她的人——"
 
@@ -592,7 +598,7 @@ label episode1_1:
 
 
 
-    voice "voice/cxly_voice/episode1/初咲001.mp3"
+    #voice "voice/cxly_voice/episode1/初咲001.mp3"
     who "盯. . . . . ."
     "突然之间，我感觉到背后好像有什么东西在看着我一样"
 
@@ -639,9 +645,9 @@ label episode1_1:
     "如同播放电影一样. . ."
     "失重感. . .目眩感. . .以及恶心到想吐的恐惧感"
     "可是眼前的少女却怎么样都无法从我的眼前消失掉. . ."
-    voice "voice/cxly_voice/episode1/初咲012.mp3"
+    #voice "voice/cxly_voice/episode1/初咲012.mp3"
     who "提问："
-    voice "voice/cxly_voice/episode1/初咲003.mp3"
+    #voice "voice/cxly_voice/episode1/初咲003.mp3"
     who "由中国代表在联合国大会上提倡的新世代三个核心词是？"
     ch "嗯？"
     ch "这是. . ."
@@ -649,14 +655,14 @@ label episode1_1:
     ch "你. . .说什么"
     "我用尽龟裂的嘴唇，在这种介于恐惧和无感的心情中缓缓地抛出了我的疑问。"
     "可能. . .升入天国之后，事情变得奇怪也很正常吧. . ."
-    voice "voice/cxly_voice/episode1/初咲004.mp3"
+    #voice "voice/cxly_voice/episode1/初咲004.mp3"
     who "提问："#（用稍微冰冷一点的，机械的语气说）”
-    voice "voice/cxly_voice/episode1/初咲005.mp3"
+    #voice "voice/cxly_voice/episode1/初咲005.mp3"
     who "由中国代表在联合国大会上提倡的新世代三个核心词是？"#（用稍微冰冷一点的，机械的语气说）”
     ch "啊咧？"
-    voice "voice/cxly_voice/episode1/初咲006.mp3"
+    #voice "voice/cxly_voice/episode1/初咲006.mp3"
     who "提问："
-    voice "voice/cxly_voice/episode1/初咲007.mp3"
+    #voice "voice/cxly_voice/episode1/初咲007.mp3"
     who "由中国代表在联合国大会上提倡的新世代三个核心词是？"
     ch "眼前的少女机械地重复着这个问题，好像是下定了决心要从我这里问出答案一样"
     ch "少女把那柄小刀悬停在半空中"
@@ -670,10 +676,10 @@ label episode1_1:
     #（露出嘴角图片，初咲的微笑）
     #voice ""
     #（播放效果音：从地上把海川渡扶起来，带有摩擦感的声音）
-    voice "voice/cxly_voice/episode1/初咲008.mp3"
+    #voice "voice/cxly_voice/episode1/初咲008.mp3"
     who "嘿咻，嘿咻"
     ch "当我还没有从刚才紧张压抑的氛围中喘过气来，少女就一把把面无血色的我从地上拉了起来"
-    voice "voice/cxly_voice/episode1/初咲009.mp3"
+    #voice "voice/cxly_voice/episode1/初咲009.mp3"
     who "没事吧？"
     ch ". . ."
     ch "！！！"
@@ -684,22 +690,22 @@ label episode1_1:
     "我下意识地往后退了一步. . ."
     "少女也随即向前跟进了一步"
     ch "你. . .你. . . "
-    voice "voice/cxly_voice/episode1/初咲010.mp3"
+    #voice "voice/cxly_voice/episode1/初咲010.mp3"
     who "诶. . .？"
     "少女似乎是注意到了我对她害怕的情绪，慢慢地把那柄小刀放在地上，慢慢举起手来"
-    voice "voice/cxly_voice/episode1/初咲011.mp3"
+    #voice "voice/cxly_voice/episode1/初咲011.mp3"
     who "抱歉抱歉！"
-    voice "voice/cxly_voice/episode1/初咲012.mp3"
+    #voice "voice/cxly_voice/episode1/初咲012.mp3"
     who "因为太喜欢这种形式的表演了. . .所以才会对海川. . ."
-    voice "voice/cxly_voice/episode1/初咲013.mp3"
+    #voice "voice/cxly_voice/episode1/初咲013.mp3"
     who "不过你放心，我对你是完全没有恶意的！"
     ch ". . . . . ."
     ch ". . . . . ."
-    voice "voice/cxly_voice/episode1/初咲014.mp3"
+    #voice "voice/cxly_voice/episode1/初咲014.mp3"
     who "这个只是演出用的伸缩刀，完全不会有任何危险的！"
     "说完，少女还把刀片往自己的脑门上顶了顶，果然和道具一样地缩回去了"
     ch ". . . . . ."
-    voice "voice/cxly_voice/episode1/初咲015.mp3"
+    #voice "voice/cxly_voice/episode1/初咲015.mp3"
     who "抱歉抱歉！无论海川有什么要求，初咲都会补偿的！"
     ch ". . ."
     ch "这种性质恶劣的整蛊就不要随便用来吓人啊！"
@@ -708,9 +714,9 @@ label episode1_1:
 
     "这位与我素未谋面过的少女羞红着脸，先是不断地对我点头鞠躬，然后直接铺在地上，不断对我行着异域熟悉的道歉礼数"
     ch "诶. . .你也别这样. . .快站起来啊喂！"
-    voice "voice/cxly_voice/episode1/初咲016.mp3"
+    #voice "voice/cxly_voice/episode1/初咲016.mp3"
     who "这样是被海川允许的吗？！"
-    voice "voice/cxly_voice/episode1/初咲017.mp3"
+    #voice "voice/cxly_voice/episode1/初咲017.mp3"
     who "！谢谢！"
     "她扑打着身上刚刚因为“土下座”而沾染的灰尘，冲着我再次绽放了花一般的笑容"
     ch "那个. . ."
@@ -722,42 +728,42 @@ label episode1_1:
     "这不是刚才蘭也穿的那一件吗！"
     "她怎么也穿着东番的校服？"
     "还有. . .她是怎么知道我的名字的？"
-    voice "voice/cxly_voice/episode1/初咲018.mp3"
+    #voice "voice/cxly_voice/episode1/初咲018.mp3"
     who "你好，我叫‘初咲恋柚’"
     "这是在向我打招呼. . .？"
     "要说起日语，我还只是在备战交换生项目的时候学过一点"
     "虽然说我还算是有半个日本血统. . .可真是令人惭愧. . ."
     ch "你好，我是海川渡。"
     #show
-    voice "voice/cxly_voice/episode1/初咲019.mp3"
+    #voice "voice/cxly_voice/episode1/初咲019.mp3"
     cq "唔. . ."
     "名叫初咲恋柚的银白发少女仔仔细细地盯着我的脸，"
     "然后绕到了我的背后，认真地打量着我身上的每一个部分"
     #show
-    voice "voice/cxly_voice/episode1/初咲020.mp3"
+    #voice "voice/cxly_voice/episode1/初咲020.mp3"
     cq "果然，"
     #show
-    voice "voice/cxly_voice/episode1/初咲021.mp3"
+    #voice "voice/cxly_voice/episode1/初咲021.mp3"
     cq "和我预想中的一模一样"
     ch "喂喂！这会让人很不自在的"
     "然后少女又慢悠悠地转到我的面前"
     #show
-    voice "voice/cxly_voice/episode1/初咲022.mp3"
+    #voice "voice/cxly_voice/episode1/初咲022.mp3"
     cq "呐，海川君。我听说过你！"
     #show
-    voice "voice/cxly_voice/episode1/初咲023.mp3"
+    #voice "voice/cxly_voice/episode1/初咲023.mp3"
     cq "是一个很温柔的男生对吧"
     ch "蛤？？？"
     "在我看来，名为“初咲恋柚”的少女快速的日语让我一下子没有反应过来她的意思"
     ch "抱歉，你刚刚说的是. . .我没有听清"
     #show
-    voice "voice/cxly_voice/episode1/初咲024.mp3"
+    #voice "voice/cxly_voice/episode1/初咲024.mp3"
     cq "我说，"
     #show
-    voice "voice/cxly_voice/episode1/初咲025mp3"
+    #voice "voice/cxly_voice/episode1/初咲025mp3"
     cq "海川君，"
     #show
-    voice "voice/cxly_voice/episode1/初咲026.mp3"
+    #voice "voice/cxly_voice/episode1/初咲026.mp3"
     cq "是~一~个~温~柔~的~人~噢"#（一字一顿）
     "眼前的这个自称是初咲恋柚的女生突然凑近到我的面前，对我微笑着"
     #voice ""
@@ -768,21 +774,21 @@ label episode1_1:
     "看着我摔倒在地，初咲恋柚的脸上露出了些许歉意的表情，伸手把我扶了起来"
     "不经意间，我发现初咲恋柚的手上和小腿上有一些淤青的伤痕，看上去是最近才出现的"
     #show
-    voice "voice/cxly_voice/episode1/初咲027.mp3"
+    #voice "voice/cxly_voice/episode1/初咲027.mp3"
     cq "抱歉抱歉"
     #show
-    voice "voice/cxly_voice/episode1/初咲028.mp3"
+    #voice "voice/cxly_voice/episode1/初咲028.mp3"
     cq "一不小心就调皮了一下，快站起来吧~"
     "说完，还不忘吐吐舌头，朝我不自然地笑了笑"
     "真是让我感到生气但又完全对她这副样子发不起火来"
     #show
-    voice "voice/cxly_voice/episode1/初咲029.mp3"
+    #voice "voice/cxly_voice/episode1/初咲029.mp3"
     cq "容许我重新自我介绍一下，"
     #show
-    voice "voice/cxly_voice/episode1/初咲030.mp3"
+    #voice "voice/cxly_voice/episode1/初咲030.mp3"
     cq "主人给我取的名字是‘初咲恋柚’"
     #show
-    voice "voice/cxly_voice/episode1/初咲031mp3"
+    #voice "voice/cxly_voice/episode1/初咲031mp3"
     cq "是型号为‘JAPAN-20500101-LASER-PTF-04’的新世代仿生机器人"
     "在初咲恋柚故意放慢给我听而采用的一字一顿的自我介绍中，我凭借我薄弱的日语水平勉强听懂了初咲恋柚在说什么"
     "原来只是个机器人. . .刚刚在报自己的型号是吗. . .？"
@@ -800,36 +806,36 @@ label episode1_1:
     "我用撇脚的日语急促地说着这句话，"
     "但初咲好像没有听懂我说的话"
     #show
-    voice "voice/cxly_voice/episode1/初咲032.mp3"
+    #voice "voice/cxly_voice/episode1/初咲032.mp3"
     cq "可以不用日语对我说噢"
     #show
-    voice "voice/cxly_voice/episode1/初咲033.mp3"
+    #voice "voice/cxly_voice/episode1/初咲033.mp3"
     cq "中文的话初咲也是能够勉强听懂的"
     "哦对，仿生机器人好像在设计上搭载了翻译的功能，至于输出嘛. . ."
     "好像就只能采用一种语言的形式输出"
     "真是令人烦心的设定. . ."
     "不过对于我这种日语半吊子，看上去也刚好能勉强听懂"
     #show
-    voice "voice/cxly_voice/episode1/初咲034.mp3"
+    #voice "voice/cxly_voice/episode1/初咲034.mp3"
     cq "今天能遇上海川君真是太走运了"
     ch "对了？你是怎么知道我的名字的. . .还有，你怎么知道我会在这里？"
     #show
-    voice "voice/cxly_voice/episode1/初咲035mp3"
+    #voice "voice/cxly_voice/episode1/初咲035mp3"
     cq "哼哼. . .不过这些都只是在我的计算中，我早就料到了海川君会走这一条回家的小道. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲036.mp3"
+    #voice "voice/cxly_voice/episode1/初咲036.mp3"
     cq "呐，看得出我还是很了解你的！"
     "但是无论初咲说什么，盘旋在我心里的只有另一个更可怕的事实. . . . . ."
     ch "初咲，很抱歉打断你，"
     ch "能再报一遍你的型号吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲037.mp3"
+    #voice "voice/cxly_voice/episode1/初咲037.mp3"
     cq "欸？"
     #show
-    voice "voice/cxly_voice/episode1/初咲038.mp3"
+    #voice "voice/cxly_voice/episode1/初咲038.mp3"
     cq "是‘JAPAN-20500101-LASER-PTF-04’呀"
     #show
-    voice "voice/cxly_voice/episode1/初咲039.mp3"
+    #voice "voice/cxly_voice/episode1/初咲039.mp3"
     cq "是有什么很奇怪的地方吗？"
     "初咲恋柚用着让我极不自然的天真眼神盯着我，好像能一眼把我看穿的那样"
     ch "‘JAPAN-20500101-LASER-PTF-04’. . ."
@@ -840,33 +846,33 @@ label episode1_1:
     "大概发生在她身上的故事应该就是按照我想象中的剧情展开的吧"
     ch "‘JAPAN-20500101-LASER-PTF-04’. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲040.mp3"
+    #voice "voice/cxly_voice/episode1/初咲040.mp3"
     cq "对的哦，很快记下来了嘛，很不错！"
     ch "听我说，初咲，"
     #show
-    voice "voice/cxly_voice/episode1/初咲041.mp3"
+    #voice "voice/cxly_voice/episode1/初咲041.mp3"
     cq "嗯？"
     #show
-    voice "voice/cxly_voice/episode1/初咲042.mp3"
+    #voice "voice/cxly_voice/episode1/初咲042.mp3"
     cq "什么事？"
     ch "听我说，初咲，"
     ch "你应该不是在中国产出的机器人对吧？"
     ch "初咲恋柚又摆出那个仔细盯着我看的眼神，愣在原地好一会儿。"
     #show
-    voice "voice/cxly_voice/episode1/初咲043.mp3"
+    #voice "voice/cxly_voice/episode1/初咲043.mp3"
     cq "嗯？"
     #show
-    voice "voice/cxly_voice/episode1/初咲044.mp3"
+    #voice "voice/cxly_voice/episode1/初咲044.mp3"
     cq "当然是日本的啦！"
     #show
-    voice "voice/cxly_voice/episode1/初咲045.mp3"
+    #voice "voice/cxly_voice/episode1/初咲045.mp3"
     cq "难道海川君不认识英语吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲046.mp3"
+    #voice "voice/cxly_voice/episode1/初咲046.mp3"
     cq "明明在我的铭牌上写的是‘JAPAN’欸。"
     ch "我当然知道，对于即将升入东番国立高大仿生机器人制造技术的我来说，这点常识都是扎根在我记忆中的"
     #show
-    voice "voice/cxly_voice/episode1/初咲047.mp3"
+    #voice "voice/cxly_voice/episode1/初咲047.mp3"
     cq "而且我是在laser精工，东京总部生产的最新，优秀且高端的仿生机器人噢！"
     ch ". . . . . ."
     "初咲恋柚若无其事的回答让我陷入思索"
@@ -876,90 +882,90 @@ label episode1_1:
     ch "那初咲，你的主人呢？"
     "听到了我微微颤抖的声音后，初咲恋柚慢慢抬起头，露出了冰雪般伤感的神情，似乎在犹豫着要不要说出来给我听"
     #show
-    voice "voice/cxly_voice/episode1/初咲048.mp3"
+    #voice "voice/cxly_voice/episode1/初咲048.mp3"
     cq "你说主人吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲049.mp3"
+    #voice "voice/cxly_voice/episode1/初咲049.mp3"
     cq "出来旅行的主人把我落在了九衢市，然后就不见了"
     #show
-    voice "voice/cxly_voice/episode1/初咲050.mp3"
+    #voice "voice/cxly_voice/episode1/初咲050.mp3"
     cq "我一直一直都在寻找主人的踪迹. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲051.mp3"
+    #voice "voice/cxly_voice/episode1/初咲051.mp3"
     cq "跑遍了整个九衢市，问了好多好多人都没有找到主人在哪个地方"
     "说完初咲恋柚还用手臂框成了一个大大的圆形，竭力向我表现出在寻找主人历程上的重重艰辛。"
     #show
-    voice "voice/cxly_voice/episode1/初咲052.mp3"
+    #voice "voice/cxly_voice/episode1/初咲052.mp3"
     cq "不过好在，后来我很意外地收到了主人从日本发来的信"
     #show
-    voice "voice/cxly_voice/episode1/初咲053.mp3"
+    #voice "voice/cxly_voice/episode1/初咲053.mp3"
     cq "大概意思就是主人已经回到了日本，但不小心把我忘记在了九衢市"
     ch ". . . . . ."
     "哪里会有人这么随便就忘记的啊？！"
     "明明是一直陪伴在身边的，怎么可能把这么一大个机器人随便丢下呢？"
     "更何况像这个我面前的这个少女的型号，看上去完全是新型的类型，在我心中估算的价格也肯定不便宜. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲054.mp3"
+    #voice "voice/cxly_voice/episode1/初咲054.mp3"
     cq "主人也真是的. . .明明没有亲口和我说，还要让我自己找一个新的主人. . .这让初咲该怎么办啊？"
     "眉头微皱的初咲叹了口气，看上去像是非常为难的样子"
     "据我所知，在没有得到主人的亲口允诺下，机器人是绝对不能轻易地更换主人的。"
     "初咲恋柚低下头，沉浸在回忆中，又似乎想鼓起勇气说出什么话"
     #show
-    voice "voice/cxly_voice/episode1/初咲055.mp3"
+    #voice "voice/cxly_voice/episode1/初咲055.mp3"
     cq "所以，这也是我来找海川君的原因！"
     #show
-    voice "voice/cxly_voice/episode1/初咲056.mp3"
+    #voice "voice/cxly_voice/episode1/初咲056.mp3"
     cq "我一定要去. . .不对，回到日本，然后找到原来的主人！"
     "初咲恋柚低下头，沉浸在回忆中，好像并没有听出来我的害怕和担心"
     #show
-    voice "voice/cxly_voice/episode1/初咲057.mp3"
+    #voice "voice/cxly_voice/episode1/初咲057.mp3"
     cq "海川君能帮助我吗？"
     "眼前的少女用猫般的眼神可怜巴巴地看着我，就像路边流浪的那种可爱小猫一般. . ."
     "倒不如说，她现在正处于这种情况中。"
     ch "帮你？我这种人该怎么帮到初咲啊？"
     ch "明明我就是一个普通到再也不能普通的高中生而已。"
     #show
-    voice "voice/cxly_voice/episode1/初咲058.mp3"
+    #voice "voice/cxly_voice/episode1/初咲058.mp3"
     cq "不，"
     ch "初咲恋柚摇了摇头，换成了一个更加坚定的眼神注视着我"
     #show
-    voice "voice/cxly_voice/episode1/初咲059.mp3"
+    #voice "voice/cxly_voice/episode1/初咲059.mp3"
     cq "只需要海川君帮我带到日本去就行了！"
     ch ". . . . . ."
     ch ". . . . . ."
     ch ". . . . . ."
     ch "初咲，"
     #show
-    voice "voice/cxly_voice/episode1/初咲060.mp3"
+    #voice "voice/cxly_voice/episode1/初咲060.mp3"
     cq "在！"
     ch "虽然我们在五分钟前才刚刚认识"
     ch "帮助陌生人这件事上我也不是很反感"
     ch "但是这种冒巨大风险的事情我不能承担的起. . ."
     ch "更何况. . .我还只是一个普通的学生，我想不到该用什么办法. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲061.mp3"
+    #voice "voice/cxly_voice/episode1/初咲061.mp3"
     cq "我. . .我还有些钱！"
     #show
-    voice "voice/cxly_voice/episode1/初咲062.mp3"
+    #voice "voice/cxly_voice/episode1/初咲062.mp3"
     cq "一天500元以内的话，我是可以付得起的！"
     #（如果可以的话，红色标注，补充注释：500元钱的具体价值，很低，相当于现代社会的100r）
     #阿伟的话：可以在初咲这句话后加上一句专门的说明。例如”（500元钱的具体价值，很低，相当于现代社会的100r）“，玩家是能理解作者这里是想要说明世界观里面的细节的(应该？)
     ch "这不是用钱能解决的问题！"
     #show
-    voice "voice/cxly_voice/episode1/初咲063.mp3"
+    #voice "voice/cxly_voice/episode1/初咲063.mp3"
     cq "唔. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲064.mp3"
+    #voice "voice/cxly_voice/episode1/初咲064.mp3"
     cq "那再加上额外的照顾服务！我可以陪在海川君的旁边，家务活都由我全包了！还是免费的哟！"
     ch "等下，问题不在这里啊喂！"
     #show
-    voice "voice/cxly_voice/episode1/初咲065.mp3"
+    #voice "voice/cxly_voice/episode1/初咲065.mp3"
     cq "海川君如果还不满足的话. . .就当我的临时主人吧！"
     #show
-    voice "voice/cxly_voice/episode1/初咲066.mp3"
+    #voice "voice/cxly_voice/episode1/初咲066.mp3"
     cq "海川君有什么命令的话初咲都会服从的！"
     #show
-    voice "voice/cxly_voice/episode1/初咲067.mp3"
+    #voice "voice/cxly_voice/episode1/初咲067.mp3"
     cq "My Master~"
     "初咲恋柚又向我走进了一步，轻轻向我的脖颈处吐了一口气"
     "对我来说，少女脸上的微红在这样的距离下显得格外危险"
@@ -968,47 +974,47 @@ label episode1_1:
     "在这样的攻势下，我又往后退了一步"
     ch "其他的都好说，但是把你带回日本去基本上是不可能的"
     #show
-    voice "voice/cxly_voice/episode1/初咲068.mp3"
+    #voice "voice/cxly_voice/episode1/初咲068.mp3"
     cq "为什么呢？"
     #show
-    voice "voice/cxly_voice/episode1/初咲069.mp3"
+    #voice "voice/cxly_voice/episode1/初咲069.mp3"
     cq "如果要去东京的话，海川君应该是没有别的机器人一起陪同吧？"
     "初咲指了指我手上揣着的校服，一幅好像什么都了然于心的表情看着我"
     ch "？！"
     ch "你怎么知道东东京. . .不对. . ."
     ch "还有，你是怎么知道我是. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲070.mp3"
+    #voice "voice/cxly_voice/episode1/初咲070.mp3"
     cq "一个叫‘蘭’的姐姐告诉我的"
     #show
-    voice "voice/cxly_voice/episode1/初咲071.mp3"
+    #voice "voice/cxly_voice/episode1/初咲071.mp3"
     cq "还有你看. . .这件校服，也是那个叫‘蘭’的姐姐送给我的！"
     ch ". . . . . ."
     "我早就应该猜到的"
     "从初咲身上穿着的这套标准的东番国立高大的制服来看，很明显就是刚刚我在办理手续时留下来的那件"
     ch "所以说，是那个叫‘蘭’的姐姐把我介绍给你的？"
     #show
-    voice "voice/cxly_voice/episode1/初咲072.mp3"
+    #voice "voice/cxly_voice/episode1/初咲072.mp3"
     cq "没错！"
     #show
-    voice "voice/cxly_voice/episode1/初咲073.mp3"
+    #voice "voice/cxly_voice/episode1/初咲073.mp3"
     cq "姐姐还说了："
     #show
-    voice "voice/cxly_voice/episode1/初咲074.mp3"
+    #voice "voice/cxly_voice/episode1/初咲074.mp3"
     cq "‘如果是海川渡的话一定会帮你的’"
     #show
-    voice "voice/cxly_voice/episode1/初咲075.mp3"
+    #voice "voice/cxly_voice/episode1/初咲075.mp3"
     cq "然后，"
     ch "然后？"
     #show
-    voice "voice/cxly_voice/episode1/初咲076.mp3"
+    #voice "voice/cxly_voice/episode1/初咲076.mp3"
     cq "我就来找你了"
     ch ". . . . . ."
     "那家伙还真是会把烫手山芋传递给别人啊. . ."
     "少女把头往右边一偏，看来是完全不能理解我说的话"
     ch "总之就是不行！"
     #show
-    voice "voice/cxly_voice/episode1/初咲077.mp3"
+    #voice "voice/cxly_voice/episode1/初咲077.mp3"
     cq "为什么？海川君的话肯定可以做到的！"
     ch "因为. . ."
     "看着眼前初咲很是期待的目光，我犹豫了一下"
@@ -1016,10 +1022,10 @@ label episode1_1:
     "肯定会对她造成不小的打击吧. . .？"
     "我绕过初咲恋柚，径直从她身旁走过了"
     #show
-    voice "voice/cxly_voice/episode1/初咲078.mp3"
+    #voice "voice/cxly_voice/episode1/初咲078.mp3"
     cq "等等. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲079.mp3"
+    #voice "voice/cxly_voice/episode1/初咲079.mp3"
     cq "海川君真的没有办法吗？"#（伤心语气）
     "初咲恋柚压低了自己的声音，显得格外委屈，让我不自觉停下脚步"
     "我抑制住回头的冲动，不希望因为看到初咲恋柚那张可爱的脸蛋就做出反悔的抉择"
@@ -1036,13 +1042,13 @@ label episode1_1:
     ch "直到来到家门口，我仍然无法抹去刚刚和她说的话"
     #（这里插入暗黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲080.mp3"
+    #voice "voice/cxly_voice/episode1/初咲080.mp3"
     cq "海川君如果还不满足的话. . .就当我的临时主人吧！"
     #show
-    voice "voice/cxly_voice/episode1/初咲081.mp3"
+    #voice "voice/cxly_voice/episode1/初咲081.mp3"
     cq "海川君有什么命令的话初咲都会服从的！"
     #show
-    voice "voice/cxly_voice/episode1/初咲082.mp3"
+    #voice "voice/cxly_voice/episode1/初咲082.mp3"
     cq "My Master~"
     #）
     "喂喂，我都在想些什么啊！"
@@ -1065,7 +1071,7 @@ label episode1_1:
     "我倒在床上，注视着天花板上的灯"
     #（这里插入暗黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲057.mp3"
+    #voice "voice/cxly_voice/episode1/初咲057.mp3"
     cq "海川君能帮助我吗？"
     "先别说帮助她了，在我的面前摆放着一条不能逾越的法律鸿沟——"
     "三十二条禁令"
@@ -1088,16 +1094,16 @@ label episode1_1:
     "虽然这个看上去完全没有理由成为禁令中的一条，但它确实就这样存在在这三十二条之中，显得如此突兀"
     #（这里插入暗黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲044.mp3"
+    #voice "voice/cxly_voice/episode1/初咲044.mp3"
     cq "当然是日本的啦！"
     #show
-    voice "voice/cxly_voice/episode1/初咲045.mp3"
+    #voice "voice/cxly_voice/episode1/初咲045.mp3"
     cq "难道海川君不认识英语吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲046.mp3"
+    #voice "voice/cxly_voice/episode1/初咲046.mp3"
     cq "明明在我的铭牌上写的是‘JAPAN’欸。"
     #show
-    voice "voice/cxly_voice/episode1/初咲047.mp3"
+    #voice "voice/cxly_voice/episode1/初咲047.mp3"
     cq "而且我是在laser精工，东京总部生产的最新，优秀且高端的仿生机器人噢！"
     #）
     "尽管我在备考东番国立高大的入学资格测试的时候，也表现出了同样的疑惑，但是没有老师能够给我相关的解释"
@@ -1106,20 +1112,20 @@ label episode1_1:
     "总之，能列在“三十二条禁令”上，想必也是和上述几条一样，会对国际社会带来不小的影响吧. . ."
     #（这里插入暗黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲083.mp3"
+    #voice "voice/cxly_voice/episode1/初咲083.mp3"
     cq "为什么？海川君可以利用入学要求把初咲带上的欸！"
     #）
     ch "我不知道该以什么样的心情看待今天突然闯进我生活的初咲恋柚"
     #（这里插入暗黄色黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲084.mp3"
+    #voice "voice/cxly_voice/episode1/初咲084.mp3"
     cq "你好，我叫‘初咲恋柚’"
 
     #show
-    voice "voice/cxly_voice/episode1/初咲048.mp3"
+    #voice "voice/cxly_voice/episode1/初咲048.mp3"
     cq "你说主人吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲049mp3"
+    #voice "voice/cxly_voice/episode1/初咲049mp3"
     cq "出来旅行的主人把我落在了九衢市，然后就不见了"
     #）
     "初咲恋柚的话一遍遍冲击着我的思绪，一时之间我陷入了诸多想象——"
@@ -1128,10 +1134,10 @@ label episode1_1:
     ch "事情应该不是我所想的那样糟糕吧. . ."
     #（这里插入暗黄色色调+
     #show
-    voice "voice/cxly_voice/episode1/初咲050.mp3"
+    #voice "voice/cxly_voice/episode1/初咲050.mp3"
     cq "我一直一直都在寻找主人的踪迹. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲051.mp3"
+    #voice "voice/cxly_voice/episode1/初咲051.mp3"
     cq "跑遍了整个九衢市，问了好多好多人都没有找到主人在哪个地方"
     #）
     ch "一直. . .一直都在寻找主人. . ."
@@ -1188,7 +1194,7 @@ label episode1_1:
     #（放效果音："沙沙"，像是树叶在地上被吹动的声音）
     "不知道在什么时候，我没有注意到自己的背后已经出现了一个黑漆漆的影子，仿佛正在我的身后无声地注视着我地所作所为。"
     #show
-    voice "voice/cxly_voice/episode1/初咲1.mp3"
+    #voice "voice/cxly_voice/episode1/初咲1.mp3"
     cq "看来是海川君呢！"#（稍显冰冷）
     "熟悉的日语从我的耳边如和风一般溜过，我知道那是我想要找的人——"
     "但和预想中有点不一样的是，我的后背好像被一个坚硬而且冰冷的东西抵着"
@@ -1197,13 +1203,13 @@ label episode1_1:
     #（插入第一张cg：初咲恋柚在一个路灯下拿着一柄小刀抵着海川渡）（不要这张cg了）
 
     #show
-    voice "voice/cxly_voice/episode1/初咲084.mp3"
+    #voice "voice/cxly_voice/episode1/初咲084.mp3"
     cq "不要回头噢，海川君！"
     #show
-    voice "voice/cxly_voice/episode1/初咲085.mp3"
+    #voice "voice/cxly_voice/episode1/初咲085.mp3"
     cq "要不然很快就会. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲086.mp3"
+    #voice "voice/cxly_voice/episode1/初咲086.mp3"
     cq "没，命，噢~"
     "初咲用着戏谑的口吻调皮地说着这三个字"
     "在这样的黑夜中，显得异常诡异"
@@ -1212,47 +1218,47 @@ label episode1_1:
     "是那柄货真价实的冷蓝色金属刀"
     ch "初. . .初咲. . .你在干什么啊？"
     #show
-    voice "voice/cxly_voice/episode1/初咲087.mp3"
+    #voice "voice/cxly_voice/episode1/初咲087.mp3"
     cq "难道海川君看不出来吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲088.mp3"
+    #voice "voice/cxly_voice/episode1/初咲088.mp3"
     cq "当然是. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲089.mp3"
+    #voice "voice/cxly_voice/episode1/初咲089.mp3"
     cq "杀，了，你，噢~"
     #（此处加入初咲恋柚吹气的声音）
     "初咲贴近我的耳朵边，缓缓地吹着气，用着看上去非常享受的神情不断提醒我就是案板上的牛羊，随时等待她的宰割"
 
     #（换回九衢の街，背景仍然为夜晚）
     #show
-    voice "voice/cxly_voice/episode1/初咲090.mp3"
+    #voice "voice/cxly_voice/episode1/初咲090.mp3"
     cq "开玩笑的啦~"
     "初咲收回了一直抵在我后背那个异常冰冷的家伙，用着浅浅地笑容看着我"
     ch "呼. . .呼，刚刚真是. . . 你到底是在干什么啊，这样的环境下真的很吓人的！"
     "尽管有了上次的经验，这次虽然不至于腿软到瘫倒在地. . .但这仍然让我的脖颈处生出了一股钻心的凉意"
     #show
-    voice "voice/cxly_voice/episode1/初咲091.mp3"
+    #voice "voice/cxly_voice/episode1/初咲091.mp3"
     cq "嘿嘿. . .抱歉啦"
     #show
-    voice "voice/cxly_voice/episode1/初咲092.mp3"
+    #voice "voice/cxly_voice/episode1/初咲092.mp3"
     cq "没想到海川君竟然会这么胆小. . .不过这么说过来，我的表演还是很成功的对吧？"
     ch "哪里是表演啊，不要再玩这种恶作剧了！"
     "不过作为表演的话，刚刚那种压迫感和切实的体验感着实可以称得上是一位优秀的表演者了"
     #show
-    voice "voice/cxly_voice/episode1/初咲093.mp3"
+    #voice "voice/cxly_voice/episode1/初咲093.mp3"
     cq "下次不会这样了. . ."
     #（换初咲恋柚哭脸的可爱表情）
     ch "不过还是很不错的. . .如果刚刚那个真的是表演的话，完全可以媲美真实的演出"
     #show
-    voice "voice/cxly_voice/episode1/初咲094.mp3"
+    #voice "voice/cxly_voice/episode1/初咲094.mp3"
     cq "真的吗！！！"
     ch "初咲恋柚在一瞬间就将脸上的神情转变为一个大大的兴奋脸"
     ch "嗯，确实是这样的. . .至少对于我这个半吊子的专业人士来看. . .特别是对一个机器人来说. . .已经非常厉害了 "
     #show
-    voice "voice/cxly_voice/episode1/初咲095.mp3"
+    #voice "voice/cxly_voice/episode1/初咲095.mp3"
     cq "谢谢！！！"
     #show
-    voice "voice/cxly_voice/episode1/初咲096.mp3"
+    #voice "voice/cxly_voice/episode1/初咲096.mp3"
     cq "海川君真是太好了！"
     "说完，初咲恋柚直接扑到了我的身上，给了我一个大大的拥抱"
     ch "够. . .够了. . ."
@@ -1261,64 +1267,64 @@ label episode1_1:
     ch "你身上的这些伤口和淤青没事吧. . .？"
     "我俯下身，盯着眼前的这一块块不大不小的淤青和伤痕，不自觉地问道"
     #show
-    voice "voice/cxly_voice/episode1/初咲097.mp3"
+    #voice "voice/cxly_voice/episode1/初咲097.mp3"
     cq "没事的啦~"
     #show
-    voice "voice/cxly_voice/episode1/初咲098.mp3"
+    #voice "voice/cxly_voice/episode1/初咲098.mp3"
     cq "这点小伤口对我来说完全不算什么"
     #show
-    voice "voice/cxly_voice/episode1/初咲099.mp3"
+    #voice "voice/cxly_voice/episode1/初咲099.mp3"
     cq "还不是今天蘭姐姐送给我这件校服这么好看"
     #show
-    voice "voice/cxly_voice/episode1/初咲100.mp3"
+    #voice "voice/cxly_voice/episode1/初咲100.mp3"
     cq "然后走在路上一不小心给摔了一跤. . ."
     ch ". . . . . ."
     ch "原来根本就不是我想象中的那个样子啊. . .害得我还白白担心了一场"
     #show
-    voice "voice/cxly_voice/episode1/初咲101.mp3"
+    #voice "voice/cxly_voice/episode1/初咲101.mp3"
     cq "海川君. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲102.mp3"
+    #voice "voice/cxly_voice/episode1/初咲102.mp3"
     cq "哦不对！"
     #show
-    voice "voice/cxly_voice/episode1/初咲103.mp3"
+    #voice "voice/cxly_voice/episode1/初咲103.mp3"
     cq "是主人！"
     #show
-    voice "voice/cxly_voice/episode1/初咲104.mp3"
+    #voice "voice/cxly_voice/episode1/初咲104.mp3"
     cq "主人是终于决定带上初咲一起去日本了嘛！"
     ch ". . .不. . ."
     ch "只是担心你遇到危险所以才要带你回去的"
     #show
-    voice "voice/cxly_voice/episode1/初咲105.mp3"
+    #voice "voice/cxly_voice/episode1/初咲105.mp3"
     cq "危. . .险？"
     ch "嗯，最近九衢市经常出现霸凌机器人的事情. . .外面来说对你太危险了点"
     #show
-    voice "voice/cxly_voice/episode1/初咲106.mp3"
+    #voice "voice/cxly_voice/episode1/初咲106.mp3"
     cq "啊嘞？"
     #show
-    voice "voice/cxly_voice/episode1/初咲107.mp3"
+    #voice "voice/cxly_voice/episode1/初咲107.mp3"
     cq "还好啦"
     #show
-    voice "voice/cxly_voice/episode1/初咲108.mp3"
+    #voice "voice/cxly_voice/episode1/初咲108.mp3"
     cq "初咲我可是跑遍了整个九衢市都没有出任何问题的说！"
     ch ". . . . . ."
     "不知道为什么，在听了初咲说出了这句话后，我隐隐约约感觉到哪里有些奇怪，但说不出来哪里有些奇怪。"
     ch "先和我一起回家吧. . .之后的事情我会委托别人帮助你的. . ."
     "不管怎么样，先把初咲带回家才是当务之急。"
     #show
-    voice "voice/cxly_voice/episode1/初咲109.mp3"
+    #voice "voice/cxly_voice/episode1/初咲109.mp3"
     cq "这样啊. . ."
     "初咲的声音在那一瞬间低沉了下去很多"
     #show
-    voice "voice/cxly_voice/episode1/初咲110.mp3"
+    #voice "voice/cxly_voice/episode1/初咲110.mp3"
     cq "不过这样也好吧. . .主，人~"
     ch "别这样随便乱喊啊，我可没有同意和你有那样的交易！"
     #show
-    voice "voice/cxly_voice/episode1/初咲111.mp3"
+    #voice "voice/cxly_voice/episode1/初咲111.mp3"
     cq "好的好的，初咲是知道的噢。"
     "说完，初咲拉起我的手，朝着街的尽头跑去"
     #show
-    voice "voice/cxly_voice/episode1/初咲112.mp3"
+    #voice "voice/cxly_voice/episode1/初咲112.mp3"
     cq "快点跑起来吧,晚到的小孩可是要被批评的噢"
     ch ". . . . . ."
     "这一天，是我第一次握住女孩子的手. . ."
@@ -1334,97 +1340,97 @@ label episode1_1:
     #voice ""
     "初咲恋柚摁了摁门口这个老旧的门铃，非常有礼貌地站在门口静静地等待着"
     #show
-    voice "voice/cxly_voice/episode1/初咲113.mp3"
+    #voice "voice/cxly_voice/episode1/初咲113.mp3"
     cq "莫西莫西，请问有人吗？"
     ch "你放心，房子里面是没有人的"
     ch "快进去吧"
     #show
-    voice "voice/cxly_voice/episode1/初咲114.mp3"
+    #voice "voice/cxly_voice/episode1/初咲114.mp3"
     cq "是！"
 
     #（背景转为：带有一点科技感的客厅，晚）
     #show
-    voice "voice/cxly_voice/episode1/初咲115.mp3"
+    #voice "voice/cxly_voice/episode1/初咲115.mp3"
     cq "那个. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲116.mp3"
+    #voice "voice/cxly_voice/episode1/初咲116.mp3"
     cq "海川渡是一个人住在这里吗？"
     ch "这个嘛"
     ch "也不完全是，"
     ch "一个星期之前妈妈也住在这里面，不过她和爸爸都先我一步去日本了"
     ch "所以家里就只剩我一个人了"
     #show
-    voice "voice/cxly_voice/episode1/初咲117.mp3"
+    #voice "voice/cxly_voice/episode1/初咲117.mp3"
     cq "这样呀"
     #show
-    voice "voice/cxly_voice/episode1/初咲118.mp3"
+    #voice "voice/cxly_voice/episode1/初咲118.mp3"
     cq "那我就放心了"
     ch "放心什么？"
     #show
-    voice "voice/cxly_voice/episode1/初咲119.mp3"
+    #voice "voice/cxly_voice/episode1/初咲119.mp3"
     cq "我可以顺理成章地成为海川君的私人女仆了！"
     "看着空荡荡的客厅，初咲恋柚拿起了打扫用的扫帚，看上去很有干劲的样子"
     ch "不用这样的了，"
     ch "毕竟还有一个半月这个房子就用不到了"
     #show
-    voice "voice/cxly_voice/episode1/初咲120.mp3"
+    #voice "voice/cxly_voice/episode1/初咲120.mp3"
     cq "欸？为什么啊，明明看上去还没有旧到要卖出的地步吧？"
     ch "不是要卖掉"
     ch "因为一个半月之后我就要到东番去了，这间房子就没有人住了"
     #show
-    voice "voice/cxly_voice/episode1/初咲121.mp3"
+    #voice "voice/cxly_voice/episode1/初咲121.mp3"
     cq "唔呣. . ."
     "初咲恋柚直勾勾地盯着我看的眼神，让我忽然想起了那个女生——"
     "简直和她平时的习惯动作一模一样. . ."
     ch "那个，初咲"
     ch "你认识秋月吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲122.mp3"
+    #voice "voice/cxly_voice/episode1/初咲122.mp3"
     cq "唔呣. . ."
     "时间仿佛是在那一刻凝固了一样，初咲什么也没说，似乎是陷入了一会儿思考，但很快抬起头"
     #show
-    voice "voice/cxly_voice/episode1/初咲123.mp3"
+    #voice "voice/cxly_voice/episode1/初咲123.mp3"
     cq "报告主人，在我的记忆中完全没有检索到一个名叫‘秋月’的女生"
     ch "这样啊. . ."
     ch "应该是我太自作多情了点. . .明明初咲恋柚来自日本，又怎么可能会和那个女生牵扯上关系呢. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲124.mp3"
+    #voice "voice/cxly_voice/episode1/初咲124.mp3"
     cq "请问，主人说的这个‘秋月’，是个什么样的人呢. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲125.mp3"
+    #voice "voice/cxly_voice/episode1/初咲125.mp3"
     cq "如果有更多信息的话，初咲觉得自己应该能从九衢市居民名单上检索到主人想找的人"
     ch "没什么，只不过是长得和你很像而已. . ."
     ch "然后一直有件事想向她亲口说出来. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲126.mp3"
+    #voice "voice/cxly_voice/episode1/初咲126.mp3"
     cq "欸~！"
     #（拉长音）
     #show
-    voice "voice/cxly_voice/episode1/初咲127.mp3"
+    #voice "voice/cxly_voice/episode1/初咲127.mp3"
     cq "这种感觉. . .不会是. . .主人喜欢的人吧！？ "
     ch "不要乱讲啊喂！"
     ch "只是简单的朋友关系而已"
     ch "完全没有到那种地步. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲128.mp3"
+    #voice "voice/cxly_voice/episode1/初咲128.mp3"
     cq "真的只是‘而已’吗？ "#（拉长音）
     ch "好了好了，你也别吵了，今天就在客厅好好呆着，哪里都不要去"
     #show
-    voice "voice/cxly_voice/episode1/初咲129.mp3"
+    #voice "voice/cxly_voice/episode1/初咲129.mp3"
     cq "哈"#（打哈欠的声音）
     #show
-    voice "voice/cxly_voice/episode1/初咲130.mp3"
+    #voice "voice/cxly_voice/episode1/初咲130.mp3"
     cq "海川君，我要没电了. . .好困. . ."#（困倦语气）
     ch "啊嘞？"
     ch "原来机器人也需要充电的吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲131.mp3"
+    #voice "voice/cxly_voice/episode1/初咲131.mp3"
     cq "肯定啊. . .不然我该怎么工作啊. . ."#（困倦语气）
     ch "好的，我给你找一下适合你的充电器. . ."
     "眼前的初咲恋柚完全没有了刚刚的活力，看上去就是从一只活蹦乱跳的兔子一头撞上树干上那种一蹶不振的感觉"
     "摇摇摆摆的初咲如同刚刚酩酊大醉的少女般，"
     #show
-    voice "voice/cxly_voice/episode1/初咲132.mp3"
+    #voice "voice/cxly_voice/episode1/初咲132.mp3"
     cq "主人要记住噢. . .初咲的电量就算是满的也只能供应一天. . ."#（困倦语气）
     ch "找到了，给！"
 
@@ -1439,7 +1445,7 @@ label episode1_1:
     ch "没事吧？"
     ch "我赶快走上前去，"
     #show
-    voice "voice/cxly_voice/episode1/初咲133.mp3"
+    #voice "voice/cxly_voice/episode1/初咲133.mp3"
     cq "我没事的. . ."
 
     #（转到CG2：初咲恋柚的睡颜，背景墙壁，旁边有一个插线头）
@@ -1467,10 +1473,10 @@ label episode1_1:
     #（此处cg中的初咲眼角处的泪花变成了眼泪，缓缓地流了下来）
 
     #show
-    voice "voice/cxly_voice/episode1/初咲134.mp3"
+    #voice "voice/cxly_voice/episode1/初咲134.mp3"
     cq "我到底应该怎么办. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲135.mp3"
+    #oice "voice/cxly_voice/episode1/初咲135.mp3"
     cq "秋月. . ."
 
     #（此处背景转到房间，晚上）
@@ -1493,75 +1499,75 @@ label episode1_1:
     #（背景跳转到天花板上的灯）
 
     ch "喂喂，是蘭吗？"
-    voice "voice/l_voice/episode1/岩崎020.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎020.mp3"
     who "喂喂，这边是来自深渊的接应员"#（本句及以下岩崎天桐的话采用半日半中的方式）
     ch "这样的回答，也只可能是那个被蘭称作“中二机器人”了. . ."
     ch ". . . . . ."
     ch "岩崎，别开玩笑了，蘭在不在，是很重要的事情"
-    voice "voice/l_voice/episode1/岩崎021.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎021.mp3"
     yq "放心，就让深渊来给你想要的答案吧~"
     ch ". . . . . ."
     ch "你再这样说话我就要挂电话了"
-    voice "voice/l_voice/episode1/岩崎022.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎022.mp3"
     yq "诶诶，别着急别着急，我才哄完小蘭睡着"
-    voice "voice/l_voice/episode1/岩崎023.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎023.mp3"
     yq "这边也只有我这一个接应人能回复你"
-    voice "voice/l_voice/episode1/岩崎024.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎024.mp3"
     yq "我猜. . .是关于初咲的事情对吧"
     ch "岩崎天桐总是能很敏锐地察觉到我的想法. . .这让我总以为他能完完全全看透我的心思"
     ch "是"
     ch "我说，蘭怎么把这件事情推给了我. . ."
     ch "她应该也知道把初咲送回日本基本上是不可能的事情对吧！"
     ch "还有你们为什么不把初咲交给警察来处理. . ."
-    voice "voice/l_voice/episode1/岩崎025.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎025.mp3"
     yq "诶，. . .你先别着急"
-    voice "voice/l_voice/episode1/岩崎026.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎026.mp3"
     yq "交给警察处置的话，想必下场就是被肢解开来，最后报废，这样很简单粗暴吧. . ."
-    voice "voice/l_voice/episode1/岩崎027.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎027.mp3"
     yq "但如果交给海川的话情况就会好转很多了. . ."
     #voice ""
     ch "再怎么说，到日本去也要经历海关那一道关卡吧！这也肯定是违法的啊！"
     ch "不会有人真的愿意冒这样的风险吧！"
     ch "况且，你的主人肯定也不敢答应初咲的要求吧. . ."
-    voice "voice/l_voice/episode1/岩崎028.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎028.mp3"
     yq "这件事确实让我的主上大人很为难，"
-    voice "voice/l_voice/episode1/岩崎029.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎029.mp3"
     yq "不过主上大人本来是执意要帮助初咲的"
-    voice "voice/l_voice/episode1/岩崎030.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎030.mp3"
     yq "但如果帮她的结果就是我会留在九衢市"
     ch "留在. . .九衢市？"
     ch "什么意思？"
-    voice "voice/l_voice/episode1/岩崎031.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎031.mp3"
     yq "海川可真是不灵光啊"
-    voice "voice/l_voice/episode1/岩崎032.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎032.mp3"
     yq "就是字面意思"
-    voice "voice/l_voice/episode1/岩崎033.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎033.mp3"
     yq "我没办法再陪小蘭一起去东番了"
     ch "所以说. . .你们是想到了通过. . .项目？"
-    voice "voice/l_voice/episode1/岩崎034.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎034.mp3"
     yq "没错，就是利用东番国立高大的项目便捷之处"
-    voice "voice/l_voice/episode1/岩崎035.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎035.mp3"
     yq "正因为这个项目，你可以携带一个和我一样的仿生机器人. . ."
-    voice "voice/l_voice/episode1/岩崎036.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎036.mp3"
     yq "就算是海川担心的是能不能过海关"
-    voice "voice/l_voice/episode1/岩崎037.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎037.mp3"
     yq "我相信，以东番国立高大的名声，这样的一个新生独立通道也不会很难为人吧. . ."
-    voice "voice/l_voice/episode1/岩崎038.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎038.mp3"
     yq "刚好海川的项目上是没有申请填写机器人的对吧？"
     ch "我好像明白了"
     ch "但是. . ."
-    voice "voice/l_voice/episode1/岩崎039.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎039.mp3"
     yq "海川肯定不能理解主人不在身边的那种滋味吧. . .？"
-    voice "voice/l_voice/episode1/岩崎040.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎040.mp3"
     yq "那种感觉. . .是很不好受的"
-    voice "voice/l_voice/episode1/岩崎041.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎041.mp3"
     yq "小蘭如果哪一天不在了的话. . .我想我也会求着海川把我杀死吧. . ."
     ch ". . . . . ."
     "岩崎突然间的严肃气氛让我有些喘不上气来"
     "郑重起来的岩崎简直和平常的自己完全是两种感觉. . ."
-    voice "voice/l_voice/episode1/岩崎042.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎042.mp3"
     yq "总之回见了，挚友！明天下午，老地方不见不散"
-    voice "voice/l_voice/episode1/岩崎043.mp3"
+    #voice "voice/yqtt_voice/episode1/岩崎043.mp3"
     yq "你也早点休息吧"
     #voice ""
     #（播放电话挂断的效果音，"嘟嘟嘟"）
@@ -1622,25 +1628,25 @@ label episode1_1:
     #（黑幕切场，此处背景转到白日，房间）
 
     #show
-    voice "voice/cxly_voice/episode1/初咲136.mp3"
+    #voice "voice/cxly_voice/episode1/初咲136.mp3"
     cq "主人，主人，快起来了！"
     ch ". . . . . ."
     ch "我这是. . .睡着了吗？"
     #show
-    voice "voice/cxly_voice/episode1/初咲137.mp3"
+    #voice "voice/cxly_voice/episode1/初咲137.mp3"
     cq "都已经快到中午了！趴在桌子上怎么能够睡得好觉呢？！"
     "我低头看了看屏幕上显示的时间，不多不少是“10：00”"
     ch "果然很晚了啊. . ."
     "我揉了揉已经被压酸了的胳膊，忽然想起来昨天竟然就这样趴在桌子上睡着了。"
     #show
-    voice "voice/cxly_voice/episode1/初咲138.mp3"
+    #voice "voice/cxly_voice/episode1/初咲138.mp3"
     cq "盯. . ."
     ch "初咲恋柚也注意到了在我电脑上的各种资料，在扫过一遍上面的内容后，很快就向我投来惊讶的目光"
     #show
-    voice "voice/cxly_voice/episode1/初咲139.mp3"
+    #voice "voice/cxly_voice/episode1/初咲139.mp3"
     cq "原来如此. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲140.mp3"
+    #voice "voice/cxly_voice/episode1/初咲140.mp3"
     cq "谢谢主人！！！"
     "还没等我反应过来，初咲已经飞快地扑到了我的身上，用力地搂住我"
     ch "喂喂，你在干什么啊. . ."
@@ -1650,32 +1656,32 @@ label episode1_1:
     ch "好了好了，快放开我"
     ch "在这样用力的话我是会被勒死的！"
     #show
-    voice "voice/cxly_voice/episode1/初咲141.mp3"
+    #voice "voice/cxly_voice/episode1/初咲141.mp3"
     cq "啊，抱歉抱歉！"
     #show
-    voice "voice/cxly_voice/episode1/初咲142.mp3"
+    #voice "voice/cxly_voice/episode1/初咲142.mp3"
     cq "唔. . .辛苦海川了. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲143.mp3"
+    #voice "voice/cxly_voice/episode1/初咲143.mp3"
     cq "完全没有想到主人竟然会这么认真地对待我的事情. . ."
     ch ". . ."
     ch "既然我已经做过了详细的调查，就来和初咲简单说一下我们需要解决的难题"
     #show
-    voice "voice/cxly_voice/episode1/初咲144.mp3"
+    #voice "voice/cxly_voice/episode1/初咲144.mp3"
     cq "好的！"
     ch "首先，你要回到日本的话，就无可避免地要通过海关"
     #show
-    voice "voice/cxly_voice/episode1/初咲145.mp3"
+    #voice "voice/cxly_voice/episode1/初咲145.mp3"
     cq "是这样子的"
     ch "那么就会遇到两个最重要，而且是最棘手的问题"
     #show
-    voice "voice/cxly_voice/episode1/初咲146.mp3"
+    #voice "voice/cxly_voice/episode1/初咲146.mp3"
     cq "两个问题？"
     ch "是的。"
     ch "一个是初咲的身份"
     ch "另一个是初咲的语言"
     #show
-    voice "voice/cxly_voice/episode1/初咲147.mp3"
+    #voice "voice/cxly_voice/episode1/初咲147.mp3"
     cq "身份？语言？"
     ch "嗯嗯"
     ch "身份就是你的铭牌"
@@ -1683,24 +1689,24 @@ label episode1_1:
     ch "这样是很危险的，而且在经过海关的时候是肯定会被查出来的. . ."
     ch "本来日产的仿生机器人出现在中国境内就属于是触碰法律边缘底线的行为了"
     #show
-    voice "voice/cxly_voice/episode1/初咲148.mp3"
+    #voice "voice/cxly_voice/episode1/初咲148.mp3"
     cq "这样啊. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲149.mp3"
+    #voice "voice/cxly_voice/episode1/初咲149.mp3"
     cq "也就是说，主人如果是把初咲故意丢在中国的话. . ."
     "在初咲的脸上，很明显地写上了“失望”这两个大字"
     ch "不是这样的. . ."
     ch "我相信初咲恋柚原本的主人肯定是有什么别的原因吧. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲150.mp3"
+    #voice "voice/cxly_voice/episode1/初咲150.mp3"
     cq "诶？"
     ch "就是. . ."
     ch "既然要求把你设计地这么可爱的. . .我想年纪应该也不会很大. . .大概. . .也不会是我们想到的那样故意遗弃你. . .？"
     #show
-    voice "voice/cxly_voice/episode1/初咲151.mp3"
+    #voice "voice/cxly_voice/episode1/初咲151.mp3"
     cq "是的呢！原先的主人和海川君的年纪差不多呢！"
     #show
-    voice "voice/cxly_voice/episode1/初咲152.mp3"
+    #voice "voice/cxly_voice/episode1/初咲152.mp3"
     cq "说起来. . .原来的主人也确实对初咲非常好"
     ch "是吧. . ."
     ch "咳咳. . .回到正题"
@@ -1712,55 +1718,55 @@ label episode1_1:
     ch "因为我也学过一点相关的知识. . ."
     ch "仿生机器人的话，应该也是可以说全部的语言对吧？要不. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲153.mp3"
+    #voice "voice/cxly_voice/episode1/初咲153.mp3"
     cq "这个嘛. . .其实用我存储的翻译系统说出中文来也是没问题的"
     #show
-    voice "voice/cxly_voice/episode1/初咲154.mp3"
+    #voice "voice/cxly_voice/episode1/初咲154.mp3"
     cq "只不过没有经过算法的训练. . .说出来会很奇怪的. . ."
     ch "要不初咲先试试说出中文？"
     #show
-    voice "voice/cxly_voice/episode1/初咲155.mp3"
+    #voice "voice/cxly_voice/episode1/初咲155.mp3"
     cq "真的吗. . .中文. . ."
     ch "嗯嗯"
     #show
-    voice "voice/cxly_voice/episode1/初咲156.mp3"
+    #voice "voice/cxly_voice/episode1/初咲156.mp3"
     cq "那. . .我开始了"
     #show
-    voice "voice/cxly_voice/episode1/初咲157.mp3"
+    #voice "voice/cxly_voice/episode1/初咲157.mp3"
     cq "比如说. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲158.mp3"
+    #voice "voice/cxly_voice/episode1/初咲158.mp3"
     cq "海川君，中午好？"#（日式中文）
     #show
-    voice "voice/cxly_voice/episode1/初咲159.mp3"
+    #voice "voice/cxly_voice/episode1/初咲159.mp3"
     cq "现在需要我做些什么吗？"#（日式中文）
     ch ". . ."
     ch "不行"
     ch "只有这样‘机翻’的水平的话是完全行不通的"
     #show
-    voice "voice/cxly_voice/episode1/初咲160.mp3"
+    #voice "voice/cxly_voice/episode1/初咲160.mp3"
     cq "我就说吧. . .这样子没训练过的中文说出口. . .会让我很为难的！"
     ch "我早就猜到了会是这个样子. . ."
     ch "所以说，我们会进行中文的特训。"
     #show
-    voice "voice/cxly_voice/episode1/初咲161.mp3"
+    #voice "voice/cxly_voice/episode1/初咲161.mp3"
     cq "诶？？？"
     #show
-    voice "voice/cxly_voice/episode1/初咲162.mp3"
+    #voice "voice/cxly_voice/episode1/初咲162.mp3"
     cq "主人是要教初咲学中文吗？"
     ch "没错"
     ch "而且是要达到和我差不多的中文水准才行"
     #show
-    voice "voice/cxly_voice/episode1/初咲163.mp3"
+    #voice "voice/cxly_voice/episode1/初咲163.mp3"
     cq "唔. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲164.mp3"
+    #voice "voice/cxly_voice/episode1/初咲164.mp3"
     cq "初咲不想学习"
     #show
-    voice "voice/cxly_voice/episode1/初咲165.mp3"
+    #voice "voice/cxly_voice/episode1/初咲165.mp3"
     cq "更不想学习中文. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲166.mp3"
+    #voice "voice/cxly_voice/episode1/初咲166.mp3"
     cq "疼疼疼. . ."
     "我把手做成劈刀状，然后轻轻地敲在初咲的脑门上"
     ch "没想到对于这种高性能的仿生机器人竟然也会有这种可爱的反应. . .完全和现实中那种可爱的女孩子一模一样诶. . ."
@@ -1768,39 +1774,39 @@ label episode1_1:
     ch "不系统学习中文的话，初咲根本没有机会回到日本，找到原来的主人"
     ch "今天你在家里好好呆着，我去图书馆借一些中文方面的参考书籍"
     #show
-    voice "voice/cxly_voice/episode1/初咲167.mp3"
+    #voice "voice/cxly_voice/episode1/初咲167.mp3"
     cq "诶. . .主人不带着我一起吗？"
     ch "不行，"
     ch "初咲是日本型号的，基本上出去就会被认出来是仿生机器人！"
     ch "在这之前，还是先别在外面乱跑. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲168.mp3"
+    #voice "voice/cxly_voice/episode1/初咲168.mp3"
     cq "主人，就带我出去一次好不好！"
     #show
-    voice "voice/cxly_voice/episode1/初咲169.mp3"
+    #voice "voice/cxly_voice/episode1/初咲169.mp3"
     cq "就一次！"
     ch ". . ."
     ch ". . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲170.mp3"
+    #voice "voice/cxly_voice/episode1/初咲170.mp3"
     cq "求求主人啦~"
     ch "好吧. . ."
     ch "出门的话也没问题"
     #show
-    voice "voice/cxly_voice/episode1/初咲171.mp3"
+    #voice "voice/cxly_voice/episode1/初咲171.mp3"
     cq "好耶！"
     ch "不过你需要答应我一件事"
     ch "出去的话，就算是一点点日语也不能说. . ."
     ch "初咲要是答应我的话. . ."
     #show
-    voice "voice/cxly_voice/episode1/初咲172.mp3"
+    #voice "voice/cxly_voice/episode1/初咲172.mp3"
     cq "没问题，交给我吧！"
     #show
-    voice "voice/cxly_voice/episode1/初咲173.mp3"
+    #voice "voice/cxly_voice/episode1/初咲173.mp3"
     cq "初咲保证，一定不会说任何日语！"
     ch "行，那就先去图书馆找找资料吧"
     #show
-    voice "voice/cxly_voice/episode1/初咲174.mp3"
+    #voice "voice/cxly_voice/episode1/初咲174.mp3"
     cq "嗯嗯！"
     #voice ""
     #（播放效果音：关门声）
