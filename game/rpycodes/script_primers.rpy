@@ -2,7 +2,9 @@
 label start:
     scene bg1
     #play music "bgm/九衢长街/九衢长街新版.mp3"
-    play music "bgm/pv/renai_piano_ver.mp3"
+    #play music "bgm/pv/renai_piano_ver.mp3"
+    stop music
+    play music "bgm/ATRI_try.mp3"
     "叮叮. . .咚咚. . . . . ."#（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
     #voice "voice/cxly_voice/episode1/初咲001.mp3"
@@ -82,6 +84,7 @@ label start:
     "我想我在那一刻，也明白了. . .因为， "
     "这是我们故事的开端. . ."
     "也是我们故事的终局. . ."
+    stop music
     jump episode1_1
 
     #（黑幕淡出，播放Episode 01界面画面"被遗弃的冬日旋律"）

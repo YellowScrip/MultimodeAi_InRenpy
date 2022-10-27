@@ -17,6 +17,7 @@ define config.say_attribute_transition = dissolve
 
 #设置背景图
 image bg1 = "images/background/b1.jpg"
+image bg2 = "images/background/consult_desk.png"
 
 #设置角色头像（可以删除）
 image side cqly a = "images/characters/cxly/cxly_3" #定义初崎恋柚的头像1，side a
