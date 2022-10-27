@@ -19,11 +19,11 @@ define config.say_attribute_transition = dissolve
 image bg1 = "images/background/b1.jpg"
 
 #设置角色头像（可以删除）
-image side cqly a = "images/characters/cqly_origin/cqly_a4.png" #定义初崎恋柚的头像1，side a
-image side cqly b = "images/characters/cqly_origin/cqly_b4.png" #定义初崎恋柚的头像2，side b
+image side cqly a = "images/characters/cxly/cxly_3" #定义初崎恋柚的头像1，side a
+image side cqly b = "images/characters/cxly/cxly_3" #定义初崎恋柚的头像2，side b
 
-image cqly a = "characters/images/cqly_aa1"
-image cqly b = "characters/images/cqly_aa1"
+image cqly a = "characters/images/cxly/cxly_3"
+image cqly b = "characters/images/cxly/cxly_4"
 
 
 #设置背景音乐，效果音及bgm

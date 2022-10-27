@@ -1,7 +1,8 @@
 ﻿
 label start:
     scene bg1
-    #play sound ""
+    #play music "bgm/九衢长街/九衢长街新版.mp3"
+    play music "bgm/pv/renai_piano_ver.mp3"
     "叮叮. . .咚咚. . . . . ."#（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
     #voice "voice/cxly_voice/episode1/初咲001.mp3"
