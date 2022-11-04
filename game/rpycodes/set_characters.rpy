@@ -5,9 +5,13 @@ define ch = Character("我",ctc="ctc",ctc_position = "nestled")
 define ma = Character("海川花",ctc="ctc",ctc_position = "nestled")
 define xy = Character("西野玥奈",ctc="ctc",ctc_position = "nestled")
 define yq = Character("岩崎天桐",ctc="ctc",ctc_position = "nestled")
+define yqcall = Character("岩崎天桐（电话）",ctc="ctc",ctc_position = "nestled")
 define l = Character("蘭",ctc="ctc",ctc_position = "nestled")
 define jqgb = Character("九衢广播",ctc="ctc",ctc_position = "nestled")
 define ym = Character("野猫",ctc="ctc",ctc_position = "nestled")
+define mrquan = Character("阿泉先生",ctc="ctc",ctc_position = "nestled")
+define libaryanounce = Character("图书馆的广播",ctc="ctc",ctc_position = "nestled")
+define mrqiu = Character("秋师傅",ctc="ctc",ctc_position = "nestled")
 
 #设置能够回退对话的最大次数
 #define config.hard_rollback_limit = 0
@@ -32,5 +36,5 @@ define m1 = "bgm/Curious everyday.mp3"
 define m2 = "bgm/九衢长街/九衢长街新版.mp3"
 
 
-define config.allow_skipping = False
+#define config.allow_skipping = False
 

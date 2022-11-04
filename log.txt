@@ -1,4 +1,4 @@
-Thu Oct 27 11:31:02 2022
+Fri Nov  4 00:39:07 2022
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
@@ -6,33 +6,32 @@ Ren'Py 8.0.3.22090809
 Bootstrap to the start of init.init took 0.04s
 Early init took 0.00s
 Loader init took 0.04s
-Loading error handling took 0.04s
-Loading script took 0.41s
-Loading save slot metadata. took 0.12s
+Loading error handling took 0.03s
+Loading script took 0.31s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.05s
-Loading analysis data took 0.04s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.04s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
+Creating interface object took 0.33s
 Cleaning stores took 0.00s
 Init translation took 0.04s
 Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save bytecode. took 0.04s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.09s
@@ -45,65 +44,27 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
 Resetting cache.
-Bootstrap to the start of init.init took 109.28s
+Bootstrap to the start of init.init took 41.81s
 Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.03s
-Loading script took 0.14s
+Loading script took 0.19s
 Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
+Running init code took 0.04s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.13s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1236.29s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.03s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
 Dump and make backups. took 0.04s
@@ -113,14 +74,178 @@ Initial gc. took 0.05s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
+Creating interface object took 0.28s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 3181, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 53, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 743, in event
+    rv = self.child.event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1073, in event
+    return handle_click(self.clicked)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1008, in handle_click
+    rv = run(action)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\game.py", line 286, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 378, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 2042, in render
+    cr = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 944, in render
+    top = render(self.top, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 222, in renpy.display.render.render
+AttributeError: 'NoneType' object has no attribute 'style'
+
+While running game code:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+AttributeError: 'NoneType' object has no attribute 'style'
+Resetting cache.
+Bootstrap to the start of init.init took 70.88s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.27s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -135,104 +260,7 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 1331.63s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.35s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1783.87s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.27s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
@@ -241,58 +269,20 @@ Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
-Resetting cache.
-Bootstrap to the start of init.init took 1907.15s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.28s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 1931.74s
+Bootstrap to the start of init.init took 145.09s
 Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.02s
-Loading script took 0.28s
-Loading save slot metadata. took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.03s
@@ -303,18 +293,18 @@ Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\ren
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.07s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.29s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -329,15 +319,134 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
 Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 3181, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 53, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 743, in event
+    rv = self.child.event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1073, in event
+    return handle_click(self.clicked)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1008, in handle_click
+    rv = run(action)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\game.py", line 286, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 378, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 2042, in render
+    cr = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 944, in render
+    top = render(self.top, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 222, in renpy.display.render.render
+AttributeError: 'NoneType' object has no attribute 'style'
+
+While running game code:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+AttributeError: 'NoneType' object has no attribute 'style'
 Resetting cache.
-Bootstrap to the start of init.init took 1948.78s
+Bootstrap to the start of init.init took 240.37s
 Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.02s
+Loading script took 0.17s
+Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.03s
@@ -348,13 +457,13 @@ Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\ren
 Dump and make backups. took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.05s
+Initial gc. took 0.07s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
 Creating interface object took 0.27s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
@@ -374,30 +483,142 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 3181, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4258, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 53, in event
+    return self.new_widget.event(ev, x, y, st) # E1101
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 743, in event
+    rv = self.child.event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1175, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 1399, in event
+    rv = super(Window, self).event(ev, x, y, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 279, in event
+    rv = d.event(ev, x - xo, y - yo, st)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1073, in event
+    return handle_click(self.clicked)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 1008, in handle_click
+    rv = run(action)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\game.py", line 286, in invoke_in_new_context
+    return callable(*args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3912, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 2602, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 495, in renpy.display.render.render_screen
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 378, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 704, in render
+    child = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 884, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\layout.py", line 2042, in render
+    cr = renpy.display.render.render(self.child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 266, in renpy.display.render.render
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\transition.py", line 944, in render
+    top = render(self.top, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 222, in renpy.display.render.render
+AttributeError: 'NoneType' object has no attribute 'style'
+
+While running game code:
+  File "renpy/common/00start.rpy", line 314, in script call
+    call expression "before_main_menu"
+  File "game/rpycodes/initgame.rpy", line 167, in script
+    call screen main_menu()
+  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "renpy/common/00gallery.rpy", line 155, in __call__
+    renpy.invoke_in_new_context(self.gallery.show, self.index)
+  File "renpy/common/00gallery.rpy", line 519, in show
+    result = i.show((button, image) not in unlocked_images, image, len(b.images))
+  File "renpy/common/00gallery.rpy", line 106, in show
+    return ui.interact()
+AttributeError: 'NoneType' object has no attribute 'style'
 Resetting cache.
-Bootstrap to the start of init.init took 2487.44s
+Bootstrap to the start of init.init took 258.74s
 Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.51s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.17s
 Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.03s
 Analyze and compile ATL took 0.05s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
+Dump and make backups. took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.06s
+Initial gc. took 0.07s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
+Creating interface object took 0.27s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
@@ -409,7 +630,7 @@ Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2160, 1440)
@@ -419,140 +640,5 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2602.52s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2746.16s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.41s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2895.72s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata. took 0.02s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Screen sizes: virtual=(1920, 1080) physical=(2048, 1152) drawable=(2048, 1152)
 Maximum texture size: 4096x4096

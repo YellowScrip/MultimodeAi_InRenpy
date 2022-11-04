@@ -5,6 +5,34 @@ label start:
     #play music "bgm/pv/renai_piano_ver.mp3"
     stop music
     play music "bgm/ATRI_try.mp3"
+
+    $ persistent.unlock_1 = True
+    $ persistent.unlock_2 = True
+    $ persistent.unlock_3 = True
+    $ persistent.unlock_4 = True
+    $ persistent.unlock_0 = True
+    scene beach3
+    "测试"
+    image a = "gallery/a.jpg"
+    scene a
+    "测试"
+    scene dawn1
+    "测试"
+    scene b1
+    "测试"
+    scene p1
+    "测试"
+    scene p3
+    "测试"
+    show beach1 mary
+    "测试"
+    scene transfer
+    "测试"
+    scene moonpic
+    "测试"
+    scene girlpic
+
+
     "叮叮. . .咚咚. . . . . ."#（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
     #voice "voice/cxly_voice/episode1/初咲001.mp3"
@@ -36,54 +64,102 @@ label start:
     #（转场，切换到书房）
     voice "voice/cxly_voice/episode1/初咲001.mp3"
     who "不对哦！完全不对！"
+    voice sustain
     "一个熟悉声音从我的耳边飘过"
+    voice sustain
     "几乎是下意识之间，我向四周望过去"
+    voice sustain
     "除了散落在地板上的各种物件之外，整个房间都空荡荡的，没有其他人的踪迹"
+    voice sustain
     "我在凌乱的地板上拿起了这本日记本，然后打开了它"
+    voice sustain
     "窗外的夕阳为日记的卷首镀上了一层烫金的纹路，带给了我不少暖意"
+    voice sustain
     "突然间，些许的违和感充斥了我的双眼"
+    voice sustain
     "那是一个歪歪扭扭地写着的，我不知道重温了多少遍的词语——"
+    voice sustain
     "这是由日语中简单的罗马音组成的词"
+    voice sustain
     "renai"
+    voice sustain
     "译为‘恋爱’"
+    voice sustain
     "可是她却习惯性地把它读成‘re’‘nai’"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲002.mp3"
+    voice sustain
     who "应该读‘re nai’噢！"
+    voice sustain
     "她告诉我说"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲003.mp3"
+    voice sustain
     who "‘re’是一个英文中的词根，有着‘重新’，‘再次’的意思"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲004.mp3"
+    voice sustain
     who "‘nai’也是取自英文，有着‘出生’，‘生来的’的意思"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲005.mp3"
+    voice sustain
     who "字面意思就是‘复生’"
+    voice sustain
     "当时的我并没有听懂她在说什么"
+    voice sustain
     "只是稍微感觉到有点奇怪"
+    voice sustain
     "我还是执意告诉她："
+    voice sustain
     ch "renai就是日语中‘恋爱’的意思"
+    voice sustain
     "她惊讶地看着我，然后摇了摇头，并没有听懂我在说什么"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲006.mp3"
+    voice sustain
     who "肯定是主人搞错了！"
+    voice sustain
     "直到今天"
+    voice sustain
     "日记上面赫然出现的‘renai’，让我再次想起了她"
+    voice sustain
     #（镜头转到码头，露出初咲恋柚鼻子以下的部分，平滑右移）
     "晶莹的泪滴从她的脸上滚落"
+    voice sustain
     "她站在我的面前，这样说道："
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲007.mp3"
+    voice sustain
     who "我懂了！"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲008.mp3"
+    voice sustain
     who "‘renai’就是‘恋爱’的意思. . ."#（两者日语读音相同）"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲009.mp3"
+    voice sustain
     who "‘幸福’，"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲010.mp3"
+    voice sustain
     who "‘未来’，"
+    voice sustain
     voice "voice/cxly_voice/episode1/初咲011.mp3"
+    voice sustain
     who "‘爱’。"
+    voice sustain
     #voice "voice/cxly_voice/episode1/初咲012.mp3"
+    voice sustain
     who "谢谢你，海川君！"
+    voice sustain
     "我看着她的微笑，也释然地对她笑了起来 "
+    voice sustain
     "我想我在那一刻，也明白了. . .因为， "
+    voice sustain
     "这是我们故事的开端. . ."
+    voice sustain
     "也是我们故事的终局. . ."
+    voice sustain
     stop music
     jump episode1_1
 

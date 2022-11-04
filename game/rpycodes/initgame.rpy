@@ -8,9 +8,97 @@ init:
 init python:
     import pygame
     import webbrowser
+    import collections
     style.default.layout = "greedy"
 
-    #创建一个音乐空间实例
+    if persistent.unlock_1 == None:
+        persistent.unlock_1 = False
+
+    if persistent.unlock_2 == None:
+        persistent.unlock_2 = False
+
+    if persistent.unlock_3 == None:
+        persistent.unlock_3 = False
+
+    if persistent.unlock_4 == None:
+        persistent.unlock_4 = False
+
+    if persistent.unlock_0 == None:
+        persistent.unlock_0 = False
+
+    buttons = [
+        ## 只有一张图的cg
+        GalleryButtonEntry(name="dawn", images=["b1",""],
+        condition="persistent.unlock_0"),
+
+        ## 多张cg，有转场效果
+        GalleryButtonEntry(name="dark", images=["gallery/a",
+            "beach1 mary", "beach2", "beach3"], transform=slideawayleft),
+
+        ## 需要unlock_1是true才会解锁
+        GalleryButtonEntry(name="end1",
+        images=["transfer", "moonpic", "girlpic"],
+        condition="persistent.unlock_1"),
+
+        ## 需要unlock_2是true才会解锁
+        GalleryButtonEntry(name="end2",
+        images=["transfer1", "moonpic", "girlpic"],
+        condition="persistent.unlock_2"),
+
+        ## 需要unlock_3是true才会解锁
+        GalleryButtonEntry(name="end3",
+        images=["transfer", "moonpic", "girlpic"],
+        condition="persistent.unlock_3"),
+
+        ## 需要unlock_4是true才会解锁
+        GalleryButtonEntry(name="end4",
+        images=["transfer", "moonpic", "girlpic"],
+        condition="persistent.unlock_4"),
+
+        ## 单一图的cg
+        GalleryButtonEntry(name="p1",
+        images=["p1"]),
+
+        GalleryButtonEntry(name="p2",
+        images=["p2"]),
+
+        GalleryButtonEntry(name="p3",
+        images=["p3"]),
+
+        GalleryButtonEntry(name="p4",
+        images=["p3"]),
+
+        GalleryButtonEntry(name="p5",
+        images=["p3"]),
+
+        GalleryButtonEntry(name="p6",
+        images=["p3"]),
+
+        GalleryButtonEntry(name="p7",
+        images=["p3"]),
+
+        GalleryButtonEntry(name="p8",
+        images=["p3"]),
+    ]
+
+    g = Gallery()
+    g.locked_button = Composite(
+        (GalleryButtonEntry.SLOT_WIDTH,
+        GalleryButtonEntry.SLOT_HEIGHT),
+        (0, 0), Solid("#000"),
+        (125,55), Text("未解锁", size=50, color="#fff"))
+
+    g.button("beach3")
+    g.unlock_image("beach3")
+    # 用于图像切换使用的转场(transition)。
+    g.transition = dissolve
+
+    gh = GalleryHandler(buttons)
+    gh.init_gallery(g)
+
+
+
+####     创建一个音乐空间实例
     mr = MusicRoom(fadeout=1.0)
     mr.add("audio/main_menu_bgm_cir_version.mp3",always_unlocked=True)
     mr.add("bgm/pv/Renai_PV.mp3",always_unlocked=True)
@@ -20,6 +108,7 @@ init python:
     mr.add("bgm/烟火大会插曲/Pyrotechnic_convention_and_enthusiasm.mp3",always_unlocked=True)
     mr.add("bgm/饰演与舞台表演/afternoon.mp3",always_unlocked=True)
     mr.add("bgm/和初咲的学习时间/到学习时间勒！.mp3",always_unlocked=True)
+    mr.add("bgm/pv/renai_piano_ver.mp3",always_unlocked=True)
 
 
     class PlayerButton:
@@ -45,18 +134,31 @@ init python:
     play_button = PlayerButton(mr=mr)
 
 
+####         创建一个Gallery实例
+
+
+## 定义画廊里按钮的高度和宽度。
+define gui.gallery_slot_height = 100
+define gui.gallery_slot_width = 200
+define gui.gallery_slot_cols = 3
+define gui.gallery_slot_rows = 2
+
+
+
+
+
 #设置游戏开场的动画及其他
-label splashscreen:
-    image beforegame1 = Movie(play="videos/start logo.mpg",loops=0,stop_music=True)
-    image beforegame2 = Movie(play="videos/logo.mpeg",loops=0,stop_music=True)
-    show beforegame1
-    $ renpy.pause(9.35,hard = True)#时长是你视频的长度，播完自动退出
-    hide beforegame1
-    show beforegame2
-    $ renpy.pause(6.0,hard = True)#时长是你视频的长度，播完自动退出
-    hide beforegame2
-    $ renpy.pause(1.5,hard = True)
-    return
+# label splashscreen:
+#     image beforegame1 = Movie(play="videos/start logo.mpg",loops=0,stop_music=True)
+#     image beforegame2 = Movie(play="videos/logo.mpeg",loops=0,stop_music=True)
+#     show beforegame1
+#     $ renpy.pause(9.35,hard = True)#时长是你视频的长度，播完自动退出
+#     hide beforegame1
+#     show beforegame2
+#     $ renpy.pause(6.0,hard = True)#时长是你视频的长度，播完自动退出
+#     hide beforegame2
+#     $ renpy.pause(1.5,hard = True)
+#     return
 
 
 #游戏结束后返回界面的函数，必须存在

@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/set_characters.rpy", line 19: expected 'image_name_component' not found.
-    image 
-          ^
+File "game/rpycodes/initgame.rpy", line 32: invalid syntax
+            condition="persistent.unlock_0"),
+                      ^
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Thu Oct 27 00:52:27 2022
+Fri Nov  4 00:35:27 2022

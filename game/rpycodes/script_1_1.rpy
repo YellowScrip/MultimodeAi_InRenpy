@@ -1,14 +1,16 @@
 ﻿
-    ###  episode1上半部分 ################
+###  episode1上半部分 ################
 label episode1_1:
+    $ config.allow_skipping = False
     window hide
-    image episode1_video = Movie(play="videos/episode_video/episode1.mpg",loops=0,stop_music=True)
-    show episode1_video
+    image episode1_video1 = Movie(play="videos/episode_video/episode1.mpg",loops=0,stop_music=True)
+    show episode1_video1
     $ renpy.pause(4.5,hard = True)#时长是你视频的长度，播完自动退出
-    hide episode1_video
+    hide episode1_video1
     scene bg2
     play music "bgm/九衢长街/九衢长街新版.mp3"
     $ renpy.pause(1.0,hard = True)#时长是你视频的长度，播完自动退出
+    $ config.allow_skipping = True
     #（黑幕淡出，播放episode1 01界面画面"被遗弃的冬日旋律"）
 
     #背景：多云天气，街道
@@ -1814,4 +1816,4 @@ label episode1_1:
     cq "嗯嗯！"
     #voice ""
     #（播放效果音：关门声）
-    return
+    jump episode1_2
