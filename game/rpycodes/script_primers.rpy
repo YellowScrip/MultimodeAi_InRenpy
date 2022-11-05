@@ -1,66 +1,82 @@
 ﻿
 label start:
-    scene bg1
+
     #play music "bgm/九衢长街/九衢长街新版.mp3"
     #play music "bgm/pv/renai_piano_ver.mp3"
     stop music
     play music "bgm/ATRI_try.mp3"
 
-    $ persistent.unlock_1 = True
-    $ persistent.unlock_2 = True
-    $ persistent.unlock_3 = True
-    $ persistent.unlock_4 = True
-    $ persistent.unlock_0 = True
-    scene beach3
-    "测试"
-    image a = "gallery/a.jpg"
-    scene a
-    "测试"
-    scene dawn1
-    "测试"
-    scene b1
-    "测试"
-    scene p1
-    "测试"
-    scene p3
-    "测试"
-    show beach1 mary
-    "测试"
-    scene transfer
-    "测试"
-    scene moonpic
-    "测试"
-    scene girlpic
+#     $ persistent.unlock_1 = True
+#     $ persistent.unlock_2 = True
+#     $ persistent.unlock_3 = True
+#     $ persistent.unlock_4 = True
+#     $ persistent.unlock_0 = True
+#     scene beach3
+#     "测试"
+#     image a = "gallery/a.jpg"
+#     scene a
+#     "测试"
+#     scene dawn1
+#     "测试"
+#     scene b1
+#     "测试"
+#     scene p1
+#     "测试"
+#     scene p3
+#     "测试"
+#     show beach1 mary
+#     "测试"
+#     scene transfer
+#     "测试"
+#     scene moonpic
+#     "测试"
+#     scene girlpic
+    play sound "audio/风铃.mp3"
+    show bg1 with shot6
+    #pause 5.0
 
-
-    "叮叮. . .咚咚. . . . . ."#（声音为风铃的效果音，绵长）
+    #（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
-    #voice "voice/cxly_voice/episode1/初咲001.mp3"
-    "这个世界，是凝聚了科技和经济，无比伟大而光明的黄金时代"
-    #voice ""
-    "100年前的人们曾对这种‘幻想’般的世界抱有无比期待"
-    #play voice ""
+    voice "voice/hcd_voice/episode1/海川渡改 1.mp3"
+    "这个世界，是凝聚了科技和经济，无比伟大而光明的"
+    voice "voice/hcd_voice/episode1/海川渡改 2.mp3"
+    "黄金时代"
+    voice "voice/hcd_voice/episode1/海川渡改 3.mp3"
+    "100年前的人们曾对这种‘科技幻想’的世界抱有无比期待"
+    voice "voice/hcd_voice/episode1/海川渡改 4.mp3"
     "他们幻想着在这样的世界中"
-    #play voice ""
-    "机器人能够凭空出世"
-    #play voice ""
-    "解放所有人类. . ."
-    #play voice ""
-    "但同时，他们也并没有意识到，"
+    voice "voice/hcd_voice/episode1/海川渡改 5.mp3"
+    "机器人能够凭空出世，解放所有人类"
+    voice "voice/hcd_voice/episode1/海川渡改 6.mp3"
+    "但同时，他们也没有意识到，"
+    voice "voice/hcd_voice/episode1/海川渡改 7.mp3"
     "这个世界也只不过是个高速发展的残次品"
+    voice "voice/hcd_voice/episode1/海川渡改 9.mp3"
     "在除科学之外的领域暴露着各种各样的问题. . ."
-    "内耗的世界. . .重构的制度. . ."
-    "无法回暖的生育率. . .不断下滑的就业率. . .以及，"
+    voice "voice/hcd_voice/episode1/海川渡改 10.mp3"
+    "内耗的世界，重构的制度. . ."
+    voice "voice/hcd_voice/episode1/海川渡改 11.mp3"
+    "无法回暖的生育率，不断下滑的就业率. . .以及，"
+    voice "voice/hcd_voice/episode1/海川渡改 12.mp3"
     "失去了梦想的青年人"
+    voice "voice/hcd_voice/episode1/海川渡改 13.mp3"
     "我们似乎正逐渐被裹挟在这个机器人大规模替代人力的时代"
+    voice "voice/hcd_voice/episode1/海川渡改 14.mp3"
     "社会发展规律的更迭正逐渐快到让人窒息"
+    voice "voice/hcd_voice/episode1/海川渡改 15.mp3"
     "完全超越自我能力的责任；"
+    voice "voice/hcd_voice/episode1/海川渡改 16.mp3"
     "愈来愈狭小的物质与精神空间"
+    voice "voice/hcd_voice/episode1/海川渡改 17.mp3"
     "‘幸福’，"
+    voice "voice/hcd_voice/episode1/海川渡改 18.mp3"
     "‘未来’，"
+    voice "voice/hcd_voice/episode1/海川渡改 19.mp3"
     "‘爱’。"
+    voice "voice/hcd_voice/episode1/海川渡改 20.mp3"
     "这三个常被人类挂在嘴边的辞藻也逐渐离我们越来越远. . ."
-    "甚至. . .我完全没有感受到它们的存在"
+    voice "voice/hcd_voice/episode1/海川渡改 21.mp3"
+    "甚至，我完全没有感受到它们的存在"
     #（转场，切换到书房）
     voice "voice/cxly_voice/episode1/初咲001.mp3"
     who "不对哦！完全不对！"

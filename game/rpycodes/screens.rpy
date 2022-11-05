@@ -307,7 +307,7 @@ screen navigation():
 
         else:
 
-            textbutton _("历史演出") action ShowMenu("history")
+            textbutton _("历史对话") action ShowMenu("history")
 
             textbutton _("保存演出") action ShowMenu("save")
 
@@ -321,7 +321,7 @@ screen navigation():
 
         elif not main_menu:
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("主菜单") action MainMenu()
 
         textbutton _("演出概况") action ShowMenu("about")
 
@@ -612,7 +612,7 @@ screen extra_musicroom():
             at main_menu_button_in(0.0)
 
 
-
+#### gallery 网格    ################
 screen gallery_slots(buttons):
     # 按钮网格(grid)。
     grid gui.gallery_slot_cols gui.gallery_slot_rows:
@@ -636,7 +636,7 @@ screen gallery_slots(buttons):
 
 
 
-
+###### gallery  主体screen   ################
 screen extra_gallery():
     zorder 999
     modal True
@@ -1347,13 +1347,13 @@ screen about():
         vbox:
 
             label "[config.name!t]"
-            text _("Version [config.version!t]\n")
+            text _("游戏版本 [config.version!t]\n")
 
             ## gui.about is usually set in options.rpy.
             if gui.about:
                 text "[gui.about!t]\n"
 
-            text _("Made with {a=https://www.renpy.org/}Ren'Py{/a} [renpy.version_only].\n\n[renpy.license!t]")
+            text _("由{a=https://www.renpy.org/}Ren'Py{/a}引擎 [renpy.version_only]制作.\n\n[renpy.license!t]")
 
 
 style about_label is gui_label
@@ -1377,19 +1377,19 @@ screen save():
 
     tag menu
 
-    use file_slots(_("Save"))
+    use file_slots(_("保存演出"))
 
 
 screen load():
 
     tag menu
 
-    use file_slots(_("Load"))
+    use file_slots(_("半场演出"))
 
 
 screen file_slots(title):
 
-    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
+    default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("自动存档"), quick=_("快速存档"))
 
     use game_menu(title):
 
@@ -1431,7 +1431,7 @@ screen file_slots(title):
 
                         add FileScreenshot(slot) xalign 0.5
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("空白存档")):
                             style "slot_time_text"
 
                         text FileSaveName(slot):
@@ -1506,7 +1506,7 @@ screen preferences():
 
     tag menu
 
-    use game_menu(_("Preferences"), scroll="viewport"):
+    use game_menu(_("演出偏好"), scroll="viewport"):
 
         vbox:
 
@@ -1517,23 +1517,23 @@ screen preferences():
 
                     vbox:
                         style_prefix "radio"
-                        label _("Display")
-                        textbutton _("Window") action Preference("display", "window")
-                        textbutton _("Fullscreen") action Preference("display", "fullscreen")
+                        label _("显示")
+                        textbutton _("窗口") action Preference("display", "window")
+                        textbutton _("全屏") action Preference("display", "fullscreen")
 
                 vbox:
                     style_prefix "radio"
-                    label _("Rollback Side")
-                    textbutton _("Disable") action Preference("rollback side", "disable")
-                    textbutton _("Left") action Preference("rollback side", "left")
-                    textbutton _("Right") action Preference("rollback side", "right")
+                    label _("回退操作区")
+                    textbutton _("禁用") action Preference("rollback side", "disable")
+                    textbutton _("屏幕左侧") action Preference("rollback side", "left")
+                    textbutton _("屏幕右侧") action Preference("rollback side", "right")
 
                 vbox:
                     style_prefix "check"
-                    label _("Skip")
-                    textbutton _("Unseen Text") action Preference("skip", "toggle")
-                    textbutton _("After Choices") action Preference("after choices", "toggle")
-                    textbutton _("Transitions") action InvertSelected(Preference("transitions", "toggle"))
+                    label _("快进")
+                    textbutton _("未读文本") action Preference("skip", "toggle")
+                    textbutton _("选项后继续") action Preference("after choices", "toggle")
+                    textbutton _("忽略转场") action InvertSelected(Preference("transitions", "toggle"))
 
                 ## Additional vboxes of type "radio_pref" or "check_pref" can be
                 ## added here, to add additional creator-defined preferences.
@@ -1546,25 +1546,25 @@ screen preferences():
 
                 vbox:
 
-                    label _("Text Speed")
+                    label _("文本速度")
 
                     bar value Preference("text speed")
 
-                    label _("Auto-Forward Time")
+                    label _("自动播放间隔时间")
 
                     bar value Preference("auto-forward time")
 
                 vbox:
 
                     if config.has_music:
-                        label _("Music Volume")
+                        label _("音乐音量")
 
                         hbox:
                             bar value Preference("music volume")
 
                     if config.has_sound:
 
-                        label _("Sound Volume")
+                        label _("音效音量")
 
                         hbox:
                             bar value Preference("sound volume")
@@ -1574,7 +1574,7 @@ screen preferences():
 
 
                     if config.has_voice:
-                        label _("Voice Volume")
+                        label _("语音音量")
 
                         hbox:
                             bar value Preference("voice volume")
@@ -1585,7 +1585,7 @@ screen preferences():
                     if config.has_music or config.has_sound or config.has_voice:
                         null height gui.pref_spacing
 
-                        textbutton _("Mute All"):
+                        textbutton _("全部静音"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
 
@@ -1676,7 +1676,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+    use game_menu(_("历史对话"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
 
         style_prefix "history"
 

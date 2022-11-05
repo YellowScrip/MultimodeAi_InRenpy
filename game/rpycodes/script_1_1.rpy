@@ -17,6 +17,7 @@ label episode1_1:
 
     #（切换场景：九衢の街，白天）
 
+    show bg5 with fade
     "小寒将至的九衢市，在多云的日子里显得格外冷清"
     "笼罩在城市上空，纱般的云朵似乎怎么样也流不完"
     "勾销在日历上，一笔又一笔的墨迹却又清晰地提示着我平澹无奇的日常"
@@ -65,7 +66,7 @@ label episode1_1:
     "我走上前"
     ch "请问这里是资料核对处吗？"
     voice "voice/l_voice/episode1/蘭001.mp3"
-    who "是的，请问你是. . .？"
+    who "是的，你是？"
     voice "voice/l_voice/episode1/蘭002.mp3"
     who "海川？！！"
     "面前的这个女生似乎是意识到了什么，发出了大声的惊叹"
@@ -89,19 +90,19 @@ label episode1_1:
     l "当然是志愿工作啦！"
     #show
     voice "voice/l_voice/episode1/蘭004.mp3"
-    l "才不会像某些人一样只是闲到无聊才会过来转转"
+    l "才不会像某些人一样，只有闲到无聊的时候才会过来转转"
     "说完蘭还不忘轻蔑地扫了我一眼，摆出一副高傲的姿态"
     ch "你身上穿的这件看上去十分高档的‘日本高中生’制服又是从哪里弄来的?"
     ch "在这样的严肃场合. . ."
     #show
     voice "voice/l_voice/episode1/蘭005.mp3"
-    l "你在乱说什么啊！"
+    l "你在乱说什么呀？！"
     #show
     voice "voice/l_voice/episode1/蘭006.mp3"
-    l "请注意礼貌用语，不要随便使用‘弄’这个词。"
+    l "请注意礼貌用语，不要随便用‘弄’这个词。"
     #show
     voice "voice/l_voice/episode1/蘭007.mp3"
-    l "海川该不会是在把本小姐污蔑成小偷那种角色吧？"
+    l "海川该不会是在把本小姐污蔑成像小偷那样子的角色吧？"
     ch ". . . . . ."
     ch ". . . . . ."
     ch ". . . . . ."
@@ -126,13 +127,13 @@ label episode1_1:
     l "喂！一直盯着女生的胸部也太无礼了吧！"
     #show
     voice "voice/l_voice/episode1/蘭011.mp3"
-    l "总之，海川羡慕我是没有用的. . .这都是靠我自己的努力换来的~"
+    l "总之，海川羡慕我是没有用的. . .这都是靠我自己的努力才换来的~"
     #show
     voice "voice/l_voice/episode1/蘭012.mp3"
     l "正所谓‘天道酬勤’"
     #show
     voice "voice/l_voice/episode1/蘭013.mp3"
-    l "你这种懒人肯定是不懂这种到道理的"
+    l "像你这种懒人肯定是不懂这种道理的"
     ch ". . . . . ."
     "说完，眼前的蘭还不忘撩了撩她的头发，斜睨的眼神似乎是在向我强调着对自己的满意和自信"
     "总之，糟透了。"
@@ -165,10 +166,10 @@ label episode1_1:
     "终于，她抬起头，又仔仔细细打量了我一番，然后点了点头，似乎是对我表示了认可"
     #show
     voice "voice/l_voice/episode1/蘭021.mp3"
-    l "真是不可思议，你的名字竟然能出现在这份名单上. . ."
+    l "真是不可思议，你的名字竟然真的能出现在这份名单上. . ."
     #show
     voice "voice/l_voice/episode1/蘭022.mp3"
-    l "有没有一种可能，我手上拿的这份交换生名单也是假的？"
+    l "有没有一种可能，我手上拿的这份交换生名单是假的？"
     ch ". . . . . ."
     ch "这种不合情理而且打击人的话也不能这样乱讲啊喂！！"
     #show
@@ -184,7 +185,7 @@ label episode1_1:
     l "诶？？？！"
     #show
     voice "voice/l_voice/episode1/蘭025.mp3"
-    l "竟然和本小姐是同一个学校？！"
+    l "竟然和本小姐是同一个学校吗？！"
     #show
     voice "voice/l_voice/episode1/蘭026.mp3"
     l "学校真的会收留你吗？"
@@ -193,18 +194,18 @@ label episode1_1:
     ch "说得我好像是完全就没有参加考试的感觉"
     #show
     voice "voice/l_voice/episode1/蘭027.mp3"
-    l "唔，明明入学资格考试那么难的说. . ."
+    l "唔，明明入学考试那么难的说. . ."
     "蘭在多次核对了我的录取情况之后，她的脸显示出些许不满的情绪。"
     #show
     voice "voice/l_voice/episode1/蘭028.mp3"
     l "可真是倒霉"
     #show
     voice "voice/l_voice/episode1/蘭029.mp3"
-    l "一想到还要和海川在同一所学校里，相处四年半的时间，我就浑身难受. . ."
+    l "一想到还要和海川在同一所学校里相处四年半的时间，我就浑身难受. . ."
     ch ". . . . . ."
     #show
     voice "voice/l_voice/episode1/蘭030.mp3"
-    l "不过真没想到，唯二的名额能被海川分走一个"
+    l "不过我是真没想到，唯二的名额能被海川分走一个"
     #show
     voice "voice/l_voice/episode1/蘭031.mp3"
     l "你还是蛮有本事的嘛，"
@@ -213,7 +214,7 @@ label episode1_1:
     l "完全超出了本小姐的预料"
     #show
     voice "voice/l_voice/episode1/蘭033.mp3"
-    l "那么，海川肯定和我一样，是‘新媒体传播与交叉演出’专业对吧"
+    l "那么，海川肯定和我一样，是‘新媒体传播与交叉演出’专业，对吧？"
     ch ". . . . . ."
     ch "不是的"
     "在我摇了摇头后，蘭露出了更加惊讶的表情看着我"
@@ -231,7 +232,7 @@ label episode1_1:
     l "到头来还都是奔着造机器人去啊"
     #show
     voice "voice/l_voice/episode1/蘭037.mp3"
-    l "不愧是你啊. . .‘PTFOD’的演出社社长"
+    l "真不愧是你啊. . .‘PTFOD’的演出社社长"
     "蘭加重了”PTFOD“这几个字，略微带着一点嘲讽和调侃的语气，看来是故意在说给我听的"
     "PTFOD演出社团"
     "一个由于我个人对演出和古典乐抱有强烈喜爱而在中学创建的社团"
@@ -248,7 +249,7 @@ label episode1_1:
     ch "什么？"
     #show
     voice "voice/l_voice/episode1/蘭040.mp3"
-    l "明明这么喜欢演出但最后还是去了机器人制造专业"
+    l "明明这么喜欢演出，但最后还是去了机器人制造专业"
     #show
     voice "voice/l_voice/episode1/蘭041.mp3"
     l "这不像你"
@@ -257,7 +258,7 @@ label episode1_1:
     "我发了好一会儿呆，直到蘭伸出手在我的面前挥了挥"
     #show
     voice "voice/l_voice/episode1/蘭042.mp3"
-    l "喂喂，你刚刚听到了我问你的问题吗？"
+    l "喂喂，你刚刚听到了我问你的问题了吧？"
     ch ". . ."
     #show
     voice "voice/l_voice/episode1/蘭043.mp3"
@@ -274,7 +275,7 @@ label episode1_1:
     l "但是你明明更喜欢表演吧，真是奇怪的执念"
     #show
     voice "voice/l_voice/episode1/蘭045.mp3"
-    l "真搞不懂为什么非要有‘子承父业’这种硬性的要求啊"
+    l "真搞不懂为什么非要有‘子承父业’这种硬性要求啊"
     #show
     voice "voice/l_voice/episode1/蘭046.mp3"
     l "明明可以大胆追求自己喜欢做的事情啊！"
@@ -304,7 +305,7 @@ label episode1_1:
     yq  "你好啊，海川！"
     #show
     voice "voice/l_voice/episode1/蘭048.mp3"
-    l "在学校里就给我好好说中文啊，这样真的很尴尬！"
+    l "在学校里就给我好好说中文呀，这样真的很尴尬！"
     #show
     voice "voice/yqtt_voice/episode1/岩崎002.mp3"
     yq  "咳咳，我明白了"
@@ -387,7 +388,7 @@ label episode1_1:
     yq  "小蘭，你躲我干什么啊. . ."
     #show
     voice "voice/l_voice/episode1/蘭055.mp3"
-    l "别. . .别一口一个‘小蘭’，真让人讨厌！"
+    l "别. . .别一口一个‘小蘭’的，真让人讨厌！"
     #show
     voice "voice/yqtt_voice/episode1/岩崎016.mp3"
     yq  "明明之前出游的时候还让我偷偷喊你‘妹妹’的. . ."
@@ -427,10 +428,10 @@ label episode1_1:
     ch "不过感觉你和岩崎的感情还真的是非常好呢。"
     #show
     voice "voice/l_voice/episode1/蘭062.mp3"
-    l "才. . .才不是这样！"
+    l "才不是这样！"
     #show
     voice "voice/l_voice/episode1/蘭063.mp3"
-    l "最近感觉岩崎他好烦人. . .不想靠近这种自以为是的大傻瓜"
+    l "最近感觉岩崎他好烦人，才不想靠近这种自以为是的大傻瓜"
     "无论怎样，蘭在面对岩崎时露出的奇怪神情总是让我感觉到异样"
     "甚至给我一种胡乱的大胆猜测. . . . . ."
     #show
@@ -459,7 +460,7 @@ label episode1_1:
     "蘭俯身从摆放在咨询台旁边的众多的袋子中挑出了看上去最高贵的那个，上面赫然印着“东番国立高大”的名称"
     #show
     voice "voice/l_voice/episode1/蘭068.mp3"
-    l "呐！这是校服"
+    l "呐！这个是校服"
     #show
     voice "voice/l_voice/episode1/蘭069.mp3"
     l "还有这些是入学必备的资料"
@@ -484,14 +485,14 @@ label episode1_1:
     l "比如说. . .可以帮你做好家务活之类的. . ."
     ch ". . . . . ."
     #show
-    voice "voice/l_voice/episode1/蘭074.mp3"
+    voice "voice/l_voice/episode1/蘭075.mp3"
     l "emmm倒不如说是，校方鼓励携带机器人"
     #show
     voice "voice/l_voice/episode1/蘭076.mp3"
-    l "海川没听说过吗？无论是校服还是出入学校内各种场所，你的仿生机器人都是拥有同等权益的。"
+    l "海川没听说过吗？无论是校服还是出入学校内各种场所的特权，你的仿生机器人都是拥有同等权益的。"
     #show
     voice "voice/l_voice/episode1/蘭077.mp3"
-    l "看来海川真是不问世事，被消息隔离也是理所当然的吧. . ."
+    l "看来海川还真是不问世事呀，被消息隔离也是理所当然的吧. . ."
     ch "不要随便毒舌啊，这种事情我还是知道的。"
     ch "总的来说，东番国立高大在这方面也想得非常周到，充分考虑到之前仿生机器人和人权问题. . ."
     #show
@@ -501,24 +502,18 @@ label episode1_1:
     #show
     voice "voice/l_voice/episode1/蘭079.mp3"
     l "原来如此. . ."
-    #show
-    #voice "voice/l_voice/episode1/蘭080.mp3"
-    l "看来生在贫穷的家庭中，也算是恶有恶报了"
-    ch ". . . . . ."
-    ch "不要把家庭背景和个人道德挂钩啊喂！"
-    #show
     voice "voice/l_voice/episode1/蘭080.mp3"
-    l "总之，学校本来已经给我们准备好了四份入学的校服"
+    l "总之，学校本来已经给我们准备好了四套校服"
     #show
     voice "voice/l_voice/episode1/蘭081.mp3"
-    l "两份是你自己的，另外两份是给机器人的"
+    l "两份是你自己的，两份是给机器人的"
     #show
     voice "voice/l_voice/episode1/蘭082.mp3"
-    l "不过这两件多的校服，你不拿着吗？"
+    l "不过这多的两件校服，你真的不拿着吗？"
     ch "算了，我想我根本就不需要什么robot之类的东西吧. . ."
     #show
     voice "voice/l_voice/episode1/蘭083.mp3"
-    l "好吧. . ."
+    l "好吧"
     #show
     voice "voice/l_voice/episode1/蘭084.mp3"
     l "这可是你说不要的"
@@ -528,15 +523,15 @@ label episode1_1:
     "说完，蘭再次专门挺了挺自己胸前的胸章，似乎是非常满意与自豪的样子"
     #show
     voice "voice/l_voice/episode1/蘭086.mp3"
-    l "我想这件校服肯定会留给需要的人. . ."
+    l "我想这件校服肯定会留给有需要的人. . ."
     #show
     voice "voice/l_voice/episode1/蘭087.mp3"
-    l "至少不会留给海川这种不珍惜校服的. . ."
+    l "至少不会留给海川这种不珍惜校服的人"
     ch ". . . . . ."
     ch "那样听起来也蛮不错的感觉"
     #show
     voice "voice/l_voice/episode1/蘭088.mp3"
-    l "你. . .你. . ."
+    l "你. . ."
     #show
     voice "voice/l_voice/episode1/蘭089.mp3"
     l "你还真是不知好歹啊！"#（恼）
@@ -545,10 +540,10 @@ label episode1_1:
     l "呼. . .算了，不和你这种榆木脑袋解释了"
     #show
     voice "voice/l_voice/episode1/蘭091.mp3"
-    l "好了，快从本小姐面前闪开"
+    l "好了好了，快从本小姐面前闪开"
     #show
     voice "voice/l_voice/episode1/蘭092.mp3"
-    l "这里没你事了. . ."
+    l "这里没你的事了. . ."
 
     "于是在蘭的催促之下，我很快离开了书吧"
 
@@ -575,7 +570,7 @@ label episode1_1:
 
     #show
     voice "voice/l_voice/episode1/蘭093.mp3"
-    l "因为爸爸妈妈一直都在‘高塔’里工作，平常也完全没有时间照顾我. . ."
+    l "因为爸爸妈妈一直都在‘高塔’里工作，平时也完全没有时间照顾我. . ."
     "所以就顺理成章地按照蘭的想法给她找了一个能够照顾她的人——"
 
     #（此处切入线稿2，一个没有脸的大哥哥线稿出现在屏幕上）

@@ -146,7 +146,6 @@ define gui.gallery_slot_rows = 2
 
 
 
-
 #设置游戏开场的动画及其他
 # label splashscreen:
 #     image beforegame1 = Movie(play="videos/start logo.mpg",loops=0,stop_music=True)

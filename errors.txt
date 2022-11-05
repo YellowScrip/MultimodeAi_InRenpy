@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/initgame.rpy", line 32: invalid syntax
-            condition="persistent.unlock_0"),
-                      ^
-    
+File "game/rpycodes/set_characters.rpy", line 49: expected statement.
+    defnie shot6 = AlphaDissolve("rightmove",delay = 60.0)
+                 ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Fri Nov  4 00:35:27 2022
+Sat Nov  5 17:28:39 2022
