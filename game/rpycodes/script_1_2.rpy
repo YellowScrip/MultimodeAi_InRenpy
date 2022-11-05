@@ -167,7 +167,8 @@ label episode1_2:
     "而是去见岩崎天桐"
     # （这里插入暗黄色色调+
     # 电话
-    
+    voice "voice/yqtt_voice/episode1/岩崎(电)023.mp3"
+    voice sustain
     yqcall "总之回见了，挚友！明天下午，老地方不见不散"
     
     # （背景转换，一个咖啡店内）
@@ -181,25 +182,33 @@ label episode1_2:
 
     # 此处岩崎的音声由020开始
     voice "voice/yqtt_voice/episode1/岩崎020.mp3"
+    voice sustain
     yq  "哟，来得很早嘛！"
     voice "voice/yqtt_voice/episode1/岩崎021.mp3"
+    voice sustain
     yq  "我早就在‘魔法书院’旁边的咖啡店等着你了，还以为你是找不到路了……"
     voice "voice/yqtt_voice/episode1/岩崎022.mp3"
+    voice sustain
     yq  "看来还是记得我们的暗号的嘛！和主上大人说的那种‘脑子转不过来’的人还是有区别的……"
     ch  "喂喂，不是什么‘魔法书院’，是正经的图书馆啊拜托"
     ch  "还有，‘脑子转不过来’不是什么礼貌的打招呼方式……"
     ch  "别被蘭带偏了！"
     voice "voice/yqtt_voice/episode1/岩崎023.mp3"
+    voice sustain
     yq   "带偏？"
     voice "voice/yqtt_voice/episode1/岩崎024.mp3"
+    voice sustain
     yq   "我倒是觉得，她是被我给带偏的……"
     voice "voice/yqtt_voice/episode1/岩崎025.mp3"
+    voice sustain
     yq   "哈哈哈，好了好了，这是夸你记忆好的意思，赶快来聊正事吧。"
     ch  "……"
     ch  "好"
     voice "voice/yqtt_voice/episode1/岩崎026.mp3"
+    voice sustain
     yq  "欸等等……"
     voice "voice/yqtt_voice/episode1/岩崎027.mp3"
+    voice sustain
     yq  "如果海川不喜欢这种氛围的话，换一个地方也是可以的"
     "我四下环视了一圈周围的环境，除了装潢有点显老之外好像挑不出什么瑕疵……"
     "据说这家店已经有五十多年的历史了，甚至是连老板都换了两轮……"
@@ -208,22 +217,29 @@ label episode1_2:
     ch  "唔……也算不上是差吧"
     ch  "比起现在流行的无人咖啡店，这种有人打理的店面反而会显得与这个时代格格不入……"
     voice "voice/yqtt_voice/episode1/岩崎028.mp3"
+    voice sustain
     yq  "哦？"
     voice "voice/yqtt_voice/episode1/岩崎029.mp3"
+    voice sustain
     yq  "这样吗……？"
     voice "voice/yqtt_voice/episode1/岩崎030.mp3"
+    voice sustain
     yq  "我倒还蛮享受这种有人打理的感觉"
     voice "voice/yqtt_voice/episode1/岩崎031.mp3"
+    voice sustain
     yq  "要我说……"
     voice "voice/yqtt_voice/episode1/岩崎032.mp3"
+    voice sustain
     yq  "只有在这种充满魔力气息的地方……出现黑暗生物的概率才会显著增加……"
     ch  "……"
     ch  "不要在我即将进入何你好好谈话的状态的时候擅自进入中二模式啊！"
     voice "voice/yqtt_voice/episode1/岩崎033.mp3"
+    voice sustain
     yq  "哈哈哈，抱歉抱歉……"
     ch  "我不介意环境什么的，直接开始吧"
     ch  "这次是因为‘初咲恋柚’的事情，我才会找到好兄弟你的"
     voice "voice/yqtt_voice/episode1/岩崎034.mp3"
+    voice sustain
     yq  "没错"
     ch  "那么就直接告诉我吧"
     ch  "初咲的来历"
@@ -231,64 +247,85 @@ label episode1_2:
     ch  "还有你们是怎么把我的事情一股脑都说给初咲啊……"
     ch  "让我把她带到日本是很有风险的事情，可不是闹着玩的！"
     voice "voice/yqtt_voice/episode1/岩崎035.mp3"
+    voice sustain
     yq  "诶诶，你先别急，先冷静地听我把话说完"
     voice "voice/yqtt_voice/episode1/岩崎036.mp3"
-    yq  "这都不是我一个人的决定……"
+    voice sustain
+    yq  "这都不是我一个人的决定"
     voice "voice/yqtt_voice/episode1/岩崎037.mp3"
-    yq  "要说的话还是小蘭她自己安排好的……"
+    voice sustain
+    yq  "要说的话还是小蘭她自己安排好的"
     voice "voice/yqtt_voice/episode1/岩崎038.mp3"
-    yq  "我们和初咲恋柚不过也才认识几天……"
+    voice sustain
+    yq  "我们和初咲恋柚不过也才认识几天"
     ch  "就算是这样也要提前给我打声招呼呀！"
     
     # （播放效果音：进店的那种风铃被拉响声）
     # 蘭的音声此处从094开始
     voice "voice/l_voice/episode1/蘭094.mp3"
+    voice sustain
     l   "喂喂，我好像听见有人在议论我诶"
     # （展示蘭的立绘在右侧，傲娇脸）
     ch  "……"
-    ch  "怎么你也来了……"
-    ch  "不是说好了只有我们两个人……"
+    ch  "怎么你也来了"
+    ch  "不是说好了只有我们两个人"
     voice "voice/l_voice/episode1/蘭095.mp3"
+    voice sustain
     l   "我为什么不能在这里？"
     voice "voice/yqtt_voice/episode1/岩崎039.mp3"
+    voice sustain
     yq  "我也没说过只有两个人啊"
     ch  "…… ……"
-    ch  "明明是找警察就可以解决的事情……"
+    ch  "明明是找警察就可以解决的事情"
     voice "voice/l_voice/episode1/蘭096.mp3"
+    voice sustain
     l   "你傻啊！"
     voice "voice/l_voice/episode1/蘭097.mp3"
+    voice sustain
     l   "初咲这种型号的日式机器人，如果放任不管的话……"
     voice "voice/l_voice/episode1/蘭098.mp3"
+    voice sustain
     l   "最后肯定会被九衢市上层给清除掉的！"
     ch  "但是她是日式型号，日式系统……"
     ch  "照理来说根本就不会违反三大定则……更不会有什么安全隐患"
     ch  "与其让我们这种学生冒着‘那种风险’，还不如交给大人来……"
     voice "voice/yqtt_voice/episode1/岩崎040.mp3"
+    voice sustain
     yq  "问题不是在违反‘三十二条禁令’上"
     voice "voice/yqtt_voice/episode1/岩崎041.mp3"
+    voice sustain
     yq  "而是在于这种语言……"
     voice "voice/l_voice/episode1/蘭099.mp3"
+    voice sustain
     l   "没错"
     voice "voice/l_voice/episode1/蘭100.mp3"
+    voice sustain
     l   "无论初咲恋柚有没有对安稳的社会造成威胁"
     voice "voice/l_voice/episode1/蘭101.mp3"
+    voice sustain
     l   "不同于本地的语言出现在robot的身上"
     voice "voice/l_voice/episode1/蘭102.mp3"
+    voice sustain
     l   "和‘披着狼皮的羊’一样，没有区别的"
     ch  "…… ……"
     ch  "但是……"
     voice "voice/l_voice/episode1/蘭103.mp3"
+    voice sustain
     l   "你忍心看着她被送到大人那里，然后被随意处置吗？"
     ch  "可是……"
     voice "voice/l_voice/episode1/蘭104.mp3"
+    voice sustain
     l   "机器人可不是物品！"
     voice "voice/l_voice/episode1/蘭105.mp3"
+    voice sustain
     l   "他们也是有权利，有情感的智能！"
     "蘭用着略显不满的眼神盯着我，看上去对我极力推脱的表现很生气。"
     "但她很快意识到自己刚才的发言已经引起了周围顾客的各种注意"
     voice "voice/l_voice/episode1/蘭106.mp3"
-    l   "咳咳……我是太着急了一点……"
+    voice sustain
+    l   "咳咳……我是太着急了一点"
     voice "voice/l_voice/episode1/蘭107.mp3"
+    voice sustain
     l   "海川如果没有和robot呆过的话，应该是理解不了我的"
     ch  "robot……"
 
@@ -297,137 +334,186 @@ label episode1_2:
     "就好像是真的有感情的少女一样"
     "面前的岩崎也是这样"
     voice "voice/yqtt_voice/episode1/岩崎042.mp3"
+    voice sustain
     yq  "海川不是小蘭说的那种人了~"
     voice "voice/yqtt_voice/episode1/岩崎043.mp3"
+    voice sustain
     yq  "他和我一样，都是在黑夜中潜行的‘assassin’……除恶扬善的那种"
     ch  "不要用‘assassin’这种过度中二的词汇啊！"
     ch  "呃……其实我也没有放任不管……"
     ch  "我已经……"
     voice "voice/l_voice/episode1/蘭108.mp3"
+    voice sustain
     l   "本小姐就知道海川不是那种冷漠的人"
     voice "voice/l_voice/episode1/蘭109.mp3"
+    voice sustain
     l   "至少还是有点人情味的……"
     ch  "…… ……"
     ch  "利用交换生项目的漏洞通过海关是件很危险的事情！"
     ch  "至少把我说成是正能量的人物啊！"
     voice "voice/yqtt_voice/episode1/岩崎044.mp3"
+    voice sustain
     yq "好了好了，海川也知道……主上大人说出这种话也算是对你的夸奖"
     voice "voice/yqtt_voice/episode1/岩崎045.mp3"
+    voice sustain
     yq "我们其实知道了你已经考虑好要帮初咲了"
     voice "voice/yqtt_voice/episode1/岩崎046.mp3"
+    voice sustain
     yq "喏……这是初咲早上发给我们的信息"
     ch  "原来这都是你们安排好的……"
     voice "voice/l_voice/episode1/蘭110.mp3"
+    voice sustain
     l   "那么现在到哪一步了？"
     voice "voice/l_voice/episode1/蘭111.mp3"
+    voice sustain
     l   "语言和铭牌对吧？"
     voice "voice/l_voice/episode1/蘭112.mp3"
+    voice sustain
     l   "如果要把初咲顺利带到日本，这两个都是需要解决的问题"
     ch  "语言的话有点困难"
     ch  "蘭，你能来做初咲的指导吗？"
     voice "voice/l_voice/episode1/蘭113.mp3"
+    voice sustain
     l   "我？"
     ch  "没错，因为要让初咲彻底学会中文……需要一个中文标准的人来给初咲大量的语音样本……"
     ch  "现在的时间对我们来说已经非常紧急了"
     voice "voice/l_voice/episode1/蘭114.mp3"
+    voice sustain
     l   "不对，"
     voice "voice/l_voice/episode1/蘭115.mp3"
+    voice sustain
     l   "根本不需要这么麻烦"
     "蘭摇了摇头，然后拿出手机在浏览器上搜索着什么……然后把手机伸到我的面前"
     voice "voice/l_voice/episode1/蘭116.mp3"
+    voice sustain
     l   "喏，你看"
     "上面展示的是各种通过海关会询问仿生机器人的问题"
     voice "voice/l_voice/episode1/蘭117.mp3"
+    voice sustain
     l   "只要学会过海关时需要用的中文就足够了"
     voice "voice/l_voice/episode1/蘭118.mp3"
+    voice sustain
     l   "完全没有必要学会全部中文嘛"
     ch  "……"
     ch  "很有道理诶！"
     voice "voice/l_voice/episode1/蘭119.mp3"
+    voice sustain
     l   "让我来做中文的专业指导也是完全没有问题的哟！"
 
 
     "在一瞬间，蘭的话打开了我全部的思路"
     "原来很多问题都被我想复杂了……"
     voice "voice/yqtt_voice/episode1/岩崎047.mp3"
+    voice sustain
     yq  "如果是更改铭片的话我们也有办法"
     voice "voice/yqtt_voice/episode1/岩崎048.mp3"
+    voice sustain
     yq  "之前主上大人带着我去过一家‘九衢市传说中的最强隐藏修理铺’"
     voice "voice/yqtt_voice/episode1/岩崎049.mp3"
+    voice sustain
     yq  "在那个地方，几乎所有机器人的问题都能解决"
     ch  "那不就算是黑市了吗……"
     voice "voice/l_voice/episode1/蘭120.mp3"
+    voice sustain
     l   "不完全是"
     voice "voice/l_voice/episode1/蘭121.mp3"
-    l   "据说这家店的老板是原来从‘高塔’里退隐的总工程师……"
+    voice sustain
+    l   "据说这家店的老板是原来从‘高塔’里退隐的总工程师"
     voice "voice/l_voice/episode1/蘭122.mp3"
+    voice sustain
     l   "每次岩崎出现问题在那里都可以得到解决"
     ch  "这样啊……"
     ch  "那具体的地址是在？"
     voice "voice/yqtt_voice/episode1/岩崎050.mp3"
-    yq  "九衢市九山区1037号，森林公园旁边的一家小铺……"
+    voice sustain
+    yq  "九衢市九山区1037号，森林公园旁边的一家小铺"
     voice "voice/yqtt_voice/episode1/岩崎051.mp3"
+    voice sustain
     yq   "哼哼，一般人我可是不告诉他‘秘密基地’的位置"
     ch  "九山区……那种地方？"
     ch  "离市中心这么远的地方？？？"
     voice "voice/yqtt_voice/episode1/岩崎052.mp3"
+    voice sustain
     yq  "不会吧，不会吧？"
     voice "voice/yqtt_voice/episode1/岩崎053.mp3"
+    voice sustain
     yq  "海川的思维不会还停在‘九昌’，‘九口’，‘九阳’三区为中心的上世纪思维吧？"
     voice "voice/yqtt_voice/episode1/岩崎054.mp3"
+    voice sustain
     yq  "时代已经变了……"
     ch  "…… ……"
     voice "voice/yqtt_voice/episode1/岩崎055.mp3"
+    voice sustain
     yq  "总之,只要你去了就肯定知道了"
     voice "voice/yqtt_voice/episode1/岩崎056.mp3"
+    voice sustain
     yq  "‘九衢市传说中的最强隐藏修理铺’的称号可不是白叫的！"
     voice "voice/l_voice/episode1/蘭123.mp3"
+    voice sustain
     l   "够了……"
     voice "voice/l_voice/episode1/蘭124.mp3"
-    l   "别在一口一个‘最强’，‘最强’的了，简直和那个老板一样‘中二’……"
+    voice sustain
+    l   "别在一口一个‘最强’，‘最强’的了，简直和那个老板一样‘中二’"
     voice "voice/l_voice/episode1/蘭125.mp3"
+    voice sustain
     l   "隔壁桌一直都在看着我们呢……"
     voice "voice/yqtt_voice/episode1/岩崎057.mp3"
+    voice sustain
     yq  "害呀，我知道了"
     voice "voice/yqtt_voice/episode1/岩崎058.mp3"
+    voice sustain
     yq  "反正海川一定要记住"
     voice "voice/yqtt_voice/episode1/岩崎059.mp3"
+    voice sustain
     yq  "这个小店确实是叫这个名字"
     ch  "？？？"
     voice "voice/yqtt_voice/episode1/岩崎060.mp3"
+    voice sustain
     yq  "喊错名字会让老板很不高兴的"
     ch  "……"
     ch  "我知道了"
     voice "voice/l_voice/episode1/蘭126.mp3"
+    voice sustain
     l   "呼，那今天就到这里吧"
     voice "voice/l_voice/episode1/蘭127.mp3"
+    voice sustain
     l   "本小姐还要去负责琴台剧院的冬季表演的剧本编审"
     voice "voice/l_voice/episode1/蘭128.mp3"
+    voice sustain
     l   "没有时间和你们在这里坐下来细说了"
     ch  "所以你是因为自己的事情才把初咲丢给我的吧！"
     ch  "…… ……"
     voice "voice/l_voice/episode1/蘭129.mp3"
+    voice sustain
     l   "才不是！"
     voice "voice/l_voice/episode1/蘭130.mp3"
-    l   "这件事，估计整个九衢市只有你能帮到她了……"
+    voice sustain
+    l   "这件事，估计整个九衢市只有你能帮到她了"
     voice "voice/l_voice/episode1/蘭131.mp3"
+    voice sustain
     l   "我走了，后续有事再联系"
 
     
     # （播放效果音：出店的那种风铃被拉响声，蘭的立绘消失）
     voice "voice/yqtt_voice/episode1/岩崎061.mp3"
+    voice sustain
     yq  "凭借交换生项目便利的优势渡过海关也确实只有海川了"
     voice "voice/yqtt_voice/episode1/岩崎062.mp3"
+    voice sustain
     yq  "蘭要带着我，没办法再额外携带一个初咲了"
     voice "voice/yqtt_voice/episode1/岩崎063.mp3"
+    voice sustain
     yq  "本来她真的很想帮忙……"
     ch  "我大概也知道的"
     ch  "作为她的青梅竹马，我也知道她是那种很热心的女生……不然也不会找到我来一起帮忙了"
     voice "voice/yqtt_voice/episode1/岩崎064.mp3"
+    voice sustain
     yq  "海川理解就好"
     voice "voice/yqtt_voice/episode1/岩崎065.mp3"
+    voice sustain
     yq  "那我也先行告辞了"
     voice "voice/yqtt_voice/episode1/岩崎066.mp3"
+    voice sustain
     yq  "主上大人的家也只能靠我来收拾打理了"
     "说完，岩崎还不忘对我苦笑一下"
 
@@ -440,63 +526,109 @@ label episode1_2:
     "我的目光很快就被锁定在远处的那座高楼上了"
     "它是那样的显眼……"
 
-
+    voice "voice/aqxs_voice/episode1/先生1.mp3"
+    voice sustain
     who "小伙子，在想什么呢？"
     "一位看上去稍显年迈的大叔不知道什么时候坐到了我的对面"
 
     # （镜头平行移动，在咖啡店内景中的桌子上放大滑过去，最后落脚落在1/2视图，单点放大回原比例视图）
 
     "慈祥的神情和温柔宽厚的声音……"
+    voice "voice/aqxs_voice/episode1/先生2.mp3"
+    voice sustain
     who "是不是忘记我了？"
     ch  "怎么可能会忘记！"
     "从小学就与这家店结下深厚情结的我，自然不会忘记咖啡店上一任老板的声音和模样"
     "他是一个愿意倾听我的烦恼和心事的大叔"
 
     "每当我不愿意把一些烦心事告诉岩崎的时候，我都会向这位自称是“阿泉先生”的老板倾诉"
+    voice "voice/aqxs_voice/episode1/先生3.mp3"
+    voice sustain
     mrquan    "上次来我记得是因为学业的事情，诶，听说你好像是被日本那个‘目黑川’那所排名不错的大学录取了……"
     ch      "嗯是的，还是有一点运气的成分……"
+    voice "voice/aqxs_voice/episode1/先生4.mp3"
+    voice sustain
     mrquan    "哈哈哈恭喜啊，不愧是高材生！"
+    voice "voice/aqxs_voice/episode1/先生5.mp3"
+    voice sustain
     mrquan    "最近是发生了什么不高兴的事情吗，看你愁眉苦脸的"
     ch      "确实，最近被一些事情困扰到了"
+    voice "voice/aqxs_voice/episode1/先生6.mp3"
+    voice sustain
     mrquan    "啊……那这次肯定不是因为学业的事情了吧……不妨说来听听？"
     ch      "比如说……"
     ch      "我有一个朋友，要冒着承担一定法规的风险去做一些事……"
     ch      "虽然他很想帮忙"
     ch      "但因为他不了解帮助的这个对象……"
     ch      "因为只是刚刚认识，他也担心自己会因此连累到很多东西……"
+    voice "voice/aqxs_voice/episode1/先生7.mp3"
+    voice sustain
     mrquan    "我知道了"
+    voice "voice/aqxs_voice/episode1/先生8.mp3"
+    voice sustain
     mrquan    "你的这个朋友大概也是陷入到和我当初一样的处境了……"
+    voice "voice/aqxs_voice/episode1/先生9.mp3"
+    voice sustain
     mrquan    "在给出答案之前，一定不要因为只是看了一眼就拍脑袋做决定……"
+    voice "voice/aqxs_voice/episode1/先生10.mp3"
+    voice sustain
     mrquan    "如果说再给我一次机会的话，当初我也不会一开始听从父母的话吧……"
     
     "阿泉先生好像是陷入到了自己的回忆中，但很快又用坚定的目光看向我"
+    voice "voice/aqxs_voice/episode1/先生11.mp3"
+    voice sustain
     mrquan    "如果时间允许的情况下……我建议还是和那个‘要帮助的对象’多多接触……"
+    voice "voice/aqxs_voice/episode1/先生12.mp3"
+    voice sustain
     mrquan    "不然草草决定‘帮助’和‘不帮助’都是很不明智的选择啊"
     ch      "我大概明白了，也就是说……‘多多接触’"
+    voice "voice/aqxs_voice/episode1/先生13.mp3"
+    voice sustain
     mrquan    "没错！"
+    voice "voice/aqxs_voice/episode1/先生14.mp3"
+    voice sustain
     mrquan    "除此之外，‘帮助’也是相互的"
     ch      "‘相互的’？"
     ch      "这是什么意思啊？"
+    voice "voice/aqxs_voice/episode1/先生15.mp3"
+    voice sustain
     mrquan    "你也要让对方感受到是对你有用的"
+    voice "voice/aqxs_voice/episode1/先生16.mp3"
+    voice sustain
     mrquan    "或者换句话说，"
+    voice "voice/aqxs_voice/episode1/先生17.mp3"
+    voice sustain
     mrquan    "‘相互付出’——无论是热恋中的情人，相谈甚欢的友人，又或者说关系没那么紧密的同事关系"
+    voice "voice/aqxs_voice/episode1/先生18.mp3"
+    voice sustain
     mrquan    "这就是让人与人的关系融洽而稳定的秘诀啊"
     ch      "原来如此……"
+    voice "voice/aqxs_voice/episode1/先生19.mp3"
+    voice sustain
     mrquan    "只有这样才会让彼此肯定对方的价值"
     ch      "谢谢你，阿泉先生"
     ch      "我大概明白了"
+    voice "voice/aqxs_voice/episode1/先生20.mp3"
+    voice sustain
     mrquan    "害，谢什么谢啊，只不过是我的一些人生经验而已了。"
-    
-    
+
     "阿泉先生向我投来温暖的笑容，然后随即盯着洒在茶桌上的夕阳，拿出方巾优雅地擦着摆在桌子上的杯具。"
+    voice "voice/aqxs_voice/episode1/先生21.mp3"
+    voice sustain
     mrquan    "看来时间也不早了啊……‘你的朋友’应该也和很重要的人有约吧？"
     ch      "嗯嗯"
     ch      "还有……"
     ch      "这大概是我最后一次来这个咖啡店了……下次来就是在那边毕业之后了……"
     ch      "真的很谢谢你，阿泉先生！"
+    voice "voice/aqxs_voice/episode1/先生22.mp3"
+    voice sustain
     mrquan    "哈哈，不用谢"
+    voice "voice/aqxs_voice/episode1/先生23.mp3"
+    voice sustain
     mrquan    "好好去国外念书去吧，高材生。我一直都会在这里的"
     ch      "嗯嗯，再见了，阿泉先生！"
+    voice "voice/aqxs_voice/episode1/先生24.mp3"
+    voice sustain
     mrquan    "欢迎下次光临。"
 
 
@@ -751,21 +883,28 @@ label episode1_2:
     "那就是铭牌……"
     # （这里插入暗黄色色调+九衢の街背景
     voice "voice/yqtt_voice/episode1/岩崎067.mp3"
-    yq  "九衢市九山区1037号森林公园旁有一家小铺……"
+    voice sustain
+    yq  "九衢市九山区1037号森林公园旁有一家小铺"
     voice "voice/yqtt_voice/episode1/岩崎068.mp3"
+    voice sustain
     yq  "哼哼，一般人我可是不告诉的"
     ch  "九山区……那种地方？"
     ch  "离市中心这么远的地方？？？"
     voice "voice/yqtt_voice/episode1/岩崎069.mp3"
+    voice sustain
     yq  "不会吧，不会吧？"
     voice "voice/yqtt_voice/episode1/岩崎070.mp3"
+    voice sustain
     yq  "海川的思维不会还停在‘九昌’，‘九口’，‘九阳’三区为中心的上世纪思维吧？"
     voice "voice/yqtt_voice/episode1/岩崎071.mp3"
+    voice sustain
     yq  "时代已经变了……"
     ch  "…… ……"
     voice "voice/yqtt_voice/episode1/岩崎072.mp3"
+    voice sustain
     yq  "总之,只要你去了就肯定知道了"
     voice "voice/yqtt_voice/episode1/岩崎073.mp3"
+    voice sustain
     yq  "‘九衢市最强隐藏修理铺’的称号可不是白叫的！"
     
 
@@ -782,11 +921,14 @@ label episode1_2:
     
     # （播放效果音：铁门哐当哐当打开的声音）
     voice "voice/qsf_voice/episode1/秋师父001.mp3"
+    voice sustain
     who "谁啊？"
     voice "voice/qsf_voice/episode1/秋师父002.mp3"
+    voice sustain
     who "不要总是拿‘珞珈作坊’来对比啊，在我看就是一个黑店"
     voice "voice/qsf_voice/episode1/秋师父003.mp3"
-    who "要货真价实的技术还是得来我这里……"
+    voice sustain
+    who "要货真价实的技术还是得来我这里"
     "随着面前锈迹斑斑的铁门应声打开，一股潮湿发霉的难闻气味铺面而来"
     ch  "咳咳……"
     "夹杂着一点腐臭味的灰尘冲进我的鼻腔中，这种味道真的很让我窒息……"
@@ -795,28 +937,36 @@ label episode1_2:
     ch  "请问这里是‘九衢市的最强隐藏修理铺’吗？"
     "好中二的名字……"
     voice "voice/qsf_voice/episode1/秋师父004.mp3"
+    voice sustain
     who "是的，"
     voice "voice/qsf_voice/episode1/秋师父005.mp3"
+    voice sustain
     who "我姓秋，你也可以喊我秋师傅"
     "迎面而来的秋师傅是一个满脸胡须，看上去非常邋遢的，完全不修边幅的中年男士"
     voice "voice/qsf_voice/episode1/秋师父006.mp3"
+    voice sustain
     mrqiu   "是要换语言包？换核心？还是敲掉？"
     cq  "唔！"
     cq  "敲掉是什么意思？！"
     voice "voice/qsf_voice/episode1/秋师父007.mp3"
+    voice sustain
     mrqiu   "这么看起来，你就是装了日式系统的仿生机器人了"
     cq  "是的！"
     voice "voice/qsf_voice/episode1/秋师父008.mp3"
+    voice sustain
     mrqiu   "我听不懂日语……看来现在说话得小心了"
     "这位叫“秋师傅”的维修师傅扫了我一眼，然后开始在地上打理着各种元件，看上去是在整理每个零件和设备的位置"
     ch  "就是……想问下能不能把她的铭牌从‘JAPAN’型的换成‘CHINA’型的……"
     "秋师傅上下打量着初咲恋柚，然后又用斜睨的目光很快地瞟了一眼我"
     voice "voice/qsf_voice/episode1/秋师父009.mp3"
+    voice sustain
     mrqiu   "小伙子，你知道这是有可能违法的事吗？"
     ch  "啊？"
     voice "voice/qsf_voice/episode1/秋师父010.mp3"
+    voice sustain
     mrqiu   "本来日式系统在这边就是不被允许的存在……更何况现在你要改她的铭牌"
     voice "voice/qsf_voice/episode1/秋师父011.mp3"
+    voice sustain
     mrqiu   "这要是被发现了，可就是二重罪了"
     ch  "可是……"
 
@@ -827,29 +977,40 @@ label episode1_2:
     cq  "是的！"
     cq  "我是完全遵照着准则来的噢！非常优秀且安全的机器人！"
     voice "voice/qsf_voice/episode1/秋师父012.mp3"
+    voice sustain
     mrqiu   "哎，"
     voice "voice/qsf_voice/episode1/秋师父013.mp3"
+    voice sustain
     mrqiu   "看样子，你现在是成年人了对吧"
     ch  "嗯，刚好成年"
     voice "voice/qsf_voice/episode1/秋师父014.mp3"
+    voice sustain
     mrqiu   "那你应该明白这个道理"
     voice "voice/qsf_voice/episode1/秋师父015.mp3"
+    voice sustain
     mrqiu   "就算从根本上是正确的事情，"
     voice "voice/qsf_voice/episode1/秋师父016.mp3"
+    voice sustain
     mrqiu   "只要表现出来是错的"
     voice "voice/qsf_voice/episode1/秋师父017.mp3"
+    voice sustain
     mrqiu   "那就是错的"
     ch  "道理也不能这么说吧……"
     voice "voice/qsf_voice/episode1/秋师父018.mp3"
+    voice sustain
     mrqiu   "本来，做出的每一个选择都不是你自己说的算"
     voice "voice/qsf_voice/episode1/秋师父019.mp3"
+    voice sustain
     mrqiu   "而是你自以为的价值和意义，遭到不可抗力因素时"
     voice "voice/qsf_voice/episode1/秋师父020.mp3"
+    voice sustain
     mrqiu   "会瞬间崩塌瓦解"
     voice "voice/qsf_voice/episode1/秋师父021.mp3"
+    voice sustain
     mrqiu   "那个时候，也没有人会愿意从深渊里拉你一把的"
     ch      "…… ……"
     voice "voice/qsf_voice/episode1/秋师父022.mp3"
+    voice sustain
     mrqiu   "所以年轻人，还是考虑好风险和价值再过来找我吧……修改这种程度的铭牌，也只需要一会儿的时间。"
 
     # （此处切换回忆到和阿泉先生对话那一段，白色顺闪转场）
@@ -929,8 +1090,10 @@ label episode1_2:
     "我指着身旁的初咲，夹杂着半分颤抖与肯定的语气，终于将这句话说了出来"
     "我斜着看了一眼我身旁的初咲后，秋师傅又直视着我的眼睛盯着看了好一阵子"
     voice "voice/qsf_voice/episode1/秋师父023.mp3"
+    voice sustain
     mrqiu   "看来你是真的下定了决心"
     voice "voice/qsf_voice/episode1/秋师父024.mp3"
+    voice sustain
     mrqiu   "喂！那边的……叫什么来着……初咲恋柚对吧？你觉得他怎么样？"
     cq  "是说主人吗？"
     cq  "大概是一个不会照顾自己的，很冒失的笨蛋吧……"
@@ -946,8 +1109,10 @@ label episode1_2:
     "初咲恋柚也只不过是一个高性能的仿生机器人啊……" 
     "我到底在想些什么……"
     voice "voice/qsf_voice/episode1/秋师父025.mp3"
+    voice sustain
     mrqiu   "哈，明白了，看上去你们都给出各自的答案了"
     voice "voice/qsf_voice/episode1/秋师父026.mp3"
+    voice sustain
     mrqiu   "那就放心交给我吧"
     
     # （初咲的立绘消失，场景开始缩小，从右往左移）
@@ -976,8 +1141,10 @@ label episode1_2:
 
     # （黑幕转场，背景图不变，这个地方可以插入一些比较灵动，感情加速的bgm）
     voice "voice/qsf_voice/episode1/秋师父027.mp3"
+    voice sustain
     mrqiu   "完成了"
     voice "voice/qsf_voice/episode1/秋师父028.mp3"
+    voice sustain
     mrqiu   "现在她铭牌已经彻底显示为中式系统，应该不会被检测到问题"
     "初咲突然冲上前来，紧紧地拉着我的手，像个孩子一样轻轻啜泣着"
     cq  "好可怕……"
@@ -986,10 +1153,13 @@ label episode1_2:
     "下意识之间，我一边搂着初咲恋柚的身体，一边用另一只手抚摸着她的头发"
     # "以现在这个视角来看"
     voice "voice/qsf_voice/episode1/秋师父029.mp3"
+    voice sustain
     mrqiu   "因为更换铭牌会强制打开她所有的感知传感器……"
     voice "voice/qsf_voice/episode1/秋师父030.mp3"
+    voice sustain
     mrqiu   "这种感知痛还是无法避免的……"
     voice "voice/qsf_voice/episode1/秋师父031.mp3"
+    voice sustain
     mrqiu   "不过……你们是不是有点太亲近了……"
     "在秋师傅的提示下，我才发现，因为关注初咲恋柚的铭牌，我的身体已经完全和初咲贴在一起……"
     "我立刻把双手从初咲的身上撤走"
@@ -1073,9 +1243,11 @@ label episode1_2:
     ch  "我们这是，成功了？！"
     # （缓慢展现蘭的立绘）
     voice "voice/l_voice/episode1/蘭132.mp3"
+    voice sustain
     l   "没错没错，果然和我想得一模一样，根本就是非常随意的检查啦"
     "朝我迎面走来的蘭甚至也露出得意的笑容"
     voice "voice/yqtt_voice/episode1/岩崎074.mp3"
+    voice sustain
     yq  "那么，首先祝贺我们旗开得胜"
     # （缓慢展现岩崎的立绘）
     ch  "欢迎回家，初咲！"

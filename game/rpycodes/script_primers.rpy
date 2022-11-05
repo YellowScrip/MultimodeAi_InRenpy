@@ -38,44 +38,64 @@ label start:
     #（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
     voice "voice/hcd_voice/episode1/海川渡改 1.mp3"
+    voice sustain
     "这个世界，是凝聚了科技和经济，无比伟大而光明的"
     voice "voice/hcd_voice/episode1/海川渡改 2.mp3"
+    voice sustain
     "黄金时代"
     voice "voice/hcd_voice/episode1/海川渡改 3.mp3"
+    voice sustain
     "100年前的人们曾对这种‘科技幻想’的世界抱有无比期待"
     voice "voice/hcd_voice/episode1/海川渡改 4.mp3"
+    voice sustain
     "他们幻想着在这样的世界中"
     voice "voice/hcd_voice/episode1/海川渡改 5.mp3"
+    voice sustain
     "机器人能够凭空出世，解放所有人类"
     voice "voice/hcd_voice/episode1/海川渡改 6.mp3"
+    voice sustain
     "但同时，他们也没有意识到，"
     voice "voice/hcd_voice/episode1/海川渡改 7.mp3"
+    voice sustain
     "这个世界也只不过是个高速发展的残次品"
     voice "voice/hcd_voice/episode1/海川渡改 9.mp3"
+    voice sustain
     "在除科学之外的领域暴露着各种各样的问题. . ."
     voice "voice/hcd_voice/episode1/海川渡改 10.mp3"
+    voice sustain
     "内耗的世界，重构的制度. . ."
     voice "voice/hcd_voice/episode1/海川渡改 11.mp3"
+    voice sustain
     "无法回暖的生育率，不断下滑的就业率. . .以及，"
     voice "voice/hcd_voice/episode1/海川渡改 12.mp3"
+    voice sustain
     "失去了梦想的青年人"
     voice "voice/hcd_voice/episode1/海川渡改 13.mp3"
+    voice sustain
     "我们似乎正逐渐被裹挟在这个机器人大规模替代人力的时代"
     voice "voice/hcd_voice/episode1/海川渡改 14.mp3"
+    voice sustain
     "社会发展规律的更迭正逐渐快到让人窒息"
     voice "voice/hcd_voice/episode1/海川渡改 15.mp3"
+    voice sustain
     "完全超越自我能力的责任；"
     voice "voice/hcd_voice/episode1/海川渡改 16.mp3"
+    voice sustain
     "愈来愈狭小的物质与精神空间"
     voice "voice/hcd_voice/episode1/海川渡改 17.mp3"
+    voice sustain
     "‘幸福’，"
     voice "voice/hcd_voice/episode1/海川渡改 18.mp3"
+    voice sustain
     "‘未来’，"
     voice "voice/hcd_voice/episode1/海川渡改 19.mp3"
+    voice sustain
     "‘爱’。"
     voice "voice/hcd_voice/episode1/海川渡改 20.mp3"
+    voice sustain
     "这三个常被人类挂在嘴边的辞藻也逐渐离我们越来越远. . ."
     voice "voice/hcd_voice/episode1/海川渡改 21.mp3"
+    voice sustain
     "甚至，我完全没有感受到它们的存在"
     #（转场，切换到书房）
     voice "voice/cxly_voice/episode1/初咲001.mp3"
@@ -115,7 +135,7 @@ label start:
     voice sustain
     voice "voice/cxly_voice/episode1/初咲004.mp3"
     voice sustain
-    who "‘nai’也是取自英文，有着‘出生’，‘生来的’的意思"
+    who "‘nai’也是取自英文，有着‘生来的’的意思"
     voice sustain
     voice "voice/cxly_voice/episode1/初咲005.mp3"
     voice sustain

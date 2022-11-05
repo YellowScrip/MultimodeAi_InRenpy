@@ -1,15 +1,15 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/rpycodes/script_1_2.rpy", line 785, in script
-    who "谁啊？"
-OSError: Couldn't find file 'voice/qsf_voice/秋师父001.mp3'.
+  File "game/rpycodes/script_1_2.rpy", line 451, in script
+    who "是不是忘记我了？"
+OSError: Couldn't find file 'voice/aqxs_voice/先生1.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/rpycodes/script_1_2.rpy", line 785, in script
-    who "谁啊？"
+  File "game/rpycodes/script_1_2.rpy", line 451, in script
+    who "是不是忘记我了？"
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
     renpy.exports.say(who, what, *args, **kwargs)
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
@@ -39,9 +39,9 @@ Full traceback:
     rv = renpy.loader.load(fn)
   File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
     raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'voice/qsf_voice/秋师父001.mp3'.
+OSError: Couldn't find file 'voice/aqxs_voice/先生1.mp3'.
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Sat Nov  5 21:04:38 2022
+Sun Nov  6 02:10:52 2022

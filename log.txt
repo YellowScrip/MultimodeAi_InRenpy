@@ -1,131 +1,40 @@
-Sat Nov  5 20:10:55 2022
+Sun Nov  6 01:53:53 2022
 Windows-10-10.0.22621
 Ren'Py 8.0.3.22090809
  
 
-Bootstrap to the start of init.init took 0.04s
+Bootstrap to the start of init.init took 0.08s
 Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata. took 0.03s
+Loader init took 0.07s
+Loading error handling took 0.04s
+Loading script took 0.49s
+Loading save slot metadata. took 0.05s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
+Running init code took 0.08s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.05s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
+Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.03s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 261.78s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.03s
-Loading script took 0.19s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 289.15s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.41s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.05s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.10s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2160, 1440)
@@ -137,12 +46,136 @@ Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
 Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2160, 1440) drawable=(2160, 1440)
+Maximum texture size: 4096x4096
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
 Resetting cache.
-Bootstrap to the start of init.init took 340.72s
+Bootstrap to the start of init.init took 13.06s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.39s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2160, 1440) drawable=(2160, 1440)
+Maximum texture size: 4096x4096
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2160, 1440) drawable=(2160, 1440)
+Maximum texture size: 4096x4096
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Resetting cache.
+Bootstrap to the start of init.init took 26.21s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.04s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2160, 1440) drawable=(2160, 1440)
+Maximum texture size: 4096x4096
+Traceback (most recent call last):
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\editor.py", line 103, in open
+    os.startfile(filename) # type: ignore
+OSError: [WinError -2147221003] 找不到应用程序: 'D:\\renpy_galgame\\game\\rpycodes\\initgame.rpy'
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 183.18s
 Early init took 0.00s
 Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.20s
+Loading error handling took 0.04s
+Loading script took 0.42s
 Loading save slot metadata. took 0.04s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
@@ -155,6 +188,329 @@ Dump and make backups. took 0.06s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.06s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 725.39s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.06s
+Loading script took 0.32s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.35s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 793.88s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.40s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 821.68s
+Early init took 0.00s
+Loader init took 0.10s
+Loading error handling took 0.04s
+Loading script took 0.58s
+Loading save slot metadata. took 0.06s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.53s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 995.16s
+Early init took 0.00s
+Loader init took 0.07s
+Loading error handling took 0.02s
+Loading script took 0.42s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.40s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.13s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1006.22s
+Early init took 0.00s
+Loader init took 0.06s
+Loading error handling took 0.03s
+Loading script took 0.40s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.40s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpycodes/script_1_2.rpy", line 451, in script
+    who "是不是忘记我了？"
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
+    renpy.audio.audio.periodic()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'voice/aqxs_voice/先生1.mp3'.
+
+While running game code:
+  File "game/rpycodes/script_1_2.rpy", line 451, in script
+    who "是不是忘记我了？"
+OSError: Couldn't find file 'voice/aqxs_voice/先生1.mp3'.
+Resetting cache.
+Bootstrap to the start of init.init took 1048.79s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
@@ -167,138 +523,10 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 503.63s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/rpycodes/script_primers.rpy", line 59, in script
-    "重构的制度. . ."
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
-    display_say(who,
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
-    renpy.audio.audio.periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
-    periodic_pass()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
-    c.periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
-    topf = load(filename)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
-    rv = renpy.loader.load(fn)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'voice/hcd_voice/episode1/海川渡改 10.mp3'.
-
-While running game code:
-  File "game/rpycodes/script_primers.rpy", line 59, in script
-    "重构的制度. . ."
-OSError: Couldn't find file 'voice/hcd_voice/episode1/海川渡改 10.mp3'.
-Resetting cache.
-Bootstrap to the start of init.init took 555.16s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.28s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.39s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.08s
+Interface start took 0.06s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 2160, 1440)
@@ -308,2393 +536,10 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2160, 1334) drawable=(2160, 1334)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 688.55s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.43s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 711.64s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.46s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 768.00s
-Early init took 0.00s
-Loader init took 0.10s
-Loading error handling took 0.04s
-Loading script took 0.58s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.45s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 874.07s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.47s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.41s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 912.26s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.43s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 940.12s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.02s
-Loading script took 0.44s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 961.68s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.42s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 991.10s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.03s
-Loading script took 0.60s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1076.07s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.45s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1353.54s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.43s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1376.50s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.29s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1584.87s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.44s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1678.87s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.30s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1725.97s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.37s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1782.17s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.45s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1814.20s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.40s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.36s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1832.67s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.35s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.33s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1867.85s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.43s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1883.44s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.50s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.41s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1893.00s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.53s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1904.11s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.52s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.41s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1921.34s
-Early init took 0.00s
-Loader init took 0.13s
-Loading error handling took 0.04s
-Loading script took 0.71s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.08s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.49s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1939.91s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.41s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.38s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1962.97s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.03s
-Loading script took 0.65s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.42s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 1983.11s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.40s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2001.60s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.38s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2017.29s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.44s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2026.95s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.51s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2065.30s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.03s
-Loading script took 0.66s
-Loading save slot metadata. took 0.07s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.09s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.45s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2232.18s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.04s
-Loading script took 0.62s
-Loading save slot metadata. took 0.08s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.08s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.48s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2446.76s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.40s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2457.73s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.38s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2480.86s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.04s
-Loading script took 0.58s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.12s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.50s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2497.88s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.35s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2514.30s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.32s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2543.47s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.42s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.38s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2560.59s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.34s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2609.27s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.41s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.38s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2629.32s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.39s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2673.85s
-Early init took 0.00s
-Loader init took 0.11s
-Loading error handling took 0.04s
-Loading script took 0.59s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.12s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.47s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2685.50s
-Early init took 0.00s
-Loader init took 0.20s
-Loading error handling took 0.08s
-Loading script took 1.08s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.12s
-Loading analysis data took 0.08s
-Analyze and compile ATL took 0.12s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.51s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2710.32s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.34s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2736.45s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.41s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.07s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.37s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2774.63s
-Early init took 0.00s
-Loader init took 0.09s
-Loading error handling took 0.04s
-Loading script took 0.64s
-Loading save slot metadata. took 0.05s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.10s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.47s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2843.17s
-Early init took 0.00s
-Loader init took 0.11s
-Loading error handling took 0.05s
-Loading script took 0.55s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.07s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.55s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2860.33s
-Early init took 0.00s
-Loader init took 0.11s
-Loading error handling took 0.05s
-Loading script took 0.61s
-Loading save slot metadata. took 0.08s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.06s
-Analyze and compile ATL took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.48s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2891.01s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.42s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.40s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 2903.48s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.35s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3194.97s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3216.36s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.03s
-Loading script took 0.29s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.35s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/rpycodes/script_1_2.rpy", line 785, in script
-    who "谁啊？"
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
-    display_say(who,
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4103, in interact_core
-    renpy.audio.audio.periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
-    periodic_pass()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
-    c.periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
-    topf = load(filename)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
-    rv = renpy.loader.load(fn)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'voice/qsf_voice/秋师父001.mp3'.
-
-While running game code:
-  File "game/rpycodes/script_1_2.rpy", line 785, in script
-    who "谁啊？"
-OSError: Couldn't find file 'voice/qsf_voice/秋师父001.mp3'.
-Resetting cache.
-Bootstrap to the start of init.init took 3249.83s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3263.71s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3324.28s
+Bootstrap to the start of init.init took 1077.66s
 Early init took 0.00s
 Loader init took 0.04s
 Loading error handling took 0.02s
@@ -2703,321 +548,6 @@ Loading save slot metadata. took 0.03s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3494.87s
-Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.02s
-Loading script took 0.41s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.07s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.52s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3510.37s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.28s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3625.36s
-Early init took 0.00s
-Loader init took 0.05s
-Loading error handling took 0.02s
-Loading script took 0.31s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3681.57s
-Early init took 0.00s
-Loader init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.36s
-Loading save slot metadata. took 0.04s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3713.72s
-Early init took 0.00s
-Loader init took 0.08s
-Loading error handling took 0.03s
-Loading script took 0.55s
-Loading save slot metadata. took 0.06s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.05s
-Analyze and compile ATL took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.09s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.50s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 3886.10s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
-Dump and make backups. took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.27s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2160, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 522.06'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 4002.69s
-Early init took 0.00s
-Loader init took 0.04s
-Loading error handling took 0.02s
-Loading script took 0.26s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.03s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.04s
 Index archives took 0.00s
@@ -3029,7 +559,7 @@ Initial gc. took 0.05s
 DPI scale factor: 1.500000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.26s
+Creating interface object took 0.28s
 Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
@@ -3038,7 +568,52 @@ Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1191.04s
+Early init took 0.00s
+Loader init took 0.05s
+Loading error handling took 0.03s
+Loading script took 0.46s
+Loading save slot metadata. took 0.04s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.36s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.07s
@@ -3051,12 +626,50 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 522.06'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2043, 1149) drawable=(2043, 1149)
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
 Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1227.58s
+Early init took 0.00s
+Loader init took 0.04s
+Loading error handling took 0.02s
+Loading script took 0.28s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'D:\\1_file\\gal\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Jack\\AppData\\Roaming/RenPy/backups\\renpy_galgame':
+Dump and make backups. took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.500000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.28s
 Cleaning stores took 0.00s
-Init translation took 0.00s
+Init translation took 0.05s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2160, 1440)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce MX250/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 522.06'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2058, 1158) drawable=(2058, 1158)
+Maximum texture size: 4096x4096
