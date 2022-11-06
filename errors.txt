@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/set_characters.rpy", line 49: expected statement.
-    defnie shot6 = AlphaDissolve("rightmove",delay = 60.0)
-                 ^
+File "game/rpycodes/initgame.rpy", line 149: expected statement.
+    设置游戏开场的动画及其他
+                ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Nov  5 17:28:39 2022
+Sun Nov  6 17:26:17 2022

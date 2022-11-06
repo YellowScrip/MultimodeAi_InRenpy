@@ -147,17 +147,17 @@ define gui.gallery_slot_rows = 2
 
 
 #设置游戏开场的动画及其他
-# label splashscreen:
-#     image beforegame1 = Movie(play="videos/start logo.mpg",loops=0,stop_music=True)
-#     image beforegame2 = Movie(play="videos/logo.mpeg",loops=0,stop_music=True)
-#     show beforegame1
-#     $ renpy.pause(9.35,hard = True)#时长是你视频的长度，播完自动退出
-#     hide beforegame1
-#     show beforegame2
-#     $ renpy.pause(6.0,hard = True)#时长是你视频的长度，播完自动退出
-#     hide beforegame2
-#     $ renpy.pause(1.5,hard = True)
-#     return
+label splashscreen:
+    image beforegame1 = Movie(play="videos/start logo.mpg",loops=0,stop_music=True)
+    image beforegame2 = Movie(play="videos/logo.mpeg",loops=0,stop_music=True)
+    show beforegame1
+    $ renpy.pause(9.35,hard = True)#时长是你视频的长度，播完自动退出
+    hide beforegame1
+    show beforegame2
+    $ renpy.pause(6.0,hard = True)#时长是你视频的长度，播完自动退出
+    hide beforegame2
+    $ renpy.pause(1.5,hard = True)
+    return
 
 
 #游戏结束后返回界面的函数，必须存在
