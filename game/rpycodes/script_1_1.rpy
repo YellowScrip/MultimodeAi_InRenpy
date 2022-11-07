@@ -248,13 +248,17 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭026.mp3"
     voice sustain
     l "学校真的会收留你吗？"
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     ch "看来也只有你才会说出‘收留’这种词汇. . ."
+    voice sustain
     ch "说得我好像是完全就没有参加考试的感觉"
     #show
     voice "voice/l_voice/episode1/蘭027.mp3"
     voice sustain
     l "唔，明明入学考试那么难的说. . ."
+    voice sustain
     "蘭在多次核对了我的录取情况之后，她的脸显示出些许不满的情绪。"
     #show
     voice "voice/l_voice/episode1/蘭028.mp3"
@@ -281,16 +285,22 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭033.mp3"
     voice sustain
     l "那么，海川肯定和我一样，是‘新媒体传播与交叉演出’专业，对吧？"
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     ch "不是的"
+    voice sustain
     "在我摇了摇头后，蘭露出了更加惊讶的表情看着我"
     #show
     voice "voice/l_voice/episode1/蘭034.mp3"
     voice sustain
     l "让我看看. . .填报院系. . .‘仿生机器人制造技术’，不愧是你. . ."
     #（立绘上切换成蘭无语的表情）
+    voice sustain
     "果不其然，每次在和蘭聊天中必不可少的就是那双“像是看着垃圾的眼神”"
+    voice sustain
     "尤其是在和我聊天的时候，似乎是有什么不可名状的原因导致蘭一直都很厌恶眼前的我"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭035.mp3"
     voice sustain
@@ -303,22 +313,37 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭037.mp3"
     voice sustain
     l "真不愧是你啊. . .‘PTFOD’的演出社社长"
+    voice sustain
     "蘭加重了”PTFOD“这几个字，略微带着一点嘲讽和调侃的语气，看来是故意在说给我听的"
+    voice sustain
     "PTFOD演出社团"
+    voice sustain
     "一个由于我个人对演出和古典乐抱有强烈喜爱而在中学创建的社团"
+    voice sustain
     "在昨天最后的一次表演后，就解散了"
-    "说起来还很有点可惜. . ."
+    voice sustain
+    "这么想来还很有点可惜"
+    voice sustain
+    "话说回来，蘭经常会帮助我们的社团写一些演出的剧本"
+    voice sustain
+    "只不过对我这个社长很不满意就是了. . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭038.mp3"
     voice sustain
     l "诺，这是你需要填写的信息，就在这个表格里面，填满就可以了"
+    voice sustain
     ch "谢谢"
+    voice sustain
     "我接过填写表"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭039.mp3"
     voice sustain
     l "能给我一个理由吗"
+    voice sustain
     ch "什么？"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭040.mp3"
     voice sustain
@@ -327,25 +352,39 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭041.mp3"
     voice sustain
     l "这不像你"
+    voice sustain
     "我慢慢停下手中的笔，盯着刚刚落笔在“专业确认”那一栏中填下的“仿生机器人制造技术”"
+    voice sustain
     "天花板上摇摇欲坠的吊灯在电子屏幕上投影的明晃晃光圈显得那样诱人，"
+    voice sustain
     "我发了好一会儿呆，直到蘭伸出手在我的面前挥了挥"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭042.mp3"
     voice sustain
     l "喂喂，你刚刚听到了我问你的问题了吧？"
+    voice sustain
     ch ". . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭043.mp3"
     voice sustain
     l "该不会是在计较昨天晚上和秋月的事情吧？"
+    voice sustain
     ch "也不算是，只是昨天晚上因为看到录取的消息有点睡不着觉，好困. . ."
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     "这是谎言"
+    voice sustain
     "直到现在为止，我都还在为昨天晚上发生的各种事情耿耿于怀"
+    voice sustain
     ch "简单来说，就是因为父亲要回到日本工作，加上他本身就是从事‘机器人制造’相关的行业，就执意希望我继承他的工作吧. . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭044.mp3"
     voice sustain
@@ -358,31 +397,50 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭046.mp3"
     voice sustain
     l "明明可以大胆追求自己喜欢做的事情啊！"
+    voice sustain
     "不得不说，蘭总能在对我一顿“毒舌”之后说出这样似乎是为我着想的话"
+    voice sustain
     "出乎意料地为我着想. . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭047.mp3"
     voice sustain
     l "这就是我不喜欢你的理由"
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     "好吧，收回刚才我说的话"
+    voice sustain
     "就算是不喜欢别人的话说出来真够直接啊. . ."
+    voice sustain
     who "各位，在这样乌云密布的早晨，"#（日语出场）
+    voice sustain
     who "说明了今天肯定会有大事发生. . ."
+    voice sustain
     who "换句话说. . ."
+    voice sustain
     who "命运的抉择"
+    voice sustain
     "一个人影突然从我们的旁边闪过，拍了拍我和蘭的肩膀"
+    voice sustain
     #（此处播放类似于手机掉在地上的效果音）
     "蘭向后退了几步，用来做登记的电子屏也因为蘭的惊慌失措掉在地上"
+    voice sustain
     "以这种方式出场，也只会是我的那个非常冒失的中二病伙伴了——"
+    voice sustain
     "岩崎天桐"
+    voice sustain
     "虽然看上去外表和普通人没有两样，但是实际上岩崎天桐却是集结了这个时代最前沿科技的仿生机器人。"
+    voice sustain
     "小时候的我一直以为岩崎只是蘭的一个哥哥，直到上了高中之后，才发现他的外貌根本没有变过。"
+    voice sustain
     ch "早上好呀，岩崎！"
+    voice sustain
     #show
     voice "voice/yqtt_voice/episode1/岩崎001.mp3"
     voice sustain
     yq  "你好啊，海川！"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭048.mp3"
     voice sustain
@@ -403,10 +461,15 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭050.mp3"
     voice sustain
     l "明明说了好多次，今天再不要跟着我过来了！"
+    voice sustain
     "蘭指着岩崎天桐的鼻梁，看上去非常气恼的样子. . ."
+    voice sustain
     "虽然两个人的身高差看上去极不谐调，不过这样的场景在我看来却异常地诙谐"
+    voice sustain
     ch "噗嗤"
+    voice sustain
     "一个没忍住，我还是笑出声了"
+    voice sustain
     "蘭狠狠地盯了我一眼，在轻轻地“哼”了一声之后，就继续开始自己的工作了"
     #show
     voice "voice/yqtt_voice/episode1/岩崎004.mp3"
@@ -416,16 +479,20 @@ label episode1_1:
     voice "voice/yqtt_voice/episode1/岩崎005.mp3"
     voice sustain
     yq  "还不是因为其他人的魔法结社传唤申请被你落在家里"
+    voice sustain
     ch "是留学申请档案"
     #show
     voice "voice/yqtt_voice/episode1/岩崎006.mp3"
     voice sustain
     yq  "我才会专门调用能够快速跨越长江的异界载具. . ."
+    voice sustain
     ch "是九衢市50型地铁二号线转五号线"
+    voice sustain
     #show
     voice "voice/yqtt_voice/episode1/岩崎007.mp3"
     voice sustain
     yq  "总之，这一路过来可真是辛苦. . ."
+    voice sustain
     ch "明明从汉江路到昙华林公园这一带只用不到十分钟的时间. . ."
     #show
     voice "voice/yqtt_voice/episode1/岩崎008.mp3"
@@ -435,7 +502,9 @@ label episode1_1:
     voice "voice/yqtt_voice/episode1/岩崎009.mp3"
     voice sustain
     yq  "你说这么直接就没意思了. . ."
+    voice sustain
     ch "就在我们谈话间，蘭悄悄地把这一沓档案袋放到了自己的书包里，不过还是被岩崎天桐看到了"
+    voice sustain
     #show
     voice "voice/yqtt_voice/episode1/岩崎010.mp3"
     voice sustain
@@ -469,20 +538,29 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭053.mp3"
     voice sustain
     l "让你多跑一趟. . .辛苦你了"
+    voice sustain
     "蘭用几乎是我们能听到的最低声音喃喃地向岩崎道谢"
+    voice sustain
     "满脸通红的她就像是一个认错的小孩，完全就没有刚刚的那种咄咄逼人的锐气"
+    voice sustain
     #show
     voice "voice/yqtt_voice/episode1/岩崎014.mp3"
     voice sustain
     yq  "这就对了嘛"
+    voice sustain
     "顺势，岩崎天桐把手放在了蘭的头上，轻轻地来回抚摸着"
+    voice sustain
     "岩崎天桐对着他的主人轻轻地笑着，那种宠溺的眼神看上去和“蘭的大哥哥”这个标签完全吻合。"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭054.mp3"
     voice sustain
     l "不要这样！"
+    voice sustain
     "蘭猛地向后又退了一步"
+    voice sustain
     "慌张地向四周看了看，然后装作若无其事地清理咨询台上的各种资料"
+    voice sustain
     #show
     voice "voice/yqtt_voice/episode1/岩崎015.mp3"
     voice sustain
@@ -521,7 +599,9 @@ label episode1_1:
     voice "voice/yqtt_voice/episode1/岩崎019.mp3"
     voice sustain
     yq  "还请主上大人期待今天我精心准备的‘晚宴’吧"
+    voice sustain
     "说完，岩崎天桐还不忘把手架在脸上，颇有一番中二且极为自信的气势"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭059.mp3"
     voice sustain
@@ -546,36 +626,52 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭063.mp3"
     voice sustain
     l "最近感觉岩崎他好烦人，才不想靠近这种自以为是的大傻瓜"
+    voice sustain
     "无论怎样，蘭在面对岩崎时露出的奇怪神情总是让我感觉到异样"
-    "甚至给我一种胡乱的大胆猜测. . . . . ."
+    voice sustain
+    "甚至给我一种胡乱的大胆猜测"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭064.mp3"
     voice sustain
     l "喂喂，刚才的表你填完了吗？"
+    voice sustain
     ch "嗯，填完了"
+    voice sustain
     "蘭打断了我的胡乱臆想. . .可能也只是错觉吧？"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭065.mp3"
     voice sustain
     l "好的，给我来检查一下"
+    voice sustain
     #show
     l ". . . . . ."
+    voice sustain
     #show
     l ". . . . . ."
+    voice sustain
     #show
     l ". . . . . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭066.mp3"
     voice sustain
     l "表格是没什么问题了"
+    voice sustain
     ch "好"
+    voice sustain
     "我拿起了放在一旁的挎包，拍了拍落上面的灰"
+    voice sustain
     "正当我准备转身离开的时候，突然被蘭叫住了"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭067.mp3"
     voice sustain
     l "等等！忘记和你说要拿校服了"
+    voice sustain
     "蘭俯身从摆放在咨询台旁边的众多的袋子中挑出了看上去最高贵的那个，上面赫然印着“东番国立高大”的名称"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭068.mp3"
     voice sustain
@@ -584,12 +680,16 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭069.mp3"
     voice sustain
     l "还有这些是入学必备的资料"
+    voice sustain
     ch "没想到这么快就发到我们学生手上了啊"
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭070.mp3"
     voice sustain
     l "哼哼，毕竟是高大嘛"
+    voice sustain
     "我接过蘭递给我的各种资料，然后把这些东西塞回了我的书包中"
+    voice sustain
     #show
     #voice "voice/l_voice/episode1/蘭071.mp3"(配音配掉了)
     voice sustain
@@ -599,16 +699,19 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭071.mp3"
     voice sustain
     l "为什么海川不会想着携带一个robot入学呢？"
+    voice sustain
     ch "是学校强制要求的吗？"
     #show
     voice "voice/l_voice/episode1/蘭072.mp3"
     voice sustain
-    l "不是的，只是这样的话会方便很多. . ."
+    l "不是的，只是这样的话会方便很多"
     #show
     voice "voice/l_voice/episode1/蘭073.mp3"
     voice sustain
-    l "比如说. . .可以帮你做好家务活之类的. . ."
+    l "比如说. . .可以帮你做好家务活之类的"
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     #show
     voice "voice/l_voice/episode1/蘭075.mp3"
     voice sustain
@@ -620,19 +723,23 @@ label episode1_1:
     #show
     voice "voice/l_voice/episode1/蘭077.mp3"
     voice sustain
-    l "看来海川还真是不问世事呀，被消息隔离也是理所当然的吧. . ."
+    l "看来海川还真是不问世事呀，被消息隔离也是理所当然的吧"
+    voice sustain
     ch "不要随便毒舌啊，这种事情我还是知道的。"
-    ch "总的来说，东番国立高大在这方面也想得非常周到，充分考虑到之前仿生机器人和人权问题. . ."
+    voice sustain
+    ch "总的来说，东番国立高大在这方面也想得非常周到，充分考虑到之前仿生机器人和人权问题"
     #show
     voice "voice/l_voice/episode1/蘭078.mp3"
     voice sustain
     l "嗯嗯。"
-    ch "我是因为家里的缘故才没有买那种东西. . ."
+    ch "我是因为家里的缘故才没有买那种东西"
     #show
     voice "voice/l_voice/episode1/蘭079.mp3"
     voice sustain
     l "原来如此. . ."
     voice "voice/l_voice/episode1/蘭080.mp3"
+    voice sustain
+    "蘭狐疑地看了我两眼，不过很快就没在意我刚刚说地那些话了"
     voice sustain
     l "总之，学校本来已经给我们准备好了四套校服"
     #show
@@ -665,7 +772,9 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭087.mp3"
     voice sustain
     l "至少不会留给海川这种不珍惜校服的人"
+    voice sustain
     ch ". . . . . ."
+    voice sustain
     ch "那样听起来也蛮不错的感觉"
     #show
     voice "voice/l_voice/episode1/蘭088.mp3"
@@ -715,18 +824,25 @@ label episode1_1:
     voice "voice/l_voice/episode1/蘭093.mp3"
     voice sustain
     l "因为爸爸妈妈一直都在‘高塔’里工作，平时也完全没有时间照顾我. . ."
+    voice sustain
     "所以就顺理成章地按照蘭的想法给她找了一个能够照顾她的人——"
+    voice sustain
 
     #（此处切入线稿2，一个没有脸的大哥哥线稿出现在屏幕上）
 
     "名为“小岩”的大哥哥"
+    voice sustain
     "当时的我是完全不知道面前的这个大哥哥竟然是一个仿生机器人"
+    voice sustain
 
     #（此处切入线稿3，两个小孩，一年一女，背对着玩家，面向那个没有脸的大哥哥线稿）
 
     "这位自称是蘭的哥哥的“小岩”，总是能和我们打成一片. . ."
+    voice sustain
     "我很羡慕蘭，因为她有这样一个大哥哥，站在她的身边，默默地保护着她"
+    voice sustain
     "虽然当时的“小岩”看上去已经有了接近成年人的长相，但是仍然给我一种非常亲近的感觉. . . "
+    voice sustain
 
     #（此处切入线稿4，一个没有脸的大哥哥和两个已经长大了的孩子，只看得到腿部服装的二人）
 
