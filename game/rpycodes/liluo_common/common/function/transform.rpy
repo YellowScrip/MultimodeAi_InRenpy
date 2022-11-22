@@ -882,10 +882,10 @@ define tran_light = ImageDissolve("liluo_common/common/transition/snaketran.png"
 define tran_fog = ImageDissolve("liluo_common/common/transition/fogtran.png", 0.5, 64)
 define tran_fast = ImageDissolve("liluo_common/common/transition/fasttran.png", 0.5, 64)
 define tran_updown = ImageDissolve("liluo_common/common/transition/updowntran.png", 0.5, 64)
-define tran_uf = ImageDissolve("liluo_common/common/transition/s2.png", 0.2, 32)
-define tran_df = ImageDissolve("liluo_common/common/transition/s1.png", 0.2, 32)
-define tran_rf = ImageDissolve("liluo_common/common/transition/right.png", 0.2, 32)
-define tran_lf = ImageDissolve("liluo_common/common/transition/left.png", 0.2, 32)
+define tran_uf = ImageDissolve("rpycodes/liluo_common/common/transition/s2.png", 0.2, 32)
+define tran_df = ImageDissolve("rpycodes/liluo_common/common/transition/s1.png", 0.2, 32)
+define tran_rf = ImageDissolve("rpycodes/liluo_common/common/transition/right.png", 0.2, 32)
+define tran_lf = ImageDissolve("rpycodes/liluo_common/common/transition/left.png", 0.5, 32)
 define push_up = CropMove(0.4, "custom",startcrop=(0.0, 1.0, 1.0, 1.0), endcrop=(0.0, 0.0, 1.0, 1.0))
 
 define config.window_hide_transition = close

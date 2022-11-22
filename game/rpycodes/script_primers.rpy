@@ -1,6 +1,6 @@
 ﻿
 label start:
-
+    jump episode1_1
     #play music "bgm/九衢长街/九衢长街新版.mp3"
     #play music "bgm/pv/renai_piano_ver.mp3"
     stop music
@@ -197,6 +197,7 @@ label start:
     "也是我们故事的终局. . ."
     voice sustain
     stop music
+    hide bg1 with dissolve
     jump episode1_1
 
     #（黑幕淡出，播放Episode 01界面画面"被遗弃的冬日旋律"）

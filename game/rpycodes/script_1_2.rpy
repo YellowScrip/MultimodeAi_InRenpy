@@ -3,7 +3,7 @@
 label episode1_2:
 
     window hide
-    scene bg2
+    scene bg2 with dissolve
     # 转场
     cq  "哼哼哼~！"
     "走在我身旁的初咲一路上哼着歌，不时还会突然走到我的面前原地转个圈"
