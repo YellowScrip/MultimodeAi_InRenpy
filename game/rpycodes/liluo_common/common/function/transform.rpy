@@ -875,7 +875,7 @@ define push_left = CropMove(2.0, "custom", startcrop=(0.5, 0.0, 0.0, 1.0), endcr
 define clockwise = ImageDissolve("liluo_common/common/transition/clockwise.png", 1.0, 32)
 define anticlockwise = ImageDissolve("liluo_common/common/transition/anticlockwise.png", 1.0, 32)
 define tran_clockwise = MultipleTransition([False, clockwise ,Solid("#000"), clockwise, True])
-define close = ImageDissolve("liluo_common/common/transition/close.png", 0.5, 128, reverse = True)
+define close = ImageDissolve("rpycodes/liluo_common/common/transition/close.png", 0.5, 128, reverse = True)
 define tran_close = MultipleTransition([False, close ,Solid("#000"), close ,True])
 define tran_water = ImageDissolve("liluo_common/common/transition/watertran.png", 0.5, 64)
 define tran_light = ImageDissolve("liluo_common/common/transition/snaketran.png", 0.5, 64)

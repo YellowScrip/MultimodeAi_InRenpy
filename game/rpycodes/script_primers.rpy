@@ -1,6 +1,5 @@
 ﻿
 label start:
-    jump episode1_1
     #play music "bgm/九衢长街/九衢长街新版.mp3"
     #play music "bgm/pv/renai_piano_ver.mp3"
     stop music
