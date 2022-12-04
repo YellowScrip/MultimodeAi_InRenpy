@@ -166,9 +166,6 @@ image cx size4 a2 normal="images/characterstest/cx/size4/shirone size4 a2 normal
 image cx size4 a2 smile="images/characterstest/cx/size4/shirone size4 a2 smile.png"
 image cx size4 a2 surprised="images/characterstest/cx/size4/shirone size4 a2 surprised.png"
 
-#设置角色头像（可以删除）
-#image side cqly a = "images/characters/cxly/cxly_3" #定义初崎恋柚的头像1，side a
-#image side cqly b = "images/characters/cxly/cxly_3" #定义初崎恋柚的头像2，side b
 
 
 

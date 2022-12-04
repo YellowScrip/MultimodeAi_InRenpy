@@ -480,12 +480,16 @@ label episode1_1:
 
     hide lan size1 a1 serious with Dissolve(0.2)
     play music "bgm/testbgm/BGM17.ogg" fadein 1.0
+    voice "voice/yqtt_voice/episode1/？？？001.mp3"
     who "各位，在这样乌云密布的早晨"#（日语出场）
     voice sustain
+    voice "voice/yqtt_voice/episode1/？？？002.mp3"
     who "说明了今天肯定会有大事发生. . ."
     voice sustain
+    voice "voice/yqtt_voice/episode1/？？？003.mp3"
     who "换句话说. . ."
     voice sustain
+    voice "voice/yqtt_voice/episode1/？？？004.mp3"
     who "命运的抉择"
     voice sustain
     "一个人影突然从我们的旁边闪过，拍了拍我和蘭的肩膀"
@@ -791,7 +795,7 @@ label episode1_1:
     "我接过蘭递给我的各种资料，然后把这些东西塞回了我的书包中"
     voice sustain
     #show
-    #voice "voice/l_voice/episode1/蘭071.mp3"(配音配掉了)
+    voice "voice/l_voice/episode1/蘭071补.mp3"
     voice sustain
     l size2 a1 little_serious"还有一个私人的问题"
     #ch "嗯，你说"
@@ -1584,6 +1588,7 @@ label episode1_1:
         zoom 1.4
     show memory
     with dissolve
+    voice "voice/cxly_voice/episode1/初咲063.mp3"
     cq "海川君能帮助我吗？"
     hide street afternoon
     hide cx size2 a4 sad
@@ -2354,7 +2359,7 @@ label episode1_1:
     ch "就是. . ."
     ch "既然要求把你设计地这么可爱的. . .我想年纪应该也不会很大. . .大概. . .也不会是我们想到的那样故意遗弃你. . .？"
     #show
-    voice "voice/cxly_voice/episode1/初咲153.mp3"
+    #voice "voice/cxly_voice/episode1/初咲153.mp3"
     cq size2 a3 smile"是的呢！原先的主人和海川君的年纪差不多呢！"
     #show
     voice "voice/cxly_voice/episode1/初咲153.mp3"

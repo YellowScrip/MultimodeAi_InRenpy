@@ -14,7 +14,7 @@ label episode2_1:
     #（黑幕淡出，播放Episode 02界面画面“象牙塔尖的歌剧院”）
     #（停顿3s左右，播放效果音：飞机着陆的那种气流音，保持黑幕）
 
-    show bg5 with fade
+    #show bg5 with fade
 
 
     "和预想的一样，我们很轻而易举地就通过了日本的海关"
@@ -26,27 +26,37 @@ label episode2_1:
     "遥遥地眺望远处，夕阳落下的余晖洒在天桥与路面的缝隙中"  #会改，看AI最终出图效果
     ch "“真美啊”"
     "这是我对这片景色发出来自心底的由衷赞美"
+    #voice "voice/cxly_voice/episode2/初咲001.mp3"
     cq "好. . .漂亮"  #日语
 
     "不知道什么时候从我身边窜出来的初咲恋柚，和我一样被眼前的景象所深深吸引"
     #（注意：这里不要显现立绘，只是有角色说话就行了）
     ch "看起来，能到东京进修. . .也算是个不错的选择"
+    voice "voice/l_voice/episode2/e2 蘭 001.mp3"
     l "真是幼稚，一副没见过世面的样子"
+    voice "voice/l_voice/episode2/e2 蘭 002.mp3"
     l "这个‘魔都’，还完全比不上我们自家的‘魔都’"
     "蘭拍了拍我的肩膀，手指了一下远处停靠在路边的智能出租车，向我示意她就要离开了"
     cq "这么快就要走了吗？" #日语
-
+    voice "voice/l_voice/episode2/e2 蘭 003.mp3"
     l "是呀，我已经预定好了今天晚上的演出了"
     ch "原来如此. . ."
     ch "来到这边第一件事就是看演出，也会是你做出来的事了"
+    voice "voice/l_voice/episode2/e2 蘭 004.mp3"
     l "哼哼，那可不是嘛"
+    voice "voice/l_voice/episode2/e2 蘭 005.mp3"
     l "毕竟本小姐也对日本这边的演出很感兴趣"
+    voice "voice/yqtt_voice/episode2/岩崎001.mp3"
     yq "好啦，大小姐，只有一个小时了。再不走就真要错过了噢"
     "蘭低头看了看手机，表情从刚才的“胸有成竹”逐渐转变为“惊慌失措”"
+    voice "voice/l_voice/episode2/e2 蘭 006.mp3"
     l "你. . .刚刚为什么不提醒我！"
+    voice "voice/yqtt_voice/episode2/岩崎002.mp3"
     yq "还不是刚才从机场出来的时候. . .我们的大小姐还非要拉着我到处闲逛. . ."
+    voice "voice/l_voice/episode2/e2 蘭 007.mp3"
     l "好了，好了，你不要说了"
     "岩崎天桐脸上流露出久违的尴尬表情，一边拉着蘭和行李一边往后退"
+    voice "voice/yqtt_voice/episode2/岩崎003.mp3"
     yq "那我们就先行一步了，明天学校里见！"
     cq "再见咯！" #日语
     ch "回见"
@@ -138,52 +148,62 @@ label episode2_1:
     ch "没错，我们到了"
 
     #（播放效果音，“叮”，按下门铃的声音）
-
+    voice "voice/hch_voice/episode2/海川花001.mp3"
     who "来了~"  #（这个地方插入音效调整，类似于从门后传出的声音）
     "熟悉的声音房子里传出来，紧接着就是一阵比较急促，赶过来开门的脚步声"
 
     #（插入效果音：“哐当”，开门的声音）
-
+    voice "voice/hch_voice/episode2/海川花002.mp3"
     who "欢迎回家哦，海川渡！"
 
     #（此时插入海川花的立绘，微笑）
 
     "这是我的母亲，海川花"
     "她的样子看上去比之前在中国生活的那段时间要更显疲惫一点，可能是因为搬到日本之后还是有很多事情要处理"
-    ma "诶？"
+    voice "voice/hch_voice/episode2/海川花004.mp3"
     ma "你身后的是. . .？"
     "她够起身子往后看了看，很明显是注意到了我身后的初崎"
     cq "主人的. . .母亲大人！晚上好！"
+    voice "voice/hch_voice/episode2/海川花005.mp3"
     ma "啊嘞嘞. . ."
     "母亲先是愣了一会儿，然后很快地回过神来"
     "她的嘴角似乎是向上微微扬起了一点，转而用一种调侃的眼神看着我"
 
     #（这里切换海川花的表情，从一开始的惊讶变成调侃表情）
-
+    voice "voice/hch_voice/episode2/海川花006.mp3"
     ma "原来是这样啊. . ."
+    voice "voice/hch_voice/episode2/海川花007.mp3"
     ma "海川君好厉害呀！"
+    voice "voice/hch_voice/episode2/海川花008.mp3"
     ma "竟然背着你的母上大人找到了一个日本的女朋友"
     ch ". . . . . ."
     ch "不是这样的"
+    voice "voice/hch_voice/episode2/海川花009.mp3"
     ma "才刚刚下飞机几个小时. . .蛮不错的嘛. . ."
     cq "才. . .才不是什么女朋友"
     cq "恋柚是主人的仆从来着！"
+    voice "voice/hch_voice/episode2/海川花010.mp3"
     ma "哼哼. . ."
+    #voice "voice/hch_voice/episode2/海川花011.mp3"
     ma "我还是听得懂一点日语的"
+    voice "voice/hch_voice/episode2/海川花011.mp3"
     ma "原来现在的年轻人之间还有这样刺激的玩法. . .噗噗. . ."
     ch "越说越乱了啊喂！！！"
+    voice "voice/hch_voice/episode2/海川花012.mp3"
     ma "好啦，你们俩还是先进来吧"
 
     #（场景转换：来到日式房间的客厅：海川渡的家，要求能看到餐桌，里面的风格是日式，稍微有一点点科技感）
 
     "一股温馨感铺面而来，整栋小房子的布局风格和在九衢市的那间几乎完全一致"
     "习惯了在国内的装潢设计，这种日风给我带来一种别具一格的韵味"
+    voice "voice/hch_voice/episode2/海川花013.mp3"
     ma "我先去准备晚饭啦，稍等~"
     cq "我也来帮忙吧！"
+    voice "voice/hch_voice/episode2/海川花014.mp3"
     ma "哦~看起来很积极嘛！你的名字是？"
     cq "母上大人，是初咲恋柚哦"
-    ma ". . ."
-    ma "那以后就叫你‘柚子’吧！"
+    voice "voice/hch_voice/episode2/海川花015.mp3"
+    ma ". . .那就先喊你‘柚子’吧！感觉还蛮符合你的性格"
     cq "好的！"
     "她们不断的交谈声吵得我有些不太习惯"
     "之前在家独处的时候我从来没有这样的感觉"
@@ -204,9 +224,21 @@ label episode2_1:
     "钴蓝色的刀柄. . .和那个时候的一模一样. . ."
 
     #（昏黄滤镜+
-
-    who "提问："  #（日语）
-    who "由中国代表在联合国大会上提倡的新世代三个核心词是？"
+    show street afternoon
+    show cx size2 a2 serious:
+        xalign 0.5
+        yalign 1.0
+        zoom 1.4
+    show memory
+    with dissolve
+    voice "voice/cxly_voice/episode1/初咲012.mp3"
+    cq "提问："  #（日语）
+    voice "voice/cxly_voice/episode1/初咲013.mp3"
+    cq "由中国代表在联合国大会上提倡的新世代三个核心词是？"
+    hide street afternoon
+    hide cx size2 a2 serious
+    hide memory
+    with dissolve
     "还有那个时候. . ."
 
     #（昏黄滤镜+
@@ -246,26 +278,33 @@ label episode2_1:
 
     "与其在意初咲的事情，不如说我更应该在意的是明天开学的各种准备"
     "到现在为止我甚至连校服都没有拿出来好好清洗一遍. . ."
+    voice "voice/hch_voice/episode2/海川花016.mp3"
     ma "海川，可以一起来吃饭啦！"
     ch "好"
 
     #（黑幕转场，转到日式客厅）
-
+    voice "voice/hch_voice/episode2/海川花017.mp3"
     ma "啊拉拉，看来你们的关系很不错欸. . .真好"
     "可能是看到了初咲不断给我夹菜的缘故，母亲又开始用这样的口吻调侃我了"
     ch "初咲只不过是个机器人而已啦. . ."
+    voice "voice/hch_voice/episode2/海川花018.mp3"
     ma "我当然知道了，刚刚柚子已经把她的事跟我讲了一遍"
+    voice "voice/hch_voice/episode2/海川花019.mp3"
     ma "不然我们的海川，青春都没体验过就成年了. . ."
+    voice "voice/hch_voice/episode2/海川花020.mp3"
     ma "找到真正的女朋友，应该还是有一定难度的"
     ch "也不能这样说啊！"
     "忽然想起来在国内的那段高中生活"
     "好像确实连一段恋爱经验都没有. . ."
+    voice "voice/hch_voice/episode2/海川花021.mp3"
     ma "不过都在变好，不是吗？"
     "说完，海川花还不忘把头朝我身旁的初咲轻轻点了点"
     cq "当然，我会尽可能让主人的生活变好！"
     cq "毕竟我可是最先进的哦！"
+    voice "voice/hch_voice/episode2/海川花022.mp3"
     ma "要学会把握当下"
     ch "咳咳. . .你在说什么呀！"
+    voice "voice/hch_voice/episode2/海川花023.mp3"
     ma "海川当然懂我的意思"
     ch "我吃饱了，去收拾了"
     "匆忙地从餐桌逃离后，我简单冲了个澡，然后就倒在床上睡着了"
@@ -359,41 +398,53 @@ label episode2_1:
 
     "就在离开礼堂不久后，我很快就在走廊上碰到了刚刚参加完“交演院”开学典礼的蘭和岩崎天桐"
     "与此同时，他们正在就今天“交演院”的开学典礼发生的种种进行激烈的讨论"
+    voice "voice/yqtt_voice/episode2/岩崎004.mp3"
     yq "害，一个迎新会，为什么会有这么多复杂的流程. . ."
+    voice "voice/l_voice/episode2/e2 蘭 008.mp3"
     l "这是礼节，也是墨守成规的规定"
+    voice "voice/yqtt_voice/episode2/岩崎005.mp3"
     yq "照我看，还不如一上来就直接教会我们各种厉害的术式. . ."
+    voice "voice/l_voice/episode2/e2 蘭 009.mp3"
     l "傻瓜，是‘交叉演出’，不是‘术式’这种说法"
+    #voice "voice/yqtt_voice/episode2/岩崎005.mp3"(配掉了)
     yq "哟，是海川啊，早上好！"
     "在看到远处的我后，岩崎天桐摆出了剪刀手的pose，似乎很是兴奋的样子"
     ch "早上好"
+    voice "voice/l_voice/episode2/e2 蘭 010.mp3"
     l "海川这边感觉如何？"
+    voice "voice/l_voice/episode2/e2 蘭 011.mp3"
     l "我们‘交演院’的迎新活动可全部都是采用‘演出’的形式开展的哦！"
     ch "这个. . ."
     ch "好像一直在演讲. . .没有什么特别的地方"
     ch "我只记得最后一个演讲的是. . ."
+    voice "voice/l_voice/episode2/e2 蘭 012.mp3"
     l "是‘西野’学姐对吧？"
     ch "啊？我不知道诶"
     ch "不过看上去也确实像是学姐那样的人物"
+    voice "voice/yqtt_voice/episode2/岩崎006.mp3"
     yq "你连这个都不知道吗？是‘西野玥奈’啊，大名鼎鼎的‘西野公主’"
     ch ". . ."
     ch "能不用这种中二的口气说话吗？我真的有点听不懂"
+    voice "voice/l_voice/episode2/e2 蘭 013.mp3"
     l "岩崎确实没有夸大，叫她‘公主’也正常"
     ch "等等. . .你们说的西野. . "
     ch "不会说的是‘laser’的那个西野家族吧？"
-    l "没错"
-    l "‘激光’的唯一的千金小姐，也是‘机造院’大我们一级的学姐"
+    voice "voice/l_voice/episode2/e2 蘭 014.mp3"
+    l "没错，‘激光’的唯一的千金小姐，也是‘机造院’大我们一级的学姐"
 
     #（下面这两句话看看是加在文本注释中还是怎么搞，感觉直接插入台本中有点问题）
     "laser，激光集团，也就是现在全球最大的新世代机器人制造公司"
     "初咲恋柚这样优秀的机身和系统也是由laser公司一起做的"
 
-
+    voice "voice/l_voice/episode2/e2 蘭 015.mp3"
     l "连我这个外院的学生都听说过，海川可真是孤陋寡闻啊"
     ch "好了好了，我也知道高大肯定是人才辈出的"
     ch "只是很惊讶能在这里竟然能亲眼见到那样的人物"
     ch ". . . . . ."
     ch "倒不如，现在这个时间，还是先去吃午饭吧？"
+    voice "voice/yqtt_voice/episode2/岩崎007.mp3"
     yq "好耶！是补充魔力的时间！"
+    voice "voice/l_voice/episode2/e2 蘭 016.mp3"
     l "小声点啊喂，这里可不是九衢市. . ."
     ch ". . ."
     "看着蘭和岩崎互相打闹着，我尴尬地笑一笑，刻意地将视线避开他们俩"
@@ -402,6 +453,7 @@ label episode2_1:
     "独属于千金特性-略带忧郁的神色和那种淡雅的高贵感很难不引起我的注意"
     "看上去，西野学姐是有很大的心事吧. . ."
     "刚刚的演讲，对她来说怎么都是“失败”的"
+    voice "voice/l_voice/episode2/e2 蘭 017.mp3"
     l "走吧，别发呆了"
     ch "好的好的"
     "看着西野学姐远去的背影，我本来以为，我们再也不会有任何交集"
@@ -419,6 +471,7 @@ label episode2_1:
     "在和她的交集少了很多之后，事情一下子就少了很多"
     "虽然每天学习的课程带给了我过量的充足感"
     "不过少了她的吵闹或许给我带来一种奇怪的缺憾感. . ."
+    voice "voice/yqtt_voice/episode2/岩崎008.mp3"
     yq "来自平行时空的再次传唤. . .ダークナイト在这个清晨为您而战. . .吾王！"  #（在此处显现出岩崎的立绘）
 
     "从我的身后突然传来熟悉的“中二”声音"
@@ -426,8 +479,10 @@ label episode2_1:
     "但在这个时间点遇上岩崎还是第一次"
     ch "喂喂，这样子真的很让人尴尬的. . .还是用夹杂着日语的中文说出这样的话！"
     ch "你就别拿你那蹩脚的日语丢人了…"
+    voice "voice/yqtt_voice/episode2/岩崎009.mp3"
     yq "嘿嘿，又一次进入‘混沌状态’了"
     ch "给我正经点啊喂！"
+    voice "voice/yqtt_voice/episode2/岩崎010.mp3"
     yq "咳咳，初咲呢？"
     "岩崎清了清嗓子，然后够着脚尖，似乎是在努力在我身后寻找着预想中初咲的身影"
     ch ". . ."
@@ -436,23 +491,30 @@ label episode2_1:
     "当然是在学校规定范畴之内的. . ."
     "对于初咲那家伙. . .自然是把学校每周都有的演出和寻找真正主人的住处这两件事情放在最重要的位置. . ."
     ch "最近在学校里都没怎么见到她了. . ."
+    voice "voice/yqtt_voice/episode2/岩崎011.mp3"
     yq "你这副样子，是和初咲发生矛盾了吗？"
     ch ". . ."
     ch "也算不上是矛盾吧"
     ch "或许在学校里，我们都有自己着重的事情. . ."
+    voice "voice/yqtt_voice/episode2/岩崎012.mp3"
     yq "原来是这样啊"
+    voice "voice/yqtt_voice/episode2/岩崎013.mp3"
     yq "你们还有繁多的课业。不像我，每天都可以绕行高大散步好几圈. . .然后再去做个例行检查. . .然后开启一天的‘养老’生活. . ."
     ch ". . ."
     ch "真羡慕你们啊"
     ch "要是能帮我们完成一下作业就更好了"
+    voice "voice/yqtt_voice/episode2/岩崎014.mp3"
     yq "那可不行"
+    voice "voice/yqtt_voice/episode2/岩崎015.mp3"
     yq "毕竟你们是被‘魔导书’挑选出来的‘继任者’。这种事情. . .恕我无力帮忙"
     ch ". . ."
     "确实如此,"
     "在进入东番高大的时候，每个仿生机器人就安装了独特的‘高大芯片’"
     "这些芯片在一定程度上限制了他们的行动. . ."
     "需要人力完成的作业都是不被允许使用外力帮忙的"
+    voice "voice/yqtt_voice/episode2/岩崎016.mp3"
     yq "今天过来找海川也是想提醒一下你"
+    voice "voice/yqtt_voice/episode2/岩崎017.mp3"
     yq "与机器人相处，最重要的就是让她知道自己是被需要的一方"
     ch "被. . .需要的？"
 
@@ -461,22 +523,30 @@ label episode2_1:
     mrquan "如果时间允许的情况下. . .我建议还是和那个‘要帮助的对象’多多接触. . ."
     mrquan "不然草草决定‘帮助’和‘不帮助’都是很不明智的选择啊"
     #结束
-
+    voice "voice/yqtt_voice/episode2/岩崎018.mp3"
     yq "没错，我们的意义就在于完成主人给定的任务"
     ch "好吧，我知道了"
+    voice "voice/yqtt_voice/episode2/岩崎019.mp3"
     yq "蘭前几天调查了整个东京的人员名单，关于初咲主人的记录显示为空"
     ch "一点线索都没找到吗？"
+    voice "voice/yqtt_voice/episode2/岩崎020.mp3"
     yq "是的. . ."
+    voice "voice/yqtt_voice/episode2/岩崎021.mp3"
     yq "我们已经拜托她的父母调查laser相关的购置记录. . .估计不久之后就会有答案了吧. . ."
+    voice "voice/yqtt_voice/episode2/岩崎022.mp3"
     yq "在此之前，你很难摆脱‘临时主人’这个身份，成为一个好主人是海川的‘必修课’"
     ch ". . ."
     ch "这副说教的态度，看来是蘭让你来传话的对吧？"
     "岩崎吃惊地看着我，似乎是没想到我会这样一针见血地指出来，然后很快转变成平静的表情"
+    voice "voice/yqtt_voice/episode2/岩崎023.mp3"
     yq "没错"
+    voice "voice/yqtt_voice/episode2/岩崎024.mp3"
     yq "小兰也知道. . .她说的话海川是听不进去的"
     ch "所以. . .她没来？"
     ch "按理来说她应该在这个时间点等着和我们一起吃饭的"
+    voice "voice/yqtt_voice/episode2/岩崎025.mp3"
     yq "诶，你不知道吗？"
+    voice "voice/yqtt_voice/episode2/岩崎026.mp3"
     yq "今天是各社团开展招新活动的时间哦，小兰去参加编导部的部活去了"
     ch "招新活动？"
     ch "哦！我想起来了"
@@ -486,25 +556,34 @@ label episode2_1:
     "在各种部门活动中，往往能从中找到志趣相投的异性同伴. . ."
     "在高大里，加入一个部门是强制要求的活动，这样也保证了我们能在课业之外拓展很多兴趣"
     ch "诶等等？那个不是下午才正式开始吗？"
+    voice "voice/yqtt_voice/episode2/岩崎027.mp3"
     yq "是这样. . .但她已经迫不及待地跑过去了"
     "不愧是她. . ."
     "蘭对编导和编剧的热爱似乎永远超过了我的想象"
+    voice "voice/yqtt_voice/episode2/岩崎028.mp3"
     yq "这么说来，海川有什么特别中意的部门吗？"
     ch "要说起来的话. . .还是和演出相关的吧. . .我还是很喜欢参与策划一些表演的"
+    voice "voice/yqtt_voice/episode2/岩崎029.mp3"
     yq "哦？~"
+    voice "voice/yqtt_voice/episode2/岩崎030.mp3"
     yq "我记得高中的时候海川就好像成立了一个‘PTF演出社团’来着. . ."
     ch "嗯"
     "在高中的时候，出于自己的爱好，我组建了一个名为“PTF演出社团”的社团"
     "在这里遇见了很多有着共同爱好的同学，好好地享受了我的高中生活"
     "只可惜，因为我要来目黑川进修，社团里的大家也没有时间接手. . .最后也就这么轻易地解散了. . ."
+    voice "voice/yqtt_voice/episode2/岩崎031.mp3"
     yq "好好弥补回高中的遗憾吧"
     ch "嗯"
     ch "岩崎呢？我记得在手册上好像说过仿生机器人也是可以参加部活的吧. . ."
+    voice "voice/yqtt_voice/episode2/岩崎032.mp3"
     yq "那可是当然. . ."
+    voice "voice/yqtt_voice/episode2/岩崎033.mp3"
     yq "我的目标就是加入‘超自然研究协会’！"
+    voice "voice/yqtt_voice/episode2/岩崎034.mp3"
     yq "研究这种不被物理世界规则束缚的怪异，不觉得是很酷的事情吗？"
     ch ". . ."
     ch "听上去就是为你量身打造的部活. . ."
+    voice "voice/yqtt_voice/episode2/岩崎035.mp3"
     yq "那下午再见吧"
     ch "好"
 
@@ -523,11 +602,13 @@ label episode2_1:
     "岩崎看上去也是非常激动的样子"
     "虽然在语言上并不是非常相通，但是这样‘志趣相投’的人聚集在一起"
     "想必也有自己独特的沟通方式吧"
+    voice "voice/yqtt_voice/episode2/岩崎036.mp3"
     yq "喂喂，你要不要和我一起入部呀，这个真的超厉害的. . ."
     "看着岩崎眼中不断冒出来的星星，直觉告诉我"
     "这个地方不可久留"
     ch "我稍微去那边休息一下. . .等下过来找你. . ."
     "我指着旁边的一个长椅，尝试给自己开脱的借口"
+    voice "voice/yqtt_voice/episode2/岩崎037.mp3"
     yq "好嘞"
 
     #岩崎的立绘消失

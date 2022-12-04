@@ -1,49 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/rpycodes/script_1_1.rpy", line 1313, in script
-    cq size2 a3 happy"哼哼. . .不过这些都只是在我的计算中，我早就料到了海川君会走这一条回家的小道. . ."
-OSError: Couldn't find file 'voice/cxly_voice/episode1/初咲041mp3'.
+  File "game/rpycodes/script_1_1.rpy", line 798, in script
+    voice "voice/l_voice/episode1/蘭071补.mp3"(配音配掉了)
+  File "renpy/common/00voice.rpy", line 533, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "game/rpycodes/script_1_1.rpy", line 798, in <module>
+    voice "voice/l_voice/episode1/蘭071补.mp3"(配音配掉了)
+NameError: name '配音配掉了' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/rpycodes/script_1_1.rpy", line 1313, in script
-    cq size2 a3 happy"哼哼. . .不过这些都只是在我的计算中，我早就料到了海川君会走这一条回家的小道. . ."
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\exports.py", line 1373, in say
-    who(what, *args, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 1266, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 927, in do_display
-    display_say(who,
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\character.py", line 666, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3846, in interact_core
-    renpy.audio.audio.interact()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1213, in interact
-    periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1166, in periodic
-    raise_(exc[0], exc[1], exc[2])
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
-    periodic_pass()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
-    c.periodic()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 517, in periodic
-    topf = load(filename)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\audio\audio.py", line 70, in load
-    rv = renpy.loader.load(fn)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\loader.py", line 820, in load
-    raise IOError("Couldn't find file '%s'." % name)
-OSError: Couldn't find file 'voice/cxly_voice/episode1/初咲041mp3'.
+  File "game/rpycodes/script_1_1.rpy", line 798, in script
+    voice "voice/l_voice/episode1/蘭071补.mp3"(配音配掉了)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2232, in execute
+    self.call("execute")
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 2220, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\statements.py", line 281, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/00voice.rpy", line 533, in execute_voice
+    fn = _audio_eval(fn)
+  File "renpy/common/000statements.rpy", line 32, in _audio_eval
+    return eval(expr, locals=store.audio.__dict__)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/rpycodes/script_1_1.rpy", line 798, in <module>
+    voice "voice/l_voice/episode1/蘭071补.mp3"(配音配掉了)
+NameError: name '配音配掉了' is not defined
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Tue Nov 29 01:22:03 2022
+Tue Nov 29 15:57:06 2022
