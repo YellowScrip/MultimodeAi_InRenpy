@@ -5,6 +5,7 @@ init:
     #$ style.default.language = "STKAITI"
 
 
+
 init python:
     import pygame
     import webbrowser
@@ -132,6 +133,7 @@ init python:
                 channel=self.channel)
 
     play_button = PlayerButton(mr=mr)
+
 
 
 ####         创建一个Gallery实例

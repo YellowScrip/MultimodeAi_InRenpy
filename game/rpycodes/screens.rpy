@@ -612,6 +612,70 @@ screen extra_musicroom():
             at main_menu_button_in(0.0)
 
 
+#########    解释一的代码      ##############
+default exp_1 = False
+screen hot1():
+    imagemap:
+        ground "images/transparent.png"
+        hotspot (200, 800, 1960, 1280) action ShowMenu("exp1")
+
+screen exp1():
+    $ tooltip = GetTooltip()
+    if tooltip:
+        text "[tooltip]" pos (600,700)
+    if exp_1:
+        textbutton (_("科技")):
+            xalign 0.38
+            yalign 0.84
+            action NullAction()
+            tooltip "{color=fff}{b}解释1:{/b}\n这是有关科技的介绍{/color}"
+init python:
+    config.overlay_screens.append("exp1")
+
+
+# screen exp1():
+#     if exp_1:
+#         frame:
+# #             padding (20, 20)
+#             align (.375, .81)
+#             has vbox
+#             textbutton (_("科技")):
+#                 action NullAction()
+#                 #action Return("w")
+#                 tooltip "{color=fff}{b}解释1:{/b}\n这是有关科技的介绍{/color}"
+#         # 这是界面上最后显示的内容。
+#         $ tooltip = GetTooltip()
+#         if tooltip:
+#             nearrect:
+#                 focus "tooltip"
+#                 prefer_top True
+#                 frame:
+#                     xalign 0.5
+#                     yalign 1.0
+#                     text tooltip
+# init python:
+#     config.overlay_screens.append("exp1")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #### gallery 网格    ################
 screen gallery_slots(buttons):
     # 按钮网格(grid)。

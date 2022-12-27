@@ -1,7 +1,4 @@
-﻿
-label start:
-    #play music "bgm/九衢长街/九衢长街新版.mp3"
-    #play music "bgm/pv/renai_piano_ver.mp3"
+﻿label start:
     stop music
     play music "bgm/ATRI_try.mp3"
 
@@ -33,12 +30,13 @@ label start:
     play sound "audio/风铃.mp3"
     show bg1 with shot6
     #pause 5.0
-
     #（声音为风铃的效果音，绵长）
     #（镜头缓慢移动，背景为一本日记，旁边是一个书架）
     voice "voice/hcd_voice/episode1/海川渡改 1.mp3"
     voice sustain
-    "这个世界，是凝聚了科技和经济，无比伟大而光明的"
+    $exp_1 = True
+    "这个世界，是凝聚了{color=#0000ffff}{b}科技{/b}{/color}和经济，无比伟大而光明的"
+    $exp_1 = False
     voice "voice/hcd_voice/episode1/海川渡改 2.mp3"
     voice sustain
     "黄金时代"
