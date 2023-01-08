@@ -242,27 +242,121 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-
     ## Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
-
         hbox:
             style_prefix "quick"
-
             xalign 0.5
             yalign 1.0
 
-            textbutton _("返回") action Rollback()
-            textbutton _("历史对话") action ShowMenu('history')
-            textbutton _("快进") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("自动播放") action Preference("auto-forward", "toggle")
-            textbutton _("存档") action ShowMenu('save')
-            textbutton _("快速存档") action QuickSave()
-            textbutton _("快速读档") action QuickLoad()
-            textbutton _("菜单") action ShowMenu('preferences')
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/LOAD.png"
+                    hover "gui/ingame/1H_LOAD.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +100
+                    action ShowMenu("load")
 
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/SAVE.png"
+                    hover "gui/ingame/1H_SAVE.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +100
+                    action ShowMenu('save')
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/QLOAD.png"
+                    hover "gui/ingame/1H_QUICKLOAD.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +100
+                    action QuickLoad()
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/QSAVE.png"
+                    hover "gui/ingame/1H_QUICKSAVE.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +100
+                    action QuickSave()
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/AUTO.png"
+                    hover "gui/ingame/1H_AUTO.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +107
+                    action Preference("auto-forward", "toggle")
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/SKIP.png"
+                    hover "gui/ingame/1H_SKIP.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +850
+                    yoffset +107
+                    action Skip() alternate Skip(fast=True, confirm=True)
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/SETTING.png"
+                    hover "gui/ingame/1H_SETTING.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +877
+                    yoffset +100
+                    action ShowMenu('preferences')
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/SHOT.png"
+                    hover "gui/ingame/1H_SHOT.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +807
+                    yoffset +40
+                    action Screenshot()
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/HISTORY.png"
+                    hover "gui/ingame/1H_HISTORY.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +732
+                    yoffset -20
+                    action ShowMenu('history')
+
+            frame:
+                background None
+                imagebutton :
+                    idle "gui/ingame/MENU.png"
+                    hover "gui/ingame/1H_MENU.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +660
+                    yoffset -80
+                    action MainMenu()
+            frame:
+                background None
+                imagebutton :
+                    idle "ingame_device"
+                    xoffset -1200
+                    yoffset -0
+                    action MainMenu()
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
@@ -301,6 +395,16 @@ screen navigation():
 
         spacing gui.navigation_spacing
 
+        if _in_replay:
+
+            textbutton _("End Replay") action EndReplay(confirm=True)
+
+        elif not main_menu:
+
+            textbutton _("主菜单") action MainMenu()
+
+
+
         if main_menu:
 
             textbutton _("开始演出") action Start()
@@ -315,26 +419,14 @@ screen navigation():
 
         textbutton _("演出偏好") action ShowMenu("preferences")
 
-        if _in_replay:
-
-            textbutton _("End Replay") action EndReplay(confirm=True)
-
-        elif not main_menu:
-
-            textbutton _("主菜单") action MainMenu()
-
         textbutton _("演出概况") action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
             textbutton _("帮助") action ShowMenu("help")
-
-        if renpy.variant("pc"):
-
-            ## The quit button is banned on iOS and unnecessary on Android and
-            ## Web.
-            textbutton _("退出演出") action Quit(confirm=not main_menu)
+#         if renpy.variant("pc"):
+#             textbutton _("退出演出") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -610,65 +702,6 @@ screen extra_musicroom():
                 yoffset -182
                 action [Hide("extra_musicroom"),ShowMenu("extra_musicroom")]
             at main_menu_button_in(0.0)
-
-
-#########    解释一的代码      ##############
-default exp_1 = False
-screen hot1():
-    imagemap:
-        ground "images/transparent.png"
-        hotspot (200, 800, 1960, 1280) action ShowMenu("exp1")
-
-screen exp1():
-    $ tooltip = GetTooltip()
-    if tooltip:
-        text "[tooltip]" pos (600,700)
-    if exp_1:
-        textbutton (_("科技")):
-            xalign 0.38
-            yalign 0.84
-            action NullAction()
-            tooltip "{color=fff}{b}解释1:{/b}\n这是有关科技的介绍{/color}"
-init python:
-    config.overlay_screens.append("exp1")
-
-
-# screen exp1():
-#     if exp_1:
-#         frame:
-# #             padding (20, 20)
-#             align (.375, .81)
-#             has vbox
-#             textbutton (_("科技")):
-#                 action NullAction()
-#                 #action Return("w")
-#                 tooltip "{color=fff}{b}解释1:{/b}\n这是有关科技的介绍{/color}"
-#         # 这是界面上最后显示的内容。
-#         $ tooltip = GetTooltip()
-#         if tooltip:
-#             nearrect:
-#                 focus "tooltip"
-#                 prefer_top True
-#                 frame:
-#                     xalign 0.5
-#                     yalign 1.0
-#                     text tooltip
-# init python:
-#     config.overlay_screens.append("exp1")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2284,7 +2317,6 @@ screen quick_menu():
 
         hbox:
             style_prefix "quick"
-
             xalign 0.5
             yalign 1.0
 

@@ -154,13 +154,13 @@ label splashscreen:
     image beforegame2 = Movie(play="videos/logo.mpeg",loops=0,stop_music=True)
     image beforegame3 = Movie(play="videos/renpy_logo.mpg",loops=0,stop_music=True)
     show beforegame3
-    $ renpy.pause(3.50,hard = True)#时长是你视频的长度，播完自动退出
+    $ renpy.pause(3.50,hard = False)#时长是你视频的长度，播完自动退出
     hide beforegame3
     show beforegame1
-    $ renpy.pause(9.35,hard = True)#时长是你视频的长度，播完自动退出
+    $ renpy.pause(9.35,hard = False)#时长是你视频的长度，播完自动退出
     hide beforegame1
     show beforegame2
-    $ renpy.pause(6.6,hard = True)#时长是你视频的长度，播完自动退出
+    $ renpy.pause(6.6,hard = False)#时长是你视频的长度，播完自动退出
     hide beforegame2
     #$ renpy.pause(1.5,hard = True)
     return

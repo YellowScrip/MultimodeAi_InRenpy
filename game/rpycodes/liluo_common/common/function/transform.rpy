@@ -872,7 +872,7 @@ transform walk44:
 define close_eyes = MultipleTransition([False, Dissolve(0.5), Solid("#000"), Pause(0.25), True])
 define open_eyes = MultipleTransition([False, Dissolve(0.5), True])
 define push_left = CropMove(2.0, "custom", startcrop=(0.5, 0.0, 0.0, 1.0), endcrop=(0.0, 0.0, 1.0, 1.0))
-define clockwise = ImageDissolve("liluo_common/common/transition/clockwise.png", 1.0, 32)
+define clockwise = ImageDissolve("rpycodes/liluo_common/common/transition/clockwise.png", 1.0, 32)
 define anticlockwise = ImageDissolve("liluo_common/common/transition/anticlockwise.png", 1.0, 32)
 define tran_clockwise = MultipleTransition([False, clockwise ,Solid("#000"), clockwise, True])
 define close = ImageDissolve("rpycodes/liluo_common/common/transition/close.png", 0.5, 128, reverse = True)

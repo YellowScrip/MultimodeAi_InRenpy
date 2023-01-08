@@ -35,11 +35,13 @@
     voice "voice/hcd_voice/episode1/海川渡改 1.mp3"
     voice sustain
     $exp_1 = True
-    "这个世界，是凝聚了{color=#0000ffff}{b}科技{/b}{/color}和经济，无比伟大而光明的"
+    "这个世界，是凝聚了{glitch=2.0}{color=fff}{b}科技{/b}{/color}{/glitch}和经济，无比伟大而光明的"
     $exp_1 = False
     voice "voice/hcd_voice/episode1/海川渡改 2.mp3"
     voice sustain
-    "黄金时代"
+    $exp_2 = True
+    "{glitch=2.0}{color=fff}{b}黄金时代{/b}{/color}{/glitch}"
+    $exp_2 = False
     voice "voice/hcd_voice/episode1/海川渡改 3.mp3"
     voice sustain
     "100年前的人们曾对这种‘科技幻想’的世界抱有无比期待"
@@ -195,6 +197,7 @@
     voice sustain
     stop music
     hide bg1 with dissolve
+    $quick_menu = False
     jump episode1_1
 
     #（黑幕淡出，播放Episode 01界面画面"被遗弃的冬日旋律"）

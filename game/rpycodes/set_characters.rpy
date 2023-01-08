@@ -1,25 +1,26 @@
 ﻿#定义角色的名称和各类信息
-define who = Character("? ? ?",ctc="ctc",ctc_position = "nestled")
-define cq = Character("初咲恋柚" ,who_color = "FF0066",ctc="ctc",ctc_position = "nestled",image="cx")
-define ch = Character("我",ctc="ctc",ctc_position = "nestled")
-define ma = Character("海川花",ctc="ctc",ctc_position = "nestled")
-define xy = Character("西野玥奈",ctc="ctc",ctc_position = "nestled")
-define yq = Character("岩崎天桐",ctc="ctc",ctc_position = "nestled",image="yq")
-define yqcall = Character("岩崎天桐（电话）",ctc="ctc",ctc_position = "nestled")
-define l = Character("蘭",ctc="ctc",ctc_position = "nestled",image="lan")
-define jqgb = Character("九衢广播",ctc="ctc",ctc_position = "nestled")
-define ym = Character("野猫",ctc="ctc",ctc_position = "nestled")
-define mrquan = Character("阿泉先生",ctc="ctc",ctc_position = "nestled")
-define libaryanounce = Character("图书馆的广播",ctc="ctc",ctc_position = "nestled")
-define mrqiu = Character("秋师傅",ctc="ctc",ctc_position = "nestled")
-define sa = Character("同学A",ctc="ctc",ctc_position = "nestled")
-define sb = Character("同学B",ctc="ctc",ctc_position = "nestled")
-define sc = Character("同学C",ctc="ctc",ctc_position = "nestled")
-define wa = Character("围观者A",ctc="ctc",ctc_position = "nestled")
-define wb = Character("围观者B",ctc="ctc",ctc_position = "nestled")
-define wc = Character("围观者C",ctc="ctc",ctc_position = "nestled")
-define wd = Character("围观者D",ctc="ctc",ctc_position = "nestled")
-define dy = Character("女店员",ctc="ctc",ctc_position = "nestled")
+define who = Character("? ? ?",ctc="ctc",ctc_position = "fixed")
+define narrator = Character(ctc="ctc", ctc_position="fixed")
+define cq = Character("初咲恋柚" ,ctc="ctc",ctc_position = "fixed",image="cx")
+define ch = Character("海川",ctc="ctc",ctc_position = "fixed")
+define ma = Character("花",ctc="ctc",ctc_position = "fixed",image="mom")
+define xy = Character("西野玥奈",ctc="ctc",ctc_position = "fixed",image="xy")
+define yq = Character("岩崎天桐",ctc="ctc",ctc_position = "fixed",image="yq")
+define yqcall = Character("岩崎天桐（电话）",ctc="ctc",ctc_position = "fixed")
+define l = Character("蘭",ctc="ctc",ctc_position = "fixed",image="lan")
+define jqgb = Character("九衢广播",ctc="ctc",ctc_position = "fixed")
+define ym = Character("野猫",ctc="ctc",ctc_position = "fixed")
+define mrquan = Character("阿泉先生",ctc="ctc",ctc_position = "fixed")
+define libaryanounce = Character("图书馆的广播",ctc="ctc",ctc_position = "fixed")
+define mrqiu = Character("秋师傅",ctc="ctc",ctc_position = "fixed")
+define sa = Character("同学A",ctc="ctc",ctc_position = "fixed")
+define sb = Character("同学B",ctc="ctc",ctc_position = "fixed")
+define sc = Character("同学C",ctc="ctc",ctc_position = "fixed")
+define wa = Character("围观者A",ctc="ctc",ctc_position = "fixed")
+define wb = Character("围观者B",ctc="ctc",ctc_position = "fixed")
+define wc = Character("围观者C",ctc="ctc",ctc_position = "fixed")
+define wd = Character("围观者D",ctc="ctc",ctc_position = "fixed")
+define dy = Character("女店员",ctc="ctc",ctc_position = "fixed")
 
 #设置能够回退对话的最大次数
 #define config.hard_rollback_limit = 0
@@ -38,25 +39,36 @@ image consultdesk="images/background/consult_desk.png"
 #解包背景
 image cloudy="images/background/cloudy.png"
 image sky night="images/background/sky night.png"
+image sky afternoon="images/background/sky afternoon.png"
 image street day ="images/background/street day.png"
 image street afternoon ="images/background/street afternoon.png"
 image street two="images/background/streetTwo.png"
+image street2 day="images/background/street2 day.png"
 image passage day ="images/background/passage day.png"
+image home2 afternoon="images/background/home2 afternoon.png"
 image home afternoon="images/background/home afternoon.png"
 image memory="images/background/memory.png"
 image thinking="images/background/thinking.png"
 image livingroom afternoon="images/background/livingroom afternoon.png"
 image livingroom night="images/background/livingroom night.png"
+image livingroom2 night="images/background/livingroom2 night.png"
 image bedroom="images/background/bedroom.png"
 image bedroom day="images/background/bedroom day.png"
+image bedroom2 night="images/background/bedroom2 night.png"
 image door night="images/background/door night.png"
 image park afternoon="images/background/park afternoon.png"
 image park night="images/background/park night.png"
+image park2 afternoon="images/background/park2 afternoon.png"
 image light="images/background/light.png"
 image cafe="images/background/cafe.png"
 image library day="images/background/library out.png"
 image store="images/background/store.png"
 image airport="images/background/airport.png"
+image airport afternoon="images/background/airport afternoon.png"
+image school day="images/background/school day.png"
+image schoolpassage day="images/background/schoolpassage day.png"
+image hall="images/background/hall.png"
+image corridor="images/background/corridor.png"
 #解包cg
 image memory_1="images/cg/memory_1.png"
 image cg cx sleep="images/cg/cg cx sleep.png"
@@ -166,8 +178,69 @@ image cx size4 a2 normal="images/characterstest/cx/size4/shirone size4 a2 normal
 image cx size4 a2 smile="images/characterstest/cx/size4/shirone size4 a2 smile.png"
 image cx size4 a2 surprised="images/characterstest/cx/size4/shirone size4 a2 surprised.png"
 
+#海川花
+#站立
+image mom size1 a1 happy="images/characterstest/mom/size1/mom size1 a1 happy.png"
+image mom size1 a1 normal="images/characterstest/mom/size1/mom size1 a1 normal.png"
+image mom size1 a1 sad="images/characterstest/mom/size1/mom size1 a1 sad.png"
+image mom size1 a1 serious="images/characterstest/mom/size1/mom size1 a1 serious.png"
+image mom size1 a1 smile="images/characterstest/mom/size1/mom size1 a1 smile.png"
+image mom size1 a1 surprised="images/characterstest/mom/size1/mom size1 a1 surprised.png"
+image mom size1 a1 wry_smile="images/characterstest/mom/size1/mom size1 a1 wry_smile.png"
+#侧身站立
+image mom size3 a1 happy="images/characterstest/mom/size1/mom size3 a1 happy.png"
+image mom size3 a1 normal="images/characterstest/mom/size1/mom size3 a1 normal.png"
+image mom size3 a1 sad="images/characterstest/mom/size1/mom size3 a1 sad.png"
+image mom size3 a1 mad="images/characterstest/mom/size1/mom size3 a1 mad.png"
+image mom size3 a1 smile="images/characterstest/mom/size1/mom size3 a1 smile.png"
+image mom size3 a1 surprised="images/characterstest/mom/size1/mom size3 a1 surprised.png"
+image mom size3 a1 wry_smile="images/characterstest/mom/size1/mom size3 a1 wry_smile.png"
 
+#西野玥奈
+#侧身向右
+image xy size1 a1 happy="images/characterstest/xy/size1/xy size1 a1 happy.png"
+image xy size1 a1 littlesad="images/characterstest/xy/size1/xy size1 a1 littlesad.png"
+image xy size1 a1 littlesad2="images/characterstest/xy/size1/xy size1 a1 littlesad2.png"
+image xy size1 a1 mad="images/characterstest/xy/size1/xy size1 a1 mad.png"
+image xy size1 a1 normal="images/characterstest/xy/size1/xy size1 a1 normal.png"
+image xy size1 a1 smile="images/characterstest/xy/size1/xy size1 a1 smile.png"
+image xy size1 a1 smile2="images/characterstest/xy/size1/xy size1 a1 smile2.png"
+image xy size1 a1 unhappy="images/characterstest/xy/size1/xy size1 a1 unhappy.png"
 
+image xy size1 a2 angry="images/characterstest/xy/size1/xy size1 a2 angry.png"
+image xy size1 a2 happy="images/characterstest/xy/size1/xy size1 a2 happy.png"
+image xy size1 a2 littlesad="images/characterstest/xy/size1/xy size1 a2 littlesad.png"
+image xy size1 a2 littlesad2="images/characterstest/xy/size1/xy size1 a2 littlesad2.png"
+image xy size1 a2 mad="images/characterstest/xy/size1/xy size1 a2 mad.png"
+image xy size1 a2 normal="images/characterstest/xy/size1/xy size1 a2 normal.png"
+image xy size1 a2 shy="images/characterstest/xy/size1/xy size1 a2 shy.png"
+image xy size1 a2 smile="images/characterstest/xy/size1/xy size1 a2 smile.png"
+#正面
+image xy size2 a1 normal="images/characterstest/xy/size2/xy size2 a1 normal.png"
+image xy size2 a1 perspire="images/characterstest/xy/size2/xy size2 a1 perspire.png"
+image xy size2 a1 shy_smile="images/characterstest/xy/size2/xy size2 a1 shy_smile.png"
+image xy size2 a1 smile="images/characterstest/xy/size2/xy size2 a1 smile.png"
+image xy size2 a1 thinking="images/characterstest/xy/size2/xy size2 a1 thinking.png"
+
+image xy size2 a2 embarrassed="images/characterstest/xy/size2/xy size2 a2 embarrassed.png"
+image xy size2 a2 happy="images/characterstest/xy/size2/xy size2 a2 happy.png"
+image xy size2 a2 littlesad="images/characterstest/xy/size2/xy size2 a2 littlesad.png"
+image xy size2 a2 mad="images/characterstest/xy/size2/xy size2 a2 mad.png"
+image xy size2 a2 nervous="images/characterstest/xy/size2/xy size2 a2 nervous.png"
+image xy size2 a2 normal="images/characterstest/xy/size2/xy size2 a2 normal.png"
+image xy size2 a2 perspire="images/characterstest/xy/size2/xy size2 a2 perspire.png"
+image xy size2 a2 sad="images/characterstest/xy/size2/xy size2 a2 sad.png"
+image xy size2 a2 shy_smile="images/characterstest/xy/size2/xy size2 a2 shy_smile.png"
+image xy size2 a2 shy_smile2="images/characterstest/xy/size2/xy size2 a2 shy_smile2.png"
+image xy size2 a2 smile="images/characterstest/xy/size2/xy size2 a2 smile.png"
+image xy size2 a2 smile2="images/characterstest/xy/size2/xy size2 a2 smile2.png"
+#侧身向左
+image xy size3 a1 angry="images/characterstest/xy/size3/xy size3 a1 angry.png"
+image xy size3 a1 happy="images/characterstest/xy/size3/xy size3 a1 happy.png"
+image xy size3 a1 littlesad="images/characterstest/xy/size3/xy size3 a1 littlesad.png"
+image xy size3 a1 mad="images/characterstest/xy/size3/xy size3 a1 mad.png"
+image xy size3 a1 smile="images/characterstest/xy/size3/xy size3 a1 smile.png"
+image xy size3 a1 smile2="images/characterstest/xy/size3/xy size3 a1 smile2.png"
 
 #设置背景音乐，效果音及bgm
 define m1 = "bgm/Curious everyday.mp3"

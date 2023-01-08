@@ -17,6 +17,7 @@ label episode1_1:
     #（切换场景：九衢の街，白天）
     $renpy.pause(1.0,hard=False)
     show street day with dissolve
+    $quick_menu = True
     "小寒将至的九衢市，在多云的日子里显得格外冷清"
     "笼罩在城市上空，纱般的云朵似乎怎么样也流不完"
     "勾销在日历上，一笔又一笔的墨迹却又清晰地提示着我平澹无奇的日常"

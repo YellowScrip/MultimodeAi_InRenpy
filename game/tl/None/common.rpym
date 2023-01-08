@@ -431,43 +431,43 @@ translate None strings:
 
     # renpy/common/00gui.rpy:423
     old "Are you sure?"
-    new "Are you sure?"
+    new "您确定这么做吗?"
 
     # renpy/common/00gui.rpy:424
     old "Are you sure you want to delete this save?"
-    new "Are you sure you want to delete this save?"
+    new "您确定要删除这个存档吗?"
 
     # renpy/common/00gui.rpy:425
     old "Are you sure you want to overwrite your save?"
-    new "Are you sure you want to overwrite your save?"
+    new "您确定要覆盖这个存档吗?"
 
     # renpy/common/00gui.rpy:426
     old "Loading will lose unsaved progress.\nAre you sure you want to do this?"
-    new "Loading will lose unsaved progress.\nAre you sure you want to do this?"
+    new "载入该存档会丢失当前未保存的进度。\n您确定要这么做吗?"
 
     # renpy/common/00gui.rpy:427
     old "Are you sure you want to quit?"
-    new "Are you sure you want to quit?"
+    new "您确定要退出吗?"
 
     # renpy/common/00gui.rpy:428
     old "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
-    new "Are you sure you want to return to the main menu?\nThis will lose unsaved progress."
+    new "您确定要返回主菜单吗?\n这样会丢失当前未保存的进度。"
 
     # renpy/common/00gui.rpy:429
     old "Are you sure you want to end the replay?"
-    new "Are you sure you want to end the replay?"
+    new "您确定要结束重播吗?"
 
     # renpy/common/00gui.rpy:430
     old "Are you sure you want to begin skipping?"
-    new "Are you sure you want to begin skipping?"
+    new "您确定要快进吗?"
 
     # renpy/common/00gui.rpy:431
     old "Are you sure you want to skip to the next choice?"
-    new "Are you sure you want to skip to the next choice?"
+    new "您确定要跳转到下一个选项吗?"
 
     # renpy/common/00gui.rpy:432
     old "Are you sure you want to skip unseen dialogue to the next choice?"
-    new "Are you sure you want to skip unseen dialogue to the next choice?"
+    new "您确定要跳过不可见的对话并跳转到下一个选项吗?"
 
     # renpy/common/00keymap.rpy:306
     old "Failed to save screenshot as %s."
