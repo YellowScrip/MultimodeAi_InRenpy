@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/initgame.rpy", line 151: expected statement.
-    设置游戏开场的动画及其他
-                ^
+File "game/rpycodes/screens.rpy", line 366: 'gui' is not a keyword argument or valid child for the add statement.
+    add "Movie(play = "gui/ingame/DEVICE/overlay/deviceback.mpg")"
+                          ^
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Dec 26 11:19:23 2022
+Tue Jan 10 03:39:36 2023

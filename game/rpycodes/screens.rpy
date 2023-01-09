@@ -356,7 +356,82 @@ screen quick_menu():
                     idle "ingame_device"
                     xoffset -1200
                     yoffset -0
-                    action MainMenu()
+                    action ShowMenu("INGAMEDEVICE")
+
+
+######  游戏内INGAMEDEVICE界面   ########
+image deviceback:
+    Movie(play = "gui/ingame/DEVICE/overlay/deviceback.mpg")
+screen INGAMEDEVICE():
+    add "deviceback"
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/exit.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +50
+            yoffset +50
+            action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/contacts.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +50
+            yoffset +200
+            action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/certificate.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +650
+            yoffset +200
+            action Return()
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/map.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1250
+            yoffset +200
+            action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/dictionary.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +50
+            yoffset +600
+            action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/game.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +650
+            yoffset +600
+            action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/reading.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1250
+            yoffset +600
+            action Return()
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.
