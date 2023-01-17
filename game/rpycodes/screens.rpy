@@ -253,185 +253,327 @@ screen quick_menu():
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/LOAD.png"
-                    hover "gui/ingame/1H_LOAD.png"
+                    idle "gui/ingame/uh_load.png"
+                    hover "gui/ingame/h_load.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +850
-                    yoffset +100
+                    xoffset +810
+                    yoffset +95
                     action ShowMenu("load")
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/SAVE.png"
-                    hover "gui/ingame/1H_SAVE.png"
+                    idle "gui/ingame/uh_save.png"
+                    hover "gui/ingame/h_save.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +850
-                    yoffset +100
+                    xoffset +820
+                    yoffset +95
                     action ShowMenu('save')
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/QLOAD.png"
-                    hover "gui/ingame/1H_QUICKLOAD.png"
+                    idle "gui/ingame/uh_qload.png"
+                    hover "gui/ingame/h_qload.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +850
-                    yoffset +100
+                    xoffset +830
+                    yoffset +95
                     action QuickLoad()
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/QSAVE.png"
-                    hover "gui/ingame/1H_QUICKSAVE.png"
+                    idle "gui/ingame/uh_qsave.png"
+                    hover "gui/ingame/h_qsave.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +850
-                    yoffset +100
+                    xoffset +840
+                    yoffset +95
                     action QuickSave()
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/AUTO.png"
-                    hover "gui/ingame/1H_AUTO.png"
+                    idle "gui/ingame/uh_auto.png"
+                    hover "gui/ingame/h_auto.png"
                     hover_sound"audio/bs.mp3"
                     xoffset +850
-                    yoffset +107
+                    yoffset +95
                     action Preference("auto-forward", "toggle")
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/SKIP.png"
-                    hover "gui/ingame/1H_SKIP.png"
+                    idle "gui/ingame/uh_skip.png"
+                    hover "gui/ingame/h_skip.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +850
-                    yoffset +107
+                    xoffset +860
+                    yoffset +95
                     action Skip() alternate Skip(fast=True, confirm=True)
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/SETTING.png"
-                    hover "gui/ingame/1H_SETTING.png"
+                    idle "gui/ingame/uh_camera.png"
+                    hover "gui/ingame/h_camera.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +877
-                    yoffset +100
-                    action ShowMenu('preferences')
-
-            frame:
-                background None
-                imagebutton :
-                    idle "gui/ingame/SHOT.png"
-                    hover "gui/ingame/1H_SHOT.png"
-                    hover_sound"audio/bs.mp3"
-                    xoffset +807
-                    yoffset +40
+                    xoffset +870
+                    yoffset +95
                     action Screenshot()
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/HISTORY.png"
-                    hover "gui/ingame/1H_HISTORY.png"
+                    idle "gui/ingame/uh_history.png"
+                    hover "gui/ingame/h_history.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +732
-                    yoffset -20
+                    xoffset +880
+                    yoffset +95
                     action ShowMenu('history')
 
             frame:
                 background None
+                padding (0, 0, 0, 0)
                 imagebutton :
-                    idle "gui/ingame/MENU.png"
-                    hover "gui/ingame/1H_MENU.png"
+                    idle "gui/ingame/uh_back.png"
+                    hover "gui/ingame/h_back.png"
                     hover_sound"audio/bs.mp3"
-                    xoffset +660
-                    yoffset -80
+                    xoffset +890
+                    yoffset +95
                     action MainMenu()
+
             frame:
                 background None
+                padding (0, 0, 0, 0)
+                imagebutton :
+                    idle "gui/ingame/uh_setting.png"
+                    hover "gui/ingame/h_setting.png"
+                    hover_sound"audio/bs.mp3"
+                    xoffset +900
+                    yoffset +95
+                    action ShowMenu('preferences')
+
+            frame:
+                background None
+                padding (0, 0, 0, 0)
                 imagebutton :
                     idle "ingame_device"
-                    xoffset -1200
+                    xoffset -1000
                     yoffset -0
                     action ShowMenu("INGAMEDEVICE")
 
-
 ######  游戏内INGAMEDEVICE界面   ########
-image deviceback:
-    Movie(play = "gui/ingame/DEVICE/overlay/deviceback.mpg")
 screen INGAMEDEVICE():
-    add "deviceback"
+    add "gui/ingame/DEVICE/overlay/0device.png"
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/exit.png"
+            idle "gui/ingame/DEVICE/overlay/0close.png"
+            hover "gui/ingame/DEVICE/overlay/0h_close.png"
             hover_sound"audio/bs.mp3"
-            xoffset +50
-            yoffset +50
+            xoffset +835
+            yoffset +415
             action Return()
 
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/contacts.png"
+            idle "gui/ingame/DEVICE/overlay/0contacts.png"
             hover_sound"audio/bs.mp3"
-            xoffset +50
-            yoffset +200
+            xoffset +593.1
+            yoffset +280.5
             action Return()
 
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/certificate.png"
+            idle "gui/ingame/DEVICE/overlay/0certificate.png"
             hover_sound"audio/bs.mp3"
-            xoffset +650
-            yoffset +200
-            action Return()
+            xoffset +835
+            yoffset +155
+            action [Hide("INGAMEDEVICE"),ShowMenu("device_credit")]
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/map.png"
+            idle "gui/ingame/DEVICE/overlay/0map.png"
             hover_sound"audio/bs.mp3"
-            xoffset +1250
-            yoffset +200
+            xoffset +1076.9
+            yoffset +280.5
+            action [Hide("INGAMEDEVICE"),ShowMenu("device_map")]
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/0dictionary.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +593.1
+            yoffset +549.5
+            action [Hide("INGAMEDEVICE"),ShowMenu("device_dictionary")]
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/0game.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +835
+            yoffset +675
             action Return()
 
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/dictionary.png"
+            idle "gui/ingame/DEVICE/overlay/0reading.png"
             hover_sound"audio/bs.mp3"
-            xoffset +50
-            yoffset +600
+            xoffset +1076.9
+            yoffset +549.5
+            action Return()
+
+
+#######  查看凭证 ###############
+screen device_credit():
+    add "gui/ingame/DEVICE/overlay/0device.png"
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/credit.png"
+            xoffset +200
+            yoffset +165
+            action NullAction()
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/uh_close.png"
+            hover "gui/ingame/DEVICE/overlay/h_close.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1700
+            yoffset +120
             action Return()
 
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/game.png"
+            idle "gui/ingame/DEVICE/overlay/uh_return.png"
+            hover "gui/ingame/DEVICE/overlay/h_return.png"
             hover_sound"audio/bs.mp3"
-            xoffset +650
-            yoffset +600
+            xoffset +1640
+            yoffset +120
+            action [Hide("device_credit"),ShowMenu("INGAMEDEVICE")]
+
+#######  地图 ###############
+screen device_map():
+    add "gui/ingame/DEVICE/overlay/devicemap.png"
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/uh_close.png"
+            hover "gui/ingame/DEVICE/overlay/h_close.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1700
+            yoffset +120
             action Return()
 
     frame:
         background None
         padding (0, 0, 0, 0)
         imagebutton :
-            idle "gui/ingame/DEVICE/overlay/reading.png"
+            idle "gui/ingame/DEVICE/overlay/uh_return.png"
+            hover "gui/ingame/DEVICE/overlay/h_return.png"
             hover_sound"audio/bs.mp3"
-            xoffset +1250
-            yoffset +600
+            xoffset +1640
+            yoffset +120
+            action [Hide("device_map"),ShowMenu("INGAMEDEVICE")]
+
+
+#######  辞典 ###############
+init python:
+    config.hyperlink_handlers["play"] = renpy.play
+
+screen device_dictionary():
+    add "gui/ingame/DEVICE/overlay/0device.png"
+    text "字典" size 100 xalign 0.5 ypos 200
+    hbox spacing 500:
+        viewport:
+            xpos 250 ypos 300 xsize 300 ysize 600
+            child_size (None, 4000)
+            scrollbars "vertical"
+            spacing 5
+            draggable True
+            mousewheel True
+            arrowkeys True
+            add "#000c"
+            vbox spacing 20:
+                for word in sorted(persistent.palabra, key=str.lower) :
+                    textbutton word:
+                        action SetVariable("display_desc", word)
+        vbox ypos 400 xsize 850 ysize 500 box_wrap True:
+            text glossary_dict.get(display_desc, "")
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/uh_close.png"
+            hover "gui/ingame/DEVICE/overlay/h_close.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1700
+            yoffset +120
             action Return()
+
+    frame:
+        background None
+        padding (0, 0, 0, 0)
+        imagebutton :
+            idle "gui/ingame/DEVICE/overlay/uh_return.png"
+            hover "gui/ingame/DEVICE/overlay/h_return.png"
+            hover_sound"audio/bs.mp3"
+            xoffset +1640
+            yoffset +120
+            action [Hide("device_dictionary"),ShowMenu("INGAMEDEVICE")]
+
+#######  添加词语注解 ###############
+init -1 python:
+    display_desc = ""
+    def play(tag, argument, contents):
+        renpy.play(argument)
+        return contents
+    config.custom_text_tags["play"] = play
+    config.hyperlink_handlers["play"] = renpy.play
+
+    glossary_dict = \
+        {
+        '黄金时代' :'{play=audio/bs.mp3}黄金时代指的是至暗时代之后，科技空前进步，无比伟大而光明的时代。{/play}',
+        '东沃国立高大':'{play=audio/bs.mp3}坐落于东京的一所大学{/play}'
+        }
+
+define persistent.palabra= set()
+
+image 黄金时代:
+    contains:
+        Text("黄金时代", style = "main_menu_button_text_shadow")
+    contains:
+        Text("黄金时代", style = "main_menu_button_text_fill")
+
+
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
 ## the player has not explicitly hidden the interface.

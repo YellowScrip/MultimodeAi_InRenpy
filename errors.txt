@@ -2,9 +2,10 @@
 errors listed below, and try again.
 
 
-File "game/rpycodes/screens.rpy", line 366: 'gui' is not a keyword argument or valid child for the add statement.
-    add "Movie(play = "gui/ingame/DEVICE/overlay/deviceback.mpg")"
-                          ^
+File "game/rpycodes/screens.rpy", line 564: expected an indented block
+    glossary_dict = \
+     ^
+    
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Tue Jan 10 03:39:36 2023
+Tue Jan 17 23:14:54 2023

@@ -21,6 +21,7 @@ define wb = Character("围观者B",ctc="ctc",ctc_position = "fixed")
 define wc = Character("围观者C",ctc="ctc",ctc_position = "fixed")
 define wd = Character("围观者D",ctc="ctc",ctc_position = "fixed")
 define dy = Character("女店员",ctc="ctc",ctc_position = "fixed")
+define vj = Character("女店员",ctc="ctc",ctc_position = "fixed")
 
 #设置能够回退对话的最大次数
 #define config.hard_rollback_limit = 0

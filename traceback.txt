@@ -1,72 +1,40 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-After initialization, but before game start.
-  File "game/rpycodes/screens.rpy", line 244, in prepare_screen
-    screen quick_menu():
-  File "game/rpycodes/screens.rpy", line 244, in prepare
-    screen quick_menu():
-  File "game/rpycodes/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/rpycodes/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/rpycodes/screens.rpy", line 249, in prepare
-    hbox:
-  File "game/rpycodes/screens.rpy", line 249, in prepare
-    hbox:
-  File "game/rpycodes/screens.rpy", line 353, in prepare
-    frame:
-  File "game/rpycodes/screens.rpy", line 353, in prepare
-    frame:
-  File "game/rpycodes/screens.rpy", line 355, in prepare
-    imagebutton :
-  File "game/rpycodes/screens.rpy", line 355, in prepare
-    imagebutton :
-SyntaxError: invalid syntax (game/rpycodes/screens.rpy, line 359)
+While running game code:
+  File "renpy/common/00gamemenu.rpy", line 170, in script
+    $ ui.interact()
+  File "renpy/common/00gamemenu.rpy", line 170, in <module>
+    $ ui.interact()
+TypeError: 'str' object is not callable
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\bootstrap.py", line 277, in bootstrap
-    renpy.main.main()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\main.py", line 660, in main
-    run(restart)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\main.py", line 95, in run
-    renpy.display.screen.prepare_screens()
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\screen.py", line 976, in prepare_screens
-    s.ast.prepare_screen()
-  File "game/rpycodes/screens.rpy", line 244, in prepare_screen
-    screen quick_menu():
-  File "game/rpycodes/screens.rpy", line 244, in prepare
-    screen quick_menu():
-  File "game/rpycodes/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/rpycodes/screens.rpy", line 248, in prepare
-    if quick_menu:
-  File "game/rpycodes/screens.rpy", line 249, in prepare
-    hbox:
-  File "game/rpycodes/screens.rpy", line 249, in prepare
-    hbox:
-  File "game/rpycodes/screens.rpy", line 353, in prepare
-    frame:
-  File "game/rpycodes/screens.rpy", line 353, in prepare
-    frame:
-  File "game/rpycodes/screens.rpy", line 355, in prepare
-    imagebutton :
-  File "game/rpycodes/screens.rpy", line 355, in prepare
-    imagebutton :
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\py3analysis.py", line 790, in ast_eval
-    return self.ast_eval_literal(expr)[0]
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\py3analysis.py", line 772, in ast_eval_literal
-    expr = py_compile(expr, 'eval', ast_node=True)
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1027, in py_compile
-    raise e
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 979, in py_compile
-    raise orig_e
-  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 972, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (game/rpycodes/screens.rpy, line 359)
+  File "renpy/common/00gamemenu.rpy", line 170, in script
+    $ ui.interact()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00gamemenu.rpy", line 170, in <module>
+    $ ui.interact()
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\core.py", line 4253, in interact_core
+    rv = renpy.display.focus.mouse_handler(ev, x, y)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\focus.py", line 572, in mouse_handler
+    return change_focus(new_focus, default=default)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\focus.py", line 528, in change_focus
+    rv = widget.focus(default=default)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 930, in focus
+    rv = run(self.hovered)
+  File "D:\1_file\gal\renpy-8.0.3-sdk\renpy\display\behavior.py", line 329, in run
+    return action(*args, **kwargs)
+TypeError: 'str' object is not callable
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.0.3.22090809
 我们之间的爱恋化作少女来谋杀我 1.0
-Tue Jan 10 03:53:26 2023
+Tue Jan 17 23:11:46 2023

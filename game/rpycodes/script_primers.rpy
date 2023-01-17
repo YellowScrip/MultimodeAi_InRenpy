@@ -42,6 +42,8 @@
     $exp_2 = True
     "{glitch=2.0}{color=fff}{b}黄金时代{/b}{/color}{/glitch}"
     $exp_2 = False
+    $ persistent.palabra.add('黄金时代')
+    $ persistent.palabra.add('东沃国立高大')
     voice "voice/hcd_voice/episode1/海川渡改 3.mp3"
     voice sustain
     "100年前的人们曾对这种‘科技幻想’的世界抱有无比期待"
